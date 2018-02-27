@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Language" content="zh-cn" />
+		<meta name="Keywords" content="" />
+		<meta name="Description" content="" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>账户余额</title>
+		<link rel="stylesheet" href="../../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/base.css"/>
+		<script src="//wximg.qq.com/wxp/libs/wxmoment/0.0.4/wxmoment.min.js"></script>
+		<script src="../../js/url.js"></script>
+		<script src="../../js/base.js"></script>
+		<script type="text/javascript">
+		    window.zhuge = window.zhuge || [];window.zhuge.methods = "_init debug identify track trackLink trackForm page".split(" ");
+		    window.zhuge.factory = function(b) {return function() {var a = Array.prototype.slice.call(arguments);a.unshift(b);
+		    window.zhuge.push(a);return window.zhuge;}};for (var i = 0; i < window.zhuge.methods.length; i++) {
+		    var key = window.zhuge.methods[i];window.zhuge[key] = window.zhuge.factory(key);}window.zhuge.load = function(b, x) {
+		    if (!document.getElementById("zhuge-js")) {var a = document.createElement("script");var verDate = new Date();
+		    var verStr = verDate.getFullYear().toString()+ verDate.getMonth().toString() + verDate.getDate().toString();
+		    a.type = "text/javascript";a.id = "zhuge-js";a.async = !0;a.src = (location.protocol == 'http:' ? "http://sdk.zhugeio.com/zhuge.min.js?v=" : 'https://zgsdk.zhugeio.com/zhuge.min.js?v=') + verStr;
+		    a.onerror = function(){window.zhuge.identify = window.zhuge.track = function(ename, props, callback){if(callback && Object.prototype.toString.call(callback) === '[object Function]')callback();};};
+		    var c = document.getElementsByTagName("script")[0];c.parentNode.insertBefore(a, c);window.zhuge._init(b, x)}};
+		    window.zhuge.load('d2cec89795db49318b566c3fb3ecbd5d'
+		    ,{autoTrack: true,visualizer: true});//配置应用的AppKey
+		</script>
+	</head>
+	<body class="grayBg">
+		<div class="whiteBg PLR5P grayTex PTB20 font20">
+			<span>账户余额</span>
+			<div class="fr">
+				<span class="balance">0.00</span><span class="font14">元</span>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="whiteBg MT10 textC PTB10 grayTex">
+			<div class="font20">可提现</div>
+			<div style="position: relative;">
+				<span class="font36 blackTex withdrawal">0.00</span>
+				<span>元</span>
+			</div>	
+		</div>
+		<div class="btn width90 blueBg whiteTex font20">立即提现</div>
+		<div class="textC font12" style="color: red;">注：首次提现需提供姓名和身份证号码</div>
+		<div class="pop" style="display:none;position: fixed;top: 0;left: 0;right: 0;height: 100vh;width: 100%;background: rgba(0,0,0,.6);">
+			<div class="popMsg" style="padding:30px 10px;background: #fff;height: 220px;border-radius: 15px;text-align: center;margin: 180px 15px 0 15px;">
+				<div style="margin-bottom: 15px;line-height: 35px;">
+					<span style="width: 70px;display: inline-block;text-align: left;">姓名：</span>
+					<input class="name" type="text" placeholder="请输入姓名" maxlength="15" autocomplete="off" style="line-height: 30px;border: 1px solid #DDDDDD;padding-left: 5px;"/>
+				</div>
+				<div>
+					<span style="width: 70px;display: inline-block;text-align: left;">身份证：</span>
+					<input class="identity" type="text" placeholder="请输入身份证号" maxlength="18" autocomplete="off" style="line-height: 30px;border: 1px solid #DDDDDD;padding-left: 5px;"/>
+				</div>
+				<div class="errorMsg" style="text-align: center;font-size: 14px;color: red;height:30px;line-height: 30px;"></div>
+				<div class="submit" style="width: 80%;border-radius: 8px;padding: 8px 0;margin: 0 auto;background: #37A9FB;color: #FFFFFF;text-align: center;margin-top: 15px;">提交</div>
+			</div>
+		</div>
+	</body>
+	<script src="../../js/forbidShare.js"></script>
+	<script>
+		$('.pop').click(function(){
+			$('.pop').hide();
+			$('.name').val('');
+			$('.identity').val('');
+		})
+		$('.popMsg').click(function(){
+			event.stopPropagation();  
+		})
+		
+		var flag = true,
+			withdrawal,
+			openId = getCookie('openId') || '';
+			
+		getWithdrawal()	
+//		提交个人身份证信息
+		$('.submit').click(function(){			
+			var name = $('.name').val(),
+				identity = $('.identity').val();
+			if(flag){
+				if(name.length>0){
+					if(/^[\u2E80-\u9FFF]+[·|\s|\u2E80-\u9FFF]*[\u2E80-\u9FFF]+$/.test(name)){
+						if(identity.length>0){
+							if(idCardValidate(identity)){
+								flag = false;
+								ajaxPost(
+									Url.UPDATE_SHARE_USER,
+									{"name":name,"idCard":identity,"code":"1"},
+									function(data){
+										if(data.code == 100){
+											setCookie('idCard','true',1);
+											$('.pop').hide();
+											flag = true;
+										}else{											
+											flag = true;
+											alert(data.msg)
+										}
+									},
+									function(data){
+										flag = true;
+										alert('系统错误，请稍后重试！')
+									}
+								)
+							}else{
+								$('.errorMsg').html('身份证错误，请正确填写身份证号!');
+								clearErrorMsg()
+							}
+						}else{
+							$('.errorMsg').html('请填写身份证号!');
+							clearErrorMsg()
+						}
+					}else{
+						$('.errorMsg').html('姓名格式错误，请正确填写姓名!');
+						clearErrorMsg()
+					}
+				}else{
+					$('.errorMsg').html('请填写姓名!');
+					clearErrorMsg()
+				}
+			}
+		})
+		
+		var errMsg
+		function clearErrorMsg(){
+			clearTimeout(errMsg)
+			errMsg = setTimeout(function(){
+				$('.errorMsg').html('');
+			},3000)		
+		}
+//		获取可提现金额
+		function getWithdrawal(){
+			ajaxPost(
+				Url.GET_WITHDRAWAL,
+				{"openid":openId,"code":"1"},
+				function(data){
+					if(data.code == 100){
+						withdrawal = data.data.withdrawal;
+						$('.balance').text(data.data.withdrawal+'.00');
+						$('.withdrawal').text(data.data.withdrawal+'.00');
+					}
+				},
+				function(data){
+					console.log(JSON.stringify(data));
+				}
+			)
+		}
+//		提现发红包
+		function sendRedPack(){
+			ajaxPost(
+				Url.GET_WITHDRAWAL_F,
+				{},
+				function(data){
+					if(data.code == 100){
+						var alreayWithdrawal = withdrawal
+						setTimeout(function(){
+							getWithdrawal();
+						},400)
+						alert('已提现'+alreayWithdrawal+'.00元,请注意查收红包！')
+						flag = true;
+					}else{
+						flag = true;
+						alert('发送红包失败，请稍后重试！');
+					}
+				},
+				function(data){
+					flag = true;
+					alert('发送红包失败，请稍后重试!');
+				}
+			)
+		}
+//		点击提现
+		$('.btn').click(function(){			
+			if(getCookie('idCard')=='true'){
+				if(withdrawal>=1){
+					if(flag){
+						flag = false;
+						sendRedPack();
+					}
+				}else if(withdrawal>0){
+					alert('最低提现金额为1.00元！')
+				}else{
+					alert('您暂时没有可提现的余额！')
+					
+				}
+			}else{
+				$('.pop').show();
+			}
+		})
+	
+
+	/**
+	 * 身份证验证
+	 */
+	var idCardValidate = function(idCard) {
+		var idCard = $.trim(idCard.replace(/ /g, "")); // 去掉字符串头尾空格
+		/**
+		 * 验证15位数身份证号码中的生日是否是有效生日
+		 * 
+		 * @param idCard15
+		 *            15位书身份证字符串
+		 * @return
+		 */
+		var isValidityBrithBy15IdCard = function(idCard15) {
+			var year = idCard15.substring(6, 8);
+			var month = idCard15.substring(8, 10);
+			var day = idCard15.substring(10, 12);
+			var temp_date = new Date(year, parseFloat(month) - 1, parseFloat(day));
+			// 对于老身份证中的你年龄则不需考虑千年虫问题而使用getYear()方法
+			if(temp_date.getYear() != parseFloat(year) ||
+				temp_date.getMonth() != parseFloat(month) - 1 ||
+				temp_date.getDate() != parseFloat(day)) {
+				return false;
+			} else {
+				return true;
+			}
+		};
+		/**
+		 * 验证18位数身份证号码中的生日是否是有效生日
+		 * 
+		 * @param idCard
+		 *            18位书身份证字符串
+		 * @return
+		 */
+		var isValidityBrithBy18IdCard = function(idCard18) {
+			var year = idCard18.substring(6, 10);
+			var month = idCard18.substring(10, 12);
+			var day = idCard18.substring(12, 14);
+			var temp_date = new Date(year, parseFloat(month) - 1, parseFloat(day));
+			// 这里用getFullYear()获取年份，避免千年虫问题
+			if(temp_date.getFullYear() != parseFloat(year) ||
+				temp_date.getMonth() != parseFloat(month) - 1 ||
+				temp_date.getDate() != parseFloat(day)) {
+				return false;
+			} else {
+				return true;
+			}
+		};
+		/**
+		 * 判断身份证号码为18位时最后的验证位是否正确
+		 * 
+		 * @param a_idCard
+		 *            身份证号码数组
+		 * @return
+		 */
+		var isTrueValidateCodeBy18IdCard = function(a_idCard) {
+			var Wi = [7, 9, 10, 5, 8, 4, 2, 1, 6, 3, 7, 9, 10, 5, 8, 4, 2, 1]; // 加权因子
+			var ValideCode = [1, 0, 10, 9, 8, 7, 6, 5, 4, 3, 2]; // 身份证验证位值.10代表X
+			var sum = 0; // 声明加权求和变量
+			if(a_idCard[17].toLowerCase() == 'x') {
+				a_idCard[17] = 10; // 将最后位为x的验证码替换为10方便后续操作
+			}
+			for(var i = 0; i < 17; i++) {
+				sum += Wi[i] * a_idCard[i]; // 加权求和
+			}
+			valCodePosition = sum % 11; // 得到验证码所位置
+			if(a_idCard[17] == ValideCode[valCodePosition]) {
+				return true;
+			} else {
+				return false;
+			}
+		};
+		if(idCard.length == 15) {
+			return isValidityBrithBy15IdCard(idCard); // 进行15位身份证的验证
+		} else if(idCard.length == 18) {
+			var a_idCard = idCard.split(""); // 得到身份证数组
+			if(isValidityBrithBy18IdCard(idCard) &&
+				isTrueValidateCodeBy18IdCard(a_idCard)) { // 进行18位身份证的基本验证和第18位的验证
+				return true;
+			} else {
+				return false;
+			}
+		} else {
+			return false;
+		}
+	};
+	</script>
+</html>

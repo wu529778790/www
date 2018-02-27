@@ -1,0 +1,887 @@
+a:3:{s:4:"time";i:1494995856;s:6:"expire";i:60;s:5:"value";s:42117:"<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-dns-prefetch-control" content="on"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <meta name="full-screen" content="yes"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <title>凉鞋--淘优惠</title>
+    <meta name="Keywords" content="淘宝，优惠券，天猫，bug,淘优惠"/>
+    <meta name="Description" content=""/>
+    <link href="//cms6.qingtaoke.com/css/wap.css?v=20170504002" rel="stylesheet"/>
+
+
+    <link href="//cms6.qingtaoke.com/css/mui.min.css?v=810" rel="stylesheet"/>
+    <link href="//cdn.bootcss.com/Swiper/3.3.1/css/swiper.min.css" rel="stylesheet">
+
+    <!--        <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>-->
+    <link rel="stylesheet"
+          href="http://www.dataoke.com/personSetCms/css/jquery.mobile-1.4.5.css?t=1494995856">
+    <script src="http://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script src="//cdn.bootcss.com/jquery-mobile/1.4.5/jquery.mobile.min.js"></script>
+
+    <script>
+        var bindEvent = function () {
+            $(".goods-list").on('click', '.QtkSelfClick', function () {
+
+                                var url = $(this).attr("data-qtk-url");
+                $.mobile.changePage(url, "slideup");
+                
+            });
+        }
+
+        $(document).one("pagecreate", function () {
+            bindEvent();
+        });
+    </script>
+    <script>
+        $(function () {
+            $("body").on('click', '.cnzzCounter', function () {
+                var fkId = $(this).attr('data-cnzz');
+                var fkType = $(this).attr('data-cnzz-type');
+                var tPaht = "/taobao/index.php";
+                var reqUrl = "/taobao/?r=index%2Fsearch&u=36050&kw=%E5%87%89%E9%9E%8B";
+                $.ajax(tPaht, {
+                    data: {r: 'site/cnzz', fkId: fkId, req: reqUrl, cnzzType: fkType},
+                    dataType: 'json',
+                    type: 'post',
+                    error: function (xhr, type, errorThrown) {
+
+                    },
+                    success: function (result, status, xhr) {
+
+                    }
+                });
+            });
+        });
+    </script>
+
+    <script src="//cms6.qingtaoke.com/js/layer/layer.js"></script>
+
+    <!--    <script src="http://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>-->
+
+
+    <script src="//cdn.bootcss.com/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <style>
+        @font-face {
+            font-family: 'iconfont';
+            src: url('//at.alicdn.com/t/font_1465972880_677109.eot'); /* IE9*/
+            src: url('//at.alicdn.com/t/font_1465972880_677109.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('//at.alicdn.com/t/font_1465972880_677109.woff') format('woff'), /* chrome、firefox */ url('//at.alicdn.com/t/font_1465972880_677109.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('//at.alicdn.com/t/font_1465972880_677109.svg#iconfont') format('svg'); /* iOS 4.1- */
+        }
+
+    </style>
+    </head>
+<body>
+<div id="load-more" class="clearfix">
+    <div>
+        <div class="main-title clearfix">
+            <a class="mui-action-menu mui-pull-left main-icon" href="javascript:void(0)"></a>
+
+            <h1 class="mui-title main-title-text">淘优惠</h1>
+            <a href="/taobao?r=index/wap&u=36050&pv=1" rel="external"
+               class="main-home cnzzCounter" data-cnzz-type="51" data-cnzz="0"></a>
+        </div>
+        <!-- 主界面具体展示内容 -->
+        <div class="you-wrapper">
+    <div class="title-wrapper">
+        <div class="text">搜索“<span style="color: #ff3366;padding: 0 5px">凉鞋</span>”的结果</div>
+    </div>
+</div>
+<div class="goods-list">
+            <div class="goods-item">
+            <a  data-qtk-url="/taobao?r=p/d&id=250024&u=36050&pv=1" class="img QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="250024">
+                                    <span class="today-wrapper">
+                        <span>今日</span>
+                        <span>新品</span>
+                    </span>
+                                    <span class="coupon-wrapper">
+                    <span class="coupon">独家券</span>
+                    <span class="price">10元</span>
+                </span>
+                <img
+                    src="http://img.alicdn.com/imgextra/i3/629539373/TB2mFSJmJBopuFjSZPcXXc9EpXa_!!629539373.jpg_230x230.jpg"
+                    alt="">
+            </a>
+            <a  data-qtk-url="/taobao?r=p/d&id=250024&u=36050&pv=1" class="title QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="250024">
+                <div class="text">夏季韩版复古尖头凉鞋女低跟一字搭扣铆</div>
+            </a>
+            <div class="price-wrapper">
+                <span class="text">券后</span>
+                <span class="price">￥48</span>
+                <div class="sold-wrapper">
+                    <span style="font-size: 10px;" class="sold-num">328</span>
+                    <span style="font-size: 10px;" class="text">人已买</span>
+                </div>
+            </div>
+        </div>
+                <div class="goods-item">
+            <a  data-qtk-url="/taobao?r=p/d&id=249947&u=36050&pv=1" class="img QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249947">
+                                    <span class="today-wrapper">
+                        <span>今日</span>
+                        <span>新品</span>
+                    </span>
+                                    <span class="coupon-wrapper">
+                    <span class="coupon">独家券</span>
+                    <span class="price">40元</span>
+                </span>
+                <img
+                    src="http://img.alicdn.com/imgextra/i4/2020395150/TB2fPoxnmFjpuFjSspbXXXagVXa_!!2020395150.jpg_230x230.jpg"
+                    alt="">
+            </a>
+            <a  data-qtk-url="/taobao?r=p/d&id=249947&u=36050&pv=1" class="title QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249947">
+                <div class="text">2017新款韩版百搭粗跟尖头凉鞋</div>
+            </a>
+            <div class="price-wrapper">
+                <span class="text">券后</span>
+                <span class="price">￥48</span>
+                <div class="sold-wrapper">
+                    <span style="font-size: 10px;" class="sold-num">158</span>
+                    <span style="font-size: 10px;" class="text">人已买</span>
+                </div>
+            </div>
+        </div>
+                <div class="goods-item">
+            <a  data-qtk-url="/taobao?r=p/d&id=249881&u=36050&pv=1" class="img QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249881">
+                                    <span class="today-wrapper">
+                        <span>今日</span>
+                        <span>新品</span>
+                    </span>
+                                    <span class="coupon-wrapper">
+                    <span class="coupon">独家券</span>
+                    <span class="price">10元</span>
+                </span>
+                <img
+                    src="http://img.alicdn.com/imgextra/i3/2232613198/TB2WOZKgB0kpuFjy1XaXXaFkVXa_!!2232613198.jpg_230x230.jpg"
+                    alt="">
+            </a>
+            <a  data-qtk-url="/taobao?r=p/d&id=249881&u=36050&pv=1" class="title QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249881">
+                <div class="text">包头运动凉鞋宝宝男女童鞋</div>
+            </a>
+            <div class="price-wrapper">
+                <span class="text">券后</span>
+                <span class="price">￥39.9</span>
+                <div class="sold-wrapper">
+                    <span style="font-size: 10px;" class="sold-num">16636</span>
+                    <span style="font-size: 10px;" class="text">人已买</span>
+                </div>
+            </div>
+        </div>
+                <div class="goods-item">
+            <a  data-qtk-url="/taobao?r=p/d&id=249865&u=36050&pv=1" class="img QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249865">
+                                    <span class="today-wrapper">
+                        <span>今日</span>
+                        <span>新品</span>
+                    </span>
+                                    <span class="coupon-wrapper">
+                    <span class="coupon">独家券</span>
+                    <span class="price">10元</span>
+                </span>
+                <img
+                    src="http://img.alicdn.com/imgextra/i3/3160701131/TB2JWjGm3RkpuFjy1zeXXc.6FXa_!!3160701131.jpg_230x230.jpg"
+                    alt="">
+            </a>
+            <a  data-qtk-url="/taobao?r=p/d&id=249865&u=36050&pv=1" class="title QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249865">
+                <div class="text">新款拖鞋女夏时尚室内外H型平底沙滩一字拖凉韩版鞋拖凉鞋h拖鞋</div>
+            </a>
+            <div class="price-wrapper">
+                <span class="text">券后</span>
+                <span class="price">￥10.9</span>
+                <div class="sold-wrapper">
+                    <span style="font-size: 10px;" class="sold-num">752</span>
+                    <span style="font-size: 10px;" class="text">人已买</span>
+                </div>
+            </div>
+        </div>
+                <div class="goods-item">
+            <a  data-qtk-url="/taobao?r=p/d&id=249843&u=36050&pv=1" class="img QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249843">
+                                    <span class="today-wrapper">
+                        <span>今日</span>
+                        <span>新品</span>
+                    </span>
+                                    <span class="coupon-wrapper">
+                    <span class="coupon">独家券</span>
+                    <span class="price">10元</span>
+                </span>
+                <img
+                    src="http://img.alicdn.com/imgextra/i4/2896073709/TB2zc0cogJlpuFjSspjXXcT.pXa_!!2896073709.jpg_230x230.jpg"
+                    alt="">
+            </a>
+            <a  data-qtk-url="/taobao?r=p/d&id=249843&u=36050&pv=1" class="title QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249843">
+                <div class="text">爆款男士商务凉鞋</div>
+            </a>
+            <div class="price-wrapper">
+                <span class="text">券后</span>
+                <span class="price">￥9.9</span>
+                <div class="sold-wrapper">
+                    <span style="font-size: 10px;" class="sold-num">2326</span>
+                    <span style="font-size: 10px;" class="text">人已买</span>
+                </div>
+            </div>
+        </div>
+                <div class="goods-item">
+            <a  data-qtk-url="/taobao?r=p/d&id=249840&u=36050&pv=1" class="img QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249840">
+                                    <span class="today-wrapper">
+                        <span>今日</span>
+                        <span>新品</span>
+                    </span>
+                                    <span class="coupon-wrapper">
+                    <span class="coupon">独家券</span>
+                    <span class="price">5元</span>
+                </span>
+                <img
+                    src="http://img.alicdn.com/imgextra/i4/2065648272/TB2fV8Nka8lpuFjy0FpXXaGrpXa_!!2065648272.jpg_230x230.jpg"
+                    alt="">
+            </a>
+            <a  data-qtk-url="/taobao?r=p/d&id=249840&u=36050&pv=1" class="title QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249840">
+                <div class="text">正品三莎拉丁舞鞋儿童</div>
+            </a>
+            <div class="price-wrapper">
+                <span class="text">券后</span>
+                <span class="price">￥40</span>
+                <div class="sold-wrapper">
+                    <span style="font-size: 10px;" class="sold-num">54</span>
+                    <span style="font-size: 10px;" class="text">人已买</span>
+                </div>
+            </div>
+        </div>
+                <div class="goods-item">
+            <a  data-qtk-url="/taobao?r=p/d&id=249830&u=36050&pv=1" class="img QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249830">
+                                    <span class="today-wrapper">
+                        <span>今日</span>
+                        <span>新品</span>
+                    </span>
+                                    <span class="coupon-wrapper">
+                    <span class="coupon">独家券</span>
+                    <span class="price">50元</span>
+                </span>
+                <img
+                    src="http://img.alicdn.com/imgextra/i4/1770405964/TB2sjfrqJ0opuFjSZFxXXaDNVXa_!!1770405964.jpg_230x230.jpg"
+                    alt="">
+            </a>
+            <a  data-qtk-url="/taobao?r=p/d&id=249830&u=36050&pv=1" class="title QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249830">
+                <div class="text">珂卡芙夏季新款平底一字扣凉鞋</div>
+            </a>
+            <div class="price-wrapper">
+                <span class="text">券后</span>
+                <span class="price">￥99</span>
+                <div class="sold-wrapper">
+                    <span style="font-size: 10px;" class="sold-num">125</span>
+                    <span style="font-size: 10px;" class="text">人已买</span>
+                </div>
+            </div>
+        </div>
+                <div class="goods-item">
+            <a  data-qtk-url="/taobao?r=p/d&id=249819&u=36050&pv=1" class="img QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249819">
+                                    <span class="today-wrapper">
+                        <span>今日</span>
+                        <span>新品</span>
+                    </span>
+                                    <span class="coupon-wrapper">
+                    <span class="coupon">独家券</span>
+                    <span class="price">50元</span>
+                </span>
+                <img
+                    src="http://img.alicdn.com/imgextra/i3/1770405964/TB2.Q_Qr00opuFjSZFxXXaDNVXa_!!1770405964.jpg_230x230.jpg"
+                    alt="">
+            </a>
+            <a  data-qtk-url="/taobao?r=p/d&id=249819&u=36050&pv=1" class="title QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249819">
+                <div class="text">珂卡芙夏季新款坡跟高跟凉鞋</div>
+            </a>
+            <div class="price-wrapper">
+                <span class="text">券后</span>
+                <span class="price">￥99</span>
+                <div class="sold-wrapper">
+                    <span style="font-size: 10px;" class="sold-num">397</span>
+                    <span style="font-size: 10px;" class="text">人已买</span>
+                </div>
+            </div>
+        </div>
+                <div class="goods-item">
+            <a  data-qtk-url="/taobao?r=p/d&id=249817&u=36050&pv=1" class="img QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249817">
+                                    <span class="today-wrapper">
+                        <span>今日</span>
+                        <span>新品</span>
+                    </span>
+                                    <span class="coupon-wrapper">
+                    <span class="coupon">独家券</span>
+                    <span class="price">50元</span>
+                </span>
+                <img
+                    src="http://img.alicdn.com/imgextra/i4/1770405964/TB2obkjliC9MuFjSZFoXXbUzFXa_!!1770405964.jpg_230x230.jpg"
+                    alt="">
+            </a>
+            <a  data-qtk-url="/taobao?r=p/d&id=249817&u=36050&pv=1" class="title QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249817">
+                <div class="text">珂卡芙夏季新款蝴蝶结高跟凉鞋</div>
+            </a>
+            <div class="price-wrapper">
+                <span class="text">券后</span>
+                <span class="price">￥99</span>
+                <div class="sold-wrapper">
+                    <span style="font-size: 10px;" class="sold-num">732</span>
+                    <span style="font-size: 10px;" class="text">人已买</span>
+                </div>
+            </div>
+        </div>
+                <div class="goods-item">
+            <a  data-qtk-url="/taobao?r=p/d&id=249759&u=36050&pv=1" class="img QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249759">
+                                    <span class="today-wrapper">
+                        <span>今日</span>
+                        <span>新品</span>
+                    </span>
+                                    <span class="coupon-wrapper">
+                    <span class="coupon">独家券</span>
+                    <span class="price">10元</span>
+                </span>
+                <img
+                    src="http://img.alicdn.com/bao/uploaded/i2/667935616/TB2A9ZXtVXXXXXlXpXXXXXXXXXX_!!667935616.jpg_230x230.jpg"
+                    alt="">
+            </a>
+            <a  data-qtk-url="/taobao?r=p/d&id=249759&u=36050&pv=1" class="title QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249759">
+                <div class="text">回力童鞋男童网鞋女童网面鞋儿童休闲运动鞋</div>
+            </a>
+            <div class="price-wrapper">
+                <span class="text">券后</span>
+                <span class="price">￥39</span>
+                <div class="sold-wrapper">
+                    <span style="font-size: 10px;" class="sold-num">252</span>
+                    <span style="font-size: 10px;" class="text">人已买</span>
+                </div>
+            </div>
+        </div>
+                <div class="goods-item">
+            <a  data-qtk-url="/taobao?r=p/d&id=249712&u=36050&pv=1" class="img QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249712">
+                                    <span class="today-wrapper">
+                        <span>今日</span>
+                        <span>新品</span>
+                    </span>
+                                    <span class="coupon-wrapper">
+                    <span class="coupon">独家券</span>
+                    <span class="price">40元</span>
+                </span>
+                <img
+                    src="http://img.alicdn.com/imgextra/i3/TB12siGRXXXXXXEaXXXXXXXXXXX_!!0-item_pic.jpg_230x230.jpg"
+                    alt="">
+            </a>
+            <a  data-qtk-url="/taobao?r=p/d&id=249712&u=36050&pv=1" class="title QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249712">
+                <div class="text"> 厚底钉珠彩带款百搭一字带女凉鞋</div>
+            </a>
+            <div class="price-wrapper">
+                <span class="text">券后</span>
+                <span class="price">￥49</span>
+                <div class="sold-wrapper">
+                    <span style="font-size: 10px;" class="sold-num">769</span>
+                    <span style="font-size: 10px;" class="text">人已买</span>
+                </div>
+            </div>
+        </div>
+                <div class="goods-item">
+            <a  data-qtk-url="/taobao?r=p/d&id=248352&u=36050&pv=1" class="img QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="248352">
+                                    <span class="today-wrapper">
+                        <span>今日</span>
+                        <span>新品</span>
+                    </span>
+                                    <span class="coupon-wrapper">
+                    <span class="coupon">独家券</span>
+                    <span class="price">10元</span>
+                </span>
+                <img
+                    src="http://img.alicdn.com/imgextra/i6/TB1LgQAQpXXXXXhXVXXYXGcGpXX_M2.SS2_230x230.jpg"
+                    alt="">
+            </a>
+            <a  data-qtk-url="/taobao?r=p/d&id=248352&u=36050&pv=1" class="title QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="248352">
+                <div class="text">韩版2017夏季真皮高跟蝴蝶结凉鞋</div>
+            </a>
+            <div class="price-wrapper">
+                <span class="text">券后</span>
+                <span class="price">￥82</span>
+                <div class="sold-wrapper">
+                    <span style="font-size: 10px;" class="sold-num">469</span>
+                    <span style="font-size: 10px;" class="text">人已买</span>
+                </div>
+            </div>
+        </div>
+                <div class="goods-item">
+            <a  data-qtk-url="/taobao?r=p/d&id=249669&u=36050&pv=1" class="img QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249669">
+                                    <span class="today-wrapper">
+                        <span>今日</span>
+                        <span>新品</span>
+                    </span>
+                                    <span class="coupon-wrapper">
+                    <span class="coupon">独家券</span>
+                    <span class="price">30元</span>
+                </span>
+                <img
+                    src="http://img.alicdn.com/imgextra/i2/2810440006/TB2cQzdm80kpuFjSsppXXcGTXXa_!!2810440006.jpg_230x230.jpg"
+                    alt="">
+            </a>
+            <a  data-qtk-url="/taobao?r=p/d&id=249669&u=36050&pv=1" class="title QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249669">
+                <div class="text">2017新款中大童公主鞋凉鞋</div>
+            </a>
+            <div class="price-wrapper">
+                <span class="text">券后</span>
+                <span class="price">￥39</span>
+                <div class="sold-wrapper">
+                    <span style="font-size: 10px;" class="sold-num">468</span>
+                    <span style="font-size: 10px;" class="text">人已买</span>
+                </div>
+            </div>
+        </div>
+                <div class="goods-item">
+            <a  data-qtk-url="/taobao?r=p/d&id=249521&u=36050&pv=1" class="img QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249521">
+                                    <span class="today-wrapper">
+                        <span>今日</span>
+                        <span>新品</span>
+                    </span>
+                                    <span class="coupon-wrapper">
+                    <span class="coupon">独家券</span>
+                    <span class="price">30元</span>
+                </span>
+                <img
+                    src="http://img.alicdn.com/imgextra/i4/TB1msWMMpXXXXXYXVXXXXXXXXXX_!!0-item_pic.jpg_230x230.jpg"
+                    alt="">
+            </a>
+            <a  data-qtk-url="/taobao?r=p/d&id=249521&u=36050&pv=1" class="title QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249521">
+                <div class="text">复古镂空尖头平跟一字扣防滑潮女鞋</div>
+            </a>
+            <div class="price-wrapper">
+                <span class="text">券后</span>
+                <span class="price">￥129</span>
+                <div class="sold-wrapper">
+                    <span style="font-size: 10px;" class="sold-num">30</span>
+                    <span style="font-size: 10px;" class="text">人已买</span>
+                </div>
+            </div>
+        </div>
+                <div class="goods-item">
+            <a  data-qtk-url="/taobao?r=p/d&id=249518&u=36050&pv=1" class="img QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249518">
+                                    <span class="today-wrapper">
+                        <span>今日</span>
+                        <span>新品</span>
+                    </span>
+                                    <span class="coupon-wrapper">
+                    <span class="coupon">独家券</span>
+                    <span class="price">20元</span>
+                </span>
+                <img
+                    src="http://img.alicdn.com/imgextra/i2/665186676/TB2d_dJkJRopuFjSZFtXXcanpXa_!!665186676.png_230x230.jpg"
+                    alt="">
+            </a>
+            <a  data-qtk-url="/taobao?r=p/d&id=249518&u=36050&pv=1" class="title QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249518">
+                <div class="text">女夏季2017新款一字扣平底凉鞋</div>
+            </a>
+            <div class="price-wrapper">
+                <span class="text">券后</span>
+                <span class="price">￥55</span>
+                <div class="sold-wrapper">
+                    <span style="font-size: 10px;" class="sold-num">40</span>
+                    <span style="font-size: 10px;" class="text">人已买</span>
+                </div>
+            </div>
+        </div>
+                <div class="goods-item">
+            <a  data-qtk-url="/taobao?r=p/d&id=249450&u=36050&pv=1" class="img QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249450">
+                                <span class="coupon-wrapper">
+                    <span class="coupon">独家券</span>
+                    <span class="price">3元</span>
+                </span>
+                <img
+                    src="http://img.alicdn.com/imgextra/i2/2265130328/TB2V01NoxXkpuFjy0FiXXbUfFXa_!!2265130328.jpg_230x230.jpg"
+                    alt="">
+            </a>
+            <a  data-qtk-url="/taobao?r=p/d&id=249450&u=36050&pv=1" class="title QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249450">
+                <div class="text">儿童凉鞋宝宝凉鞋中大童凉鞋</div>
+            </a>
+            <div class="price-wrapper">
+                <span class="text">券后</span>
+                <span class="price">￥13.9</span>
+                <div class="sold-wrapper">
+                    <span style="font-size: 10px;" class="sold-num">230</span>
+                    <span style="font-size: 10px;" class="text">人已买</span>
+                </div>
+            </div>
+        </div>
+                <div class="goods-item">
+            <a  data-qtk-url="/taobao?r=p/d&id=249427&u=36050&pv=1" class="img QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249427">
+                                <span class="coupon-wrapper">
+                    <span class="coupon">独家券</span>
+                    <span class="price">3元</span>
+                </span>
+                <img
+                    src="http://img.alicdn.com/imgextra/i1/197268457/TB2Qc8kh4hmpuFjSZFyXXcLdFXa_!!197268457.jpg_230x230.jpg"
+                    alt="">
+            </a>
+            <a  data-qtk-url="/taobao?r=p/d&id=249427&u=36050&pv=1" class="title QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249427">
+                <div class="text">0-6个月宝宝透气软底学步鞋</div>
+            </a>
+            <div class="price-wrapper">
+                <span class="text">券后</span>
+                <span class="price">￥10.68</span>
+                <div class="sold-wrapper">
+                    <span style="font-size: 10px;" class="sold-num">833</span>
+                    <span style="font-size: 10px;" class="text">人已买</span>
+                </div>
+            </div>
+        </div>
+                <div class="goods-item">
+            <a  data-qtk-url="/taobao?r=p/d&id=249396&u=36050&pv=1" class="img QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249396">
+                                <span class="coupon-wrapper">
+                    <span class="coupon">独家券</span>
+                    <span class="price">3元</span>
+                </span>
+                <img
+                    src="http://img.alicdn.com/imgextra/i4/922289228/TB2Z8VklthvOuFjSZFBXXcZgFXa_!!922289228.jpg_230x230.jpg"
+                    alt="">
+            </a>
+            <a  data-qtk-url="/taobao?r=p/d&id=249396&u=36050&pv=1" class="title QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249396">
+                <div class="text">夏季防滑大童男童凉鞋</div>
+            </a>
+            <div class="price-wrapper">
+                <span class="text">券后</span>
+                <span class="price">￥9.99</span>
+                <div class="sold-wrapper">
+                    <span style="font-size: 10px;" class="sold-num">3783</span>
+                    <span style="font-size: 10px;" class="text">人已买</span>
+                </div>
+            </div>
+        </div>
+                <div class="goods-item">
+            <a  data-qtk-url="/taobao?r=p/d&id=249304&u=36050&pv=1" class="img QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249304">
+                                <span class="coupon-wrapper">
+                    <span class="coupon">独家券</span>
+                    <span class="price">20元</span>
+                </span>
+                <img
+                    src="https://img.alicdn.com/imgextra/i1/570824697/TB2ckA7rUhnpuFjSZFpXXcpuXXa_!!570824697.jpg_230x230.jpg"
+                    alt="">
+            </a>
+            <a  data-qtk-url="/taobao?r=p/d&id=249304&u=36050&pv=1" class="title QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249304">
+                <div class="text">2017新款高跟凉鞋女粗跟罗马凉鞋一字扣</div>
+            </a>
+            <div class="price-wrapper">
+                <span class="text">券后</span>
+                <span class="price">￥48</span>
+                <div class="sold-wrapper">
+                    <span style="font-size: 10px;" class="sold-num">792</span>
+                    <span style="font-size: 10px;" class="text">人已买</span>
+                </div>
+            </div>
+        </div>
+                <div class="goods-item">
+            <a  data-qtk-url="/taobao?r=p/d&id=249297&u=36050&pv=1" class="img QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249297">
+                                <span class="coupon-wrapper">
+                    <span class="coupon">独家券</span>
+                    <span class="price">20元</span>
+                </span>
+                <img
+                    src="http://img.alicdn.com/imgextra/i7/TB16ooUQFXXXXXwXXXXYXGcGpXX_M2.SS2_230x230.jpg"
+                    alt="">
+            </a>
+            <a  data-qtk-url="/taobao?r=p/d&id=249297&u=36050&pv=1" class="title QtkSelfClick cnzzCounter" data-transition="slide" data-cnzz-type="1" data-cnzz="249297">
+                <div class="text">粗跟凉鞋女夏2017新款百搭</div>
+            </a>
+            <div class="price-wrapper">
+                <span class="text">券后</span>
+                <span class="price">￥39</span>
+                <div class="sold-wrapper">
+                    <span style="font-size: 10px;" class="sold-num">468</span>
+                    <span style="font-size: 10px;" class="text">人已买</span>
+                </div>
+            </div>
+        </div>
+        </div>
+<div style="height: 50px;display: block;line-height: 50px;color: #565656;text-align: center;background-color: #fff;"
+     class="pullup-goods">
+    <div class="label">商品加载中...</div>
+</div>
+<script language="javascript">
+
+    var page = 2;
+    var isFinish = false;
+    var isLoading = false;
+    var $pullUp = null;
+    var needLoadMore = false;
+
+    var maxScrollY = 0;
+    var windowHeight = 0;
+    var kw = '凉鞋';
+
+    $(document).ready(function () {
+        maxScrollY = $(document).height();
+        windowHeight = $(window).height();
+        $(window).on('resize', function () {
+            windowHeight = $(window).height();
+        });
+        $(document).on("scrollstop", function (e) {
+            if (isFinish || isLoading) {
+                return;
+            }
+            var y = $(document).scrollTop();
+            maxScrollY = $(document).height();
+            windowHeight = $(window).height();
+            if (Math.abs(maxScrollY - windowHeight - y) > 100) {
+                return;
+            }
+            var $wrapper = $(this);
+            if (!$pullUp) {
+                $pullUp = $wrapper.find('.pullup-goods');
+            }
+            var data = null;
+            getData($wrapper, data, 1);
+        });
+
+        function getData($wrapper, data, direction) {
+            if (isFinish) {
+                return;
+            }
+            isLoading = true;
+            if (!$pullUp) {
+                $pullUp = $wrapper.find('.pullup-goods');
+            }
+            var labelTag = $($pullUp).find('.label');
+            var tPaht="/taobao/index.php";
+            var uid="36050";
+            $.ajax(tPaht,{
+                data: {r: 'index/ajaxSearch', page: page, kw: kw,u:uid},
+                dataType: 'json',
+                type: 'get',
+                error: function (xhr, type, errorThrown) {
+                    getData($wrapper, data, direction);
+                },
+                success: function (result, status, xhr) {
+                    needLoadMore = false;
+                    if (result.status == 0) {
+                        $('.goods-list').append(result.data);
+//                        myScroll.refresh();
+                        maxScrollY = $(document).height();
+                        isLoading = false;
+                        page++;
+                        //                        $(labelTag).html('上拉加载更多商品');
+                    } else {
+//                        myScroll.refresh();
+                        maxScrollY = $(document).height();
+                        isLoading = false;
+                        $(labelTag).html('没有更多商品啦');
+                        isFinish = true;
+                    }
+                }
+            });
+        }
+    });
+</script>
+    </div>
+</div>
+<nav id="new-left-menu">
+    <div class="mask" id="menu-mask"></div>
+    <div class="menu-content">
+        <!-- 菜单具体展示内容 -->
+        <div class="find-wrapper clearfix">
+            <form data-ajax="false" action="/taobao?r=index/search&pv=1" method="get"
+                  style="position: relative">
+                <input type="hidden" name="r" value="index/search">
+                <input type="hidden" name="u" value="36050">
+
+                <div class="l-border"></div>
+                <div class="border-btm clearfix">
+                    <div class="input-wrapper">
+                        <input autocomplete="off" type="text" name="kw" placeholder="搜索商品">
+                    </div>
+                    <div class="search-btn-wrapper">
+                        <button type="submit" class="cnzzCounter" data-cnzz-type="54" data-cnzz="1"></button>
+                    </div>
+                </div>
+                <div class="r-border"></div>
+            </form>
+        </div>
+        <ul class="main-cat">
+            <li class="cat-item mm-nolistview">
+                <a rel="external" href="/taobao?r=index/wap&u=36050&pv=1"
+                   class="cnzzCounter" data-cnzz-type="51" data-cnzz="0">
+                    <span class="icon index"></span>
+                    首页
+                    <span class="arrow"></span>
+                </a>
+            </li>
+            <li class="cat-item">
+                <a rel="external" href="/taobao?r=index/cat&cid=10&u=36050&pv=1"
+                   class="cnzzCounter" data-cnzz-type="51" data-cnzz="1">
+                    <span class="icon clothes"></span>
+                    服装
+                    <span class="arrow"></span>
+                </a>
+            </li>
+            <li class="cat-item">
+                <a rel="external" href="/taobao?r=index/cat&cid=2&u=36050&pv=1"
+                   class="cnzzCounter" data-cnzz-type="51" data-cnzz="2">
+                    <span class="icon muyin"></span>
+                    母婴
+                    <span class="arrow"></span>
+                </a>
+            </li>
+            <li class="cat-item">
+                <a rel="external" href="/taobao?r=index/cat&cid=3&u=36050&pv=1"
+                   class="cnzzCounter" data-cnzz-type="51" data-cnzz="3">
+                    <span class="icon hzp"></span>
+                    化妆品
+                    <span class="arrow"></span>
+                </a>
+            </li>
+            <li class="cat-item">
+                <a rel="external" href="/taobao?r=index/cat&cid=4&u=36050&pv=1"
+                   class="cnzzCounter" data-cnzz-type="51" data-cnzz="4">
+                    <span class="icon jj"></span>
+                    居家
+                    <span class="arrow"></span>
+                </a>
+            </li>
+            <li class="cat-item">
+                <a rel="external" href="/taobao?r=index/cat&cid=5&u=36050&pv=1"
+                   class="cnzzCounter" data-cnzz-type="51" data-cnzz="5">
+                    <span class="icon xbps"></span>
+                    鞋包配饰
+                    <span class="arrow"></span>
+                </a>
+            </li>
+            <li class="cat-item">
+                <a rel="external" href="/taobao?r=index/cat&cid=6&u=36050&pv=1"
+                   class="cnzzCounter" data-cnzz-type="51" data-cnzz="6">
+                    <span class="icon ms"></span>
+                    美食
+                    <span class="arrow"></span>
+                </a>
+            </li>
+            <li class="cat-item">
+                <a rel="external" href="/taobao?r=index/cat&cid=7&u=36050&pv=1"
+                   class="cnzzCounter" data-cnzz-type="51" data-cnzz="7">
+                    <span class="icon wtyp"></span>
+                    文体用品
+                    <span class="arrow"></span>
+                </a>
+            </li>
+            <li class="cat-item">
+                <a rel="external" href="/taobao?r=index/cat&cid=8&u=36050&pv=1"
+                   class="cnzzCounter" data-cnzz-type="51" data-cnzz="8">
+                    <span class="icon smjd"></span>
+                    数码家电
+                    <span class="arrow"></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="toTop" onclick=" $('body,html').animate({scrollTop:0},1000);" style="position: fixed;
+    right: 30px;
+    bottom: 30px;
+    font-family: iconfont;
+    display: none;
+    font-size: 37px;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #CCCCCC;
+    border-radius: 50px;
+    text-align: center;
+    z-index: 80;
+    line-height: 50px;
+    color: #8c8c8c;">&#xe601;</div>
+<style>
+    #load-more {
+        overflow: hidden;
+    }
+
+    .goods-list {
+        overflow: hidden;
+    }
+
+    .cat-item {
+        padding: 15px 0;
+    }
+
+    .cat-item a {
+        margin: 0;
+    }
+
+    #new-left-menu {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        overflow-y: scroll;
+    }
+
+    #new-left-menu .mask {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    #new-left-menu .menu-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: 100%;
+        background-color: #fff;
+        overflow-y: auto;
+    }
+
+    #menu-mask {
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .main-cat {
+        margin: 0;
+    }
+
+    html body .ui-loader {
+        display: none;
+    }
+
+</style>
+
+
+<script type="text/javascript" charset="utf-8">
+    $(document).ready(function () {
+        var menu = $('#new-left-menu');
+        var menuHeight = $('#menu-mask').height();
+        var windowHeight = $(window).height();
+        $(menu).find('.mask').css('height', (menuHeight > windowHeight ? menuHeight : windowHeight) + 'px');
+        $(menu).find('.menu-content').css('height', (menuHeight > windowHeight ? menuHeight : windowHeight) + 'px');
+
+        $(window).resize(function () {
+            $(menu).find('.mask').css('height', (menuHeight > windowHeight ? menuHeight : windowHeight) + 'px');
+            $(menu).find('.menu-content').css('height', (menuHeight > windowHeight ? menuHeight : windowHeight) + 'px');
+        });
+
+        $('.main-icon').click(function () {
+            $(menu).css('z-index', 100);
+            $(menu).addClass('opened-menu');
+            $(menu).animate({left: 0}, 300);
+        });
+        $('#menu-mask').on('click', function () {
+            $(menu).animate({left: -1 * $(window).width()}, 300, function () {
+                $(menu).removeClass('opened-menu');
+            });
+        });
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 500) {
+                $(".toTop").fadeIn(1500);
+            }
+            else {
+                $(".toTop").fadeOut(1500);
+            }
+        });
+    });
+</script>
+
+
+
+<script type="text/javascript" src="http://counter.qingtaoke.com/js/count.js?t=5&amp;u=36050&amp;pv=1" id="counterJs"></script>
+<script type="text/javascript" src="http://counter.dataoke.com/js/kwCount.js?t=5&amp;u=36050&amp;kw=&quot;\u51c9\u978b&quot;&amp;type=5" id="kwCounterJs"></script>
+</body>
+</html>";}

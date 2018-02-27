@@ -1,0 +1,205 @@
+.wrap {
+	clear: both;
+}
+#qqworld-passport-container #banner {
+	border: 10px solid #fff;
+	box-shadow: 1px 1px 5px rgba(0,0,0,.15);
+	margin-bottom: 10px;
+	max-width: 95%;
+	height: auto;
+}
+a.toplevel_page_qqworld-passport .wp-menu-image:before {
+	content: "\f337";
+}
+
+#qqworld-passport-container .nav-section {
+	display: none;
+}
+
+#qqworld-passport-container th.column-signin-method {
+	width: 100px;
+}
+#qqworld-passport-container th.column-edit {
+	width: 80px;
+}
+
+/* QQWorld Synchronizer & QQWorld mobile */
+#qqworld-mobile-container #banner,
+#qqworld-synchronizer-container #banner {
+	border: 10px solid #fff;
+	box-shadow: 1px 1px 5px rgba(0,0,0,.15);
+	margin-bottom: 10px;
+	max-width: 95%;
+	height: auto;
+}
+
+@keyframes commercial {
+	0% {
+	}
+	50% {
+		box-shadow: 0 0 25px rgba(255, 0, 0, 0.7);
+	}
+	100% {
+	}
+}
+#qqworld-synchronizer-container #extension-list > li,
+#qqworld-mobile-container #extension-list > li {
+	width: 320px;
+	float: left;
+	margin: 0 20px 20px 0;
+	box-shadow: 1px 1px 5px rgba(0,0,0,.15);
+	position: relative;
+	transform: perspective(600px) rotateY(25deg);
+    perspective-origin: 50% 50%;
+    transform-style: preserve-3d;
+	-webkit-transition: transform .25s, box-shadow .5s, color .25s;
+	-moz-transition: transform .25s, box-shadow .5s, color .25s;
+	-o-transition: transform .25s, box-shadow .5s, color .25s;
+	-ms-transition: transform .25s, box-shadow .5s, color .25s;
+	transition: transform .25s, box-shadow .5s, color .25s;
+}
+	#qqworld-synchronizer-container #extension-list > li:hover,
+	#qqworld-mobile-container #extension-list > li:hover {
+		transform: rotateY(0);
+	}
+#qqworld-synchronizer-container #extension-list > li a.options,
+#qqworld-mobile-container #extension-list > li a.options {
+	position: absolute;
+	right: 10px;
+	top: 150px;
+	color: #fff;
+}
+#qqworld-synchronizer-container #extension-list > li a.options:before,
+#qqworld-mobile-container #extension-list > li a.options:before {
+	font-family: 'dashicons';
+	content: '\f206';
+}
+#qqworld-synchronizer-container #extension-list > li.free,
+#qqworld-mobile-container #extension-list > li.free {
+}
+#qqworld-synchronizer-container #extension-list > li.free:hover,
+#qqworld-mobile-container #extension-list > li.free:hover {
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+#qqworld-synchronizer-container #extension-list > li.commercial,
+#qqworld-mobile-container #extension-list > li.commercial {
+	animation-name: commercial;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	box-shadow: 0 0 1px rgba(255, 0, 0, 0.7);
+}
+#qqworld-synchronizer-container #extension-list li .extension-image,
+#qqworld-mobile-container #extension-list li .extension-image {
+	margin: 0;
+}
+#qqworld-synchronizer-container #extension-list li img,
+#qqworld-mobile-container #extension-list li img {
+	border-bottom: 0;
+	float: left;
+}
+#qqworld-synchronizer-container #extension-list li .extension-label,
+#qqworld-synchronizer-container #extension-list li .extension-description,
+#qqworld-synchronizer-container #extension-list li .extension-options,
+#qqworld-mobile-container #extension-list li .extension-label,
+#qqworld-mobile-container #extension-list li .extension-description,
+#qqworld-mobile-container #extension-list li .extension-options {
+	-webkit-transition: transform .25s, height .25s, color .25s;
+	-moz-transition: transform .25s, height .25s, color .25s;
+	-o-transition: transform .25s, height .25s, color .25s;
+	-ms-transition: transform .25s, height .25s, color .25s;
+	transition: transform .25s, height .25s, color .25s;
+}
+#qqworld-synchronizer-container #extension-list li .extension-label,
+#qqworld-mobile-container #extension-list li .extension-label {
+	margin: 0;
+	padding: 10px;
+	background: #fff;
+	float: left;
+	width: 100%;
+	box-sizing: border-box;
+	transform: perspective(600px) translateZ(30px);
+	border: 1px solid #ddd;
+}
+#qqworld-synchronizer-container #extension-list li .extension-description,
+#qqworld-mobile-container #extension-list li .extension-description {
+	margin: 0;
+	padding: 10px;
+	background: #f7f7f7;
+	float: left;
+	width: 100%;
+	box-sizing: border-box;
+	color: #666;
+	transform: perspective(600px) translateZ(30px);
+	border: 1px solid #ddd;
+}
+#qqworld-synchronizer-container #extension-list li .extension-options,
+#qqworld-mobile-container #extension-list li .extension-options {
+	background: #fff;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	float: left;
+	width: 100%;
+	box-sizing: border-box;
+	height: 0;
+	overflow: hidden;
+	transform: perspective(600px) translateZ(30px);
+	border: 1px solid #ddd;
+}
+#qqworld-synchronizer-container #extension-list li:hover .extension-label,
+#qqworld-synchronizer-container #extension-list li:hover .extension-description,
+#qqworld-synchronizer-container #extension-list li:hover .extension-options,
+#qqworld-mobile-container #extension-list li:hover .extension-label,
+#qqworld-mobile-container #extension-list li:hover .extension-description,
+#qqworld-mobile-container #extension-list li:hover .extension-options {
+	transform: perspective(600px) translateZ(0);
+	border: 0;
+}
+#qqworld-synchronizer-container #extension-list li:hover .extension-options,
+#qqworld-mobile-container #extension-list li:hover .extension-options {
+	height: 42px;
+}
+#qqworld-synchronizer-container #extension-list li .extension-options li,
+#qqworld-mobile-container #extension-list li .extension-options li {
+	margin: 0;
+	padding: 5px 10px;
+}
+#qqworld-synchronizer-container #extension-list li .extension-options li input[type="text"],
+#qqworld-mobile-container #extension-list li .extension-options li input[type="text"] {
+	width: 100%;
+	box-sizing: border-box;
+	height: 30px;
+}
+#qqworld-synchronizer-container #extension-list li aside.attr,
+#qqworld-mobile-container #extension-list li aside.attr {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	padding: 5px 10px;
+	background: #fff;
+	border-radius: 5px;
+	background: #f7f7f7;
+}
+#qqworld-synchronizer-container #extension-list li aside.attr.free,
+#qqworld-mobile-container #extension-list li aside.attr.free {
+	
+}
+#qqworld-synchronizer-container #extension-list li aside.attr.pay,
+#qqworld-mobile-container #extension-list li aside.attr.pay {
+	background: #ff0;
+}
+#qqworld-synchronizer-container #extension-list li aside.activate,
+#qqworld-mobile-container #extension-list li aside.activate {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	background: #fff;
+}
+#qqworld-synchronizer-container #extension-list li aside.activated,
+#qqworld-mobile-container #extension-list li aside.activated {
+	background: #74E074;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Language" content="zh-cn" />
+		<meta name="Keywords" content="" />
+		<meta name="Description" content="" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>账户余额</title>
+		<link rel="stylesheet" href="../../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/base.css"/>
+		<script src="//wximg.qq.com/wxp/libs/wxmoment/0.0.4/wxmoment.min.js"></script>
+		<script src="../../js/url.js"></script>
+		<script src="../../js/base.js"></script>
+		<!--<script src="../../js/jquery.min.js"></script>-->
+		<script type="text/javascript">
+		    window.zhuge = window.zhuge || [];window.zhuge.methods = "_init debug identify track trackLink trackForm page".split(" ");
+		    window.zhuge.factory = function(b) {return function() {var a = Array.prototype.slice.call(arguments);a.unshift(b);
+		    window.zhuge.push(a);return window.zhuge;}};for (var i = 0; i < window.zhuge.methods.length; i++) {
+		    var key = window.zhuge.methods[i];window.zhuge[key] = window.zhuge.factory(key);}window.zhuge.load = function(b, x) {
+		    if (!document.getElementById("zhuge-js")) {var a = document.createElement("script");var verDate = new Date();
+		    var verStr = verDate.getFullYear().toString()+ verDate.getMonth().toString() + verDate.getDate().toString();
+		    a.type = "text/javascript";a.id = "zhuge-js";a.async = !0;a.src = (location.protocol == 'http:' ? "http://sdk.zhugeio.com/zhuge.min.js?v=" : 'https://zgsdk.zhugeio.com/zhuge.min.js?v=') + verStr;
+		    a.onerror = function(){window.zhuge.identify = window.zhuge.track = function(ename, props, callback){if(callback && Object.prototype.toString.call(callback) === '[object Function]')callback();};};
+		    var c = document.getElementsByTagName("script")[0];c.parentNode.insertBefore(a, c);window.zhuge._init(b, x)}};
+		    window.zhuge.load('d2cec89795db49318b566c3fb3ecbd5d'
+		    ,{autoTrack: true,visualizer: true});//配置应用的AppKey
+		</script>
+	</head>
+	<body class="grayBg">
+		<div class="whiteBg PLR5P grayTex PTB20 font20">
+			<span>账户余额</span>
+			<div class="fr">
+				<span class="balance">0.00</span><span class="font14">元</span>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="whiteBg MT10 textC PTB10 grayTex">
+			<div class="font20">可提现</div>
+			<div style="position: relative;">
+				<span class="font36 blackTex withdrawal">0.00</span>
+				<span>元</span>
+			</div>	
+		</div>
+		<div class="btn width90 blueBg whiteTex font20">立即提现</div>
+		
+	</body>
+	<script src="../../js/forbidShare.js"></script>
+	<script>
+		var agentCode = getCookie('agentCode'),
+			withdrawal = '',
+			flag = true;
+		getWithdrawal();
+//		获取可提现金额
+		function getWithdrawal(){
+			ajaxPost(
+				Url.GET_WITHDRAWAL,
+				{"agentcode":agentCode,"code":"0"},
+				function(data){
+					if(data.code == 100){
+						withdrawal = data.data.withdrawal;
+						$('.balance').text(data.data.withdrawal+'.00');
+						$('.withdrawal').text(data.data.withdrawal+'.00');
+					}else{
+						alert(data.msg);
+					}
+				},
+				function(data){
+					console.log(JSON.stringify(data));
+				}
+			)
+		}
+//		提现发红包
+		function sendRedPack(){
+			ajaxPost(
+				Url.GET_WITHDRAWAL_Q,
+				{},
+				function(data){
+					if(data.code == 100){
+						var alreayWithdrawal = withdrawal
+						setTimeout(function(){
+							getWithdrawal();
+						},400)
+						alert('已提现'+alreayWithdrawal+'.00元,请注意查收红包！');
+						flag = true;
+					}else{
+						flag = true;
+						alert('发送红包失败，请稍后重试！');
+					}
+				},
+				function(data){
+					flag = true;
+					alert('发送红包失败，请稍后重试!');
+				}
+			)
+		}
+//		点击提现
+		$('.btn').click(function(){
+			if(withdrawal>=1){
+				if(flag){
+					flag = false;
+					sendRedPack();
+				}
+			}else if(withdrawal>0){
+				alert('最低提现金额为1.00元！');
+				
+			}else{
+				alert('您暂时没有可提现的余额！');
+			}
+		})
+	</script>
+</html>

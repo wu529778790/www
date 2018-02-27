@@ -1,0 +1,1499 @@
+a:3:{s:4:"time";i:1509936205;s:6:"expire";i:60;s:5:"value";s:91703:"<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="zh-CN">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+    <meta name="renderer" content="webkit">
+    <!-- blueprint CSS framework //cdn.bootcss.com/jquery/1.12.1/jquery.js -->
+    <link rel="stylesheet" type="text/css" href="//cms6.qingtaoke.com/css/reset.css?v=20171103007">
+    <link rel="stylesheet" type="text/css" href="//cms6.qingtaoke.com/css/footer.css?v=1509936205">
+    <link rel="stylesheet" type="text/css" href="//cms6.qingtaoke.com/css/pager.css?v=1509936205">
+    <link rel="stylesheet" type="text/css" href="//cms6.qingtaoke.com/css/dtk.css?v=20171103007">
+    <link rel="stylesheet" href="//cms6.qingtaoke.com/css/iconfont.css?t=06160032">
+    <!--    <link rel="stylesheet" type="text/css" href="--><!--/css/dtk.css?v=-->
+    <!--">-->
+    <link rel="stylesheet" type="text/css" href="//cms6.qingtaoke.com/css/Coupon.css?v=20171103007" />
+<title>领券优惠直播--淘优惠</title>
+    <meta name="Keywords" content="淘宝，优惠券，天猫，bug,淘优惠"/>
+    <meta name="Description" content=""/>
+
+    <script src="//cdn.bootcss.com/jquery/1.12.1/jquery.js"></script>
+    <script src="//cms6.qingtaoke.com/js/layer/layer.js"></script>
+    <script src="//cms6.qingtaoke.com/js/dtk.js?v=06160032"></script>
+    <script src="//cms6.qingtaoke.com/js/unslider.min.js??v=06160032"></script>
+    <!--<script src="http://tj.quan007.com/satc.js?t=<?/*=Util::getVersion()*/?>" charset="utf-8" type="application/javascript"></script>-->
+    <script src="//cms6.qingtaoke.com/js/myTj.js?t=20171103007"></script>
+
+    <script>
+        $(function () {
+            $("body").on('click', '.cnzzCounter', function () {
+                var fkId = $(this).attr('data-cnzz');
+                var fkType = $(this).attr('data-cnzz-type');
+                var tPaht = "/taobao/index.php";
+                var reqUrl = "/taobao/?r=l&kw=LED";
+                $.ajax(tPaht, {
+                    data: {r: 'site/cnzz', fkId: fkId, req: reqUrl, cnzzType: fkType},
+                    dataType: 'json',
+                    type: 'post',
+                    error: function (xhr, type, errorThrown) {
+
+                    },
+                    success: function (result, status, xhr) {
+
+                    }
+                });
+            });
+        });
+    </script>
+
+</head>
+<body>
+<style>
+    #navTop {
+        width: 100%;
+
+        /*border-bottom: 1px solid #ccc;*/
+    }
+
+    body #headNav #header #showList dl {
+        margin: 5px 16px;
+    }
+
+    body #headNav #header #showList #search button {
+        height: 37px;
+        overflow: hidden;
+        padding: 7px 30px;
+    }
+
+    #feedbackSuccess {
+        text-align: center;
+    }
+
+    .feedback-content {
+        display: inline-block;
+        background-color: #fff;
+        padding-bottom: 30px;
+    }
+
+    .feedback {
+        display: none;
+        padding-bottom: 30px;
+    }
+
+    .feedback .feedback-title {
+        color: #ff6600;
+        font-size: 20px;
+        padding-top: 15px;
+    }
+
+    .feedback .line {
+        margin: 20px 50px 0px 50px;
+    }
+
+    .feedback input {
+        width: 538px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .feedback textarea {
+        width: 538px;
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .feedback button {
+        /*display: inline-block;*/
+        /*font-family: inherit;*/
+        background: #ff6600;
+        line-height: 40px;
+        font-weight: 700;
+        font-size: 14px;
+        height: 40px;
+        color: #fff;
+        border: 0;
+        width: 120px;
+        padding: 0 15px;
+        border: 0;
+        border-radius: 2px;
+    }
+
+    .layui-layer-setwin .layui-layer-close2 {
+        background-position: -149px -31px !important;
+    }
+
+    #feedback {
+        background-color: white;
+    }
+
+    .cms-slogan {
+        width: 100%;
+        height: 80px;
+        overflow: hidden;
+    }
+
+    .cms-slogan .cms-slogan-box {
+        width: 1920px;
+        position: relative;
+        left: 50%;
+        margin-left: -960px;
+    }
+</style>
+
+<!--cms头部通告banner-->
+
+<div id="navTop">
+    <div id="top">
+        <div id="topleft" style="margin: 0;line-height: 25px;">                            <a target="_blank" style="height: 22px;float: right;"
+                   href="https://jq.qq.com/?_wv=1027&k=46dzoim"><img
+                        border="0"
+                        src="https://img.alicdn.com/imgextra/i1/2508158775/TB2SfmWqFXXXXb4XpXXXXXXXXXX_!!2508158775.png"></a>
+                        </div>
+        <ul id="topright" style="line-height: 25px;">
+            <li style=" margin-right: 8px;"><a
+                    href="javascript:void(0)" onclick="SetHome(this,window.location)" style="color: #757575"
+                    title="将本站设为首页">设为首页</a>
+            </li>
+            <li style="margin-right: 8px;"><a
+                    href="javascript:void(0)" onclick="shoucang(document.title,window.location)" style="color: #757575"
+                    title="加入收藏，方便下次打开">加入收藏</a>
+            </li>
+            <li><a target="_blank"
+                   href="http://wpa.qq.com/msgrd?v=3&uin=529778790&site=qq&menu=yes"
+                   style="color: #8da7cb" title="联系我帮你解答">遇到购物问题? 联系我 ></a>
+            </li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+</div>
+
+<div id="headNav">
+    <div id="header">
+        <a id="logo" class="cnzzCounter" data-cnzz-type="50" data-cnzz="0"
+           href="/taobao?r=index/index&u=36050&pv=1"
+           style="background-image:url('http://ongskmt08.bkt.clouddn.com/logo.PNG')" title="">
+        </a>
+
+        <div id="search">
+            <form action="/taobao?r=index/index&pv=1"><input type="hidden" name="r" value="l">
+                <input type="text" value="LED"
+                       name="kw" placeholder="好宝贝 等你搜"/>
+                <button type="submit" class="cnzzCounter" data-cnzz-type="54" data-cnzz="1"></button>
+            </form>
+        </div>
+        <div class="showChar">
+            <div class="showChar-div showChar-3 right">
+                <i></i>
+                <span>验货保障</span>
+            </div>
+            <div class="showChar-div showChar-2">
+                <i></i>
+                <span>买手砍价</span>
+            </div>
+            <div class="showChar-div showChar-1">
+                <i></i>
+                <span>9:00开抢</span>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+
+<div id="baner">
+    <div id="nav">
+        <a href="/taobao?r=index/index&u=36050&pv=1"
+           class="cnzzCounter " data-cnzz-type="50"
+           data-cnzz="0">今日上新</a>
+        <a class="cnzzCounter "
+           href="/taobao?r=l&u=36050&pv=1" data-cnzz-type="51"
+           data-cnzz="0">领券优惠直播</a>
+        <a href="/taobao?r=p&u=36050&pv=1"
+           class="cnzzCounter iconH " data-cnzz-type="52" data-cnzz="0">超级人气榜
+            <i style="position:absolute; top:4px; right:30px; display:block; width:24px; height:32px; background:#FFCC00;background:url(http://a.vpimg3.com/upload/dop/2016/01/04/148/HOTT_qeu.gif)"></i>
+        </a>
+        <a class="cnzzCounter "
+           href="/taobao?r=nine&u=36050&pv=1" data-cnzz-type="53"
+           data-cnzz="0">9块9包邮</a>
+        <a id="navFeedback" style="float: right;width: auto;font-size: 12px;line-height: 46px;">意见反馈
+            <img src="//cms6.qingtaoke.com/images/feedback.png" alt="" style="width:12px;"></a>
+    </div>
+</div>
+
+<div id="feedback" class="feedback">
+    <div style="text-align:center;">
+        <div class="line">
+            <h1 class="feedback-title">意见反馈</h1>
+        </div>
+        <div class="line">
+            <p>感谢您对我们的支持，您的建议我们会认真采纳并不断优化，为您提供更好的服务和体验！</p>
+        </div>
+        <div class="line">
+            <textarea id="feedbackContent" rows="10" maxlength="400" placeholder="请输入您的建议或遇到的问题"></textarea><br/>
+        </div>
+        <div class="line">
+            <input id="feedbackContact" maxlength="40" placeholder="请优先填写QQ号码，方便在线联系"/><br/>
+        </div>
+        <div class="line">
+            <button id="feedbackSubmit">提交</button>
+        </div>
+    </div>
+</div>
+<div id="feedbackSuccess" class="feedback">
+    <div class="feedback-content" style="text-align:center;">
+        <div class="line">
+            <h1 class="feedback-title">提交成功</h1>
+        </div>
+        <div class="line">
+            <p>感谢您对我们的反馈，对您给予的帮助和支持我们深表感谢！</p>
+        </div>
+        <div class="line">
+            <button id="feedbackClose">关闭</button>
+        </div>
+    </div>
+</div>
+<!--浮动顶部-->
+<div class="fixedHead-box">
+    <div class="fixedHead">
+        <div class="fixedHead-nav">
+            <span class="cate">
+                <a href="./" class="cnzzCounter" data-cnzz-type="50" data-cnzz="0" data-cnzz-type="50" data-cnzz="0">今日上新<i></i></a>
+            </span>
+            <span class="split-line"></span>
+            <span class="cate">
+                <a href="/taobao?r=l&u=36050&pv=1" class="cnzzCounter"
+                   data-cnzz-type="51" data-cnzz="0">领券优惠直播<i></i></a>
+            </span>
+            <span class="split-line"></span>
+            <span class="cate">
+                <a href="/taobao?r=p&u=36050&pv=1" class="cnzzCounter"
+                   data-cnzz-type="52" data-cnzz="0">超级人气榜<i></i></a>
+            </span>
+            <span class="split-line"></span>
+            <span class="cate">
+                <a href="/taobao?r=nine&u=36050&pv=1" class="cnzzCounter"
+                   data-cnzz-type="53" data-cnzz="0">9块9包邮<i></i></a>
+            </span>
+        </div>
+        <div class="fixedHead-search" id="fixedSearch">
+            <form action="/taobao?r=index/index&pv=1">
+                <input type="hidden" name="r" value="l">
+                <input type="text" value="LED"
+                       name="kw" placeholder="好宝贝 等你搜"/>
+                <button type="submit" class="cnzzCounter" data-cnzz-type="54" data-cnzz="1"></button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<div id="dtk_mian">
+    
+    <style type="text/css">
+        .g_over {
+            border: 1px solid #F3E9EC;
+        }
+
+        .g_over:hover, .g_over:focus {
+            border: 1px solid #de366e;
+        }
+    </style>
+    <div class="search-wrap main-container">
+        <img src="https://img.alicdn.com/imgextra/i2/847774267/TB2dWOvbTcCL1FjSZFPXXXZgpXa_!!847774267.png?v=20171103007" alt="">
+    </div>
+
+    <div class="cat-wrap main-container">
+
+        <div class="cat-list clearfix">
+            <span class="cat-lit-title">商品分类</span>
+            <ul class="clearfix" _hover-ignore="1">
+                <li class="active">
+                    <a href="/taobao?r=l&cid=0&u=36050&pv=1" class="cnzzCounter" data-cnzz-type="51" data-cnzz="100">全部优惠<b>(37)</b></a>
+                </li>
+                                    <li >
+                        <a href="/taobao?r=l&cid=10&u=36050&pv=1" class="cnzzCounter" data-cnzz-type="51" data-cnzz="10">女装<b>(0)</b></a>
+                    </li>
+                                    <li >
+                        <a href="/taobao?r=l&cid=11&u=36050&pv=1" class="cnzzCounter" data-cnzz-type="51" data-cnzz="11">内衣<b>(0)</b></a>
+                    </li>
+                                    <li >
+                        <a href="/taobao?r=l&cid=12&u=36050&pv=1" class="cnzzCounter" data-cnzz-type="51" data-cnzz="12">男装<b>(0)</b></a>
+                    </li>
+                                    <li >
+                        <a href="/taobao?r=l&cid=2&u=36050&pv=1" class="cnzzCounter" data-cnzz-type="51" data-cnzz="2">母婴<b>(1)</b></a>
+                    </li>
+                                    <li >
+                        <a href="/taobao?r=l&cid=3&u=36050&pv=1" class="cnzzCounter" data-cnzz-type="51" data-cnzz="3">化妆品<b>(0)</b></a>
+                    </li>
+                                    <li >
+                        <a href="/taobao?r=l&cid=4&u=36050&pv=1" class="cnzzCounter" data-cnzz-type="51" data-cnzz="4">居家<b>(24)</b></a>
+                    </li>
+                                    <li >
+                        <a href="/taobao?r=l&cid=5&u=36050&pv=1" class="cnzzCounter" data-cnzz-type="51" data-cnzz="5">鞋包配饰<b>(1)</b></a>
+                    </li>
+                                    <li >
+                        <a href="/taobao?r=l&cid=6&u=36050&pv=1" class="cnzzCounter" data-cnzz-type="51" data-cnzz="6">美食<b>(0)</b></a>
+                    </li>
+                                    <li >
+                        <a href="/taobao?r=l&cid=7&u=36050&pv=1" class="cnzzCounter" data-cnzz-type="51" data-cnzz="7">文体车品<b>(7)</b></a>
+                    </li>
+                                    <li >
+                        <a href="/taobao?r=l&cid=8&u=36050&pv=1" class="cnzzCounter" data-cnzz-type="51" data-cnzz="8">数码家电<b>(4)</b></a>
+                    </li>
+                            </ul>
+        </div>
+
+        <div class="cat-list sale-type clearfix">
+            <span class="cat-lit-title">促销类型</span>
+            <ul class="clearfix">
+                <li class="">
+                                        <a href="/taobao?r=l&cid=0&kw=LED&s=t&min=0&max=0&seckill=0&jipin=1&tmall=0&u=36050&pv=1"><i></i>优选</a>
+                </li>
+                <li class="">
+                                        <a href="/taobao?r=l&cid=0&kw=LED&s=t&min=0&max=0&seckill=0&jipin=0&tmall=1&u=36050&pv=1"><i></i>天猫</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="tag-wrap main-container clearfix cat-wrap">
+        <div class="fixed-wrap fl">
+                        <a href="/taobao?r=l&cid=0&kw=LED&s=t&min=0&max=0&seckill=0&jipin=0&tmall=0&u=36050&pv=1"
+               class="tag-fixed active">最新</a>
+                           <a href="/taobao?r=l&cid=0&kw=LED&s=n&min=0&max=0&seckill=0&jipin=0&tmall=0&u=36050&pv=1"
+               class="tag-fixed ">销量</a>
+                        <a href="/taobao?r=l&cid=0&kw=LED&s=r&min=0&max=0&seckill=0&jipin=0&tmall=0&u=36050&pv=1"
+               class="tag-fixed ">价格</a>
+
+            <div class="sort-price-area fl">
+                <form action="/taobao?r=l&cid=0&kw=LED&s=r&min=0&max=0&seckill=0&jipin=0&tmall=0&u=36050&pv=1"
+                      onsubmit="var param = $(this).serialize();window.location.href = $(this).prop('action')+'&'+param;return false;">
+                    <input class="min-price" onkeyup="this.value=this.value.replace(/[^\-?\d.]/g,'')" id="min" name="min" value="" placeholder="￥">
+                    <span>-</span>
+                    <input class="max-price" onkeyup="this.value=this.value.replace(/[^\-?\d.]/g,'')" id="max" name="max" value="" placeholder="￥">
+                    <button>确定</button>
+                </form>
+            </div>
+        </div>
+        <div class="goods-pages-page clearfix" style="">
+                        <span class="pagebtn disabled pre-page">
+                    </span>
+            <span class="page-num"><b>
+                    1                </b>/
+                   1</span>
+                        <span class="pagebtn disabled next-page">
+                    </span>
+        </div>
+    </div>
+
+    <div class="goods-list main-container" style="overflow:hidden;">
+        
+            <ul class="clearfix">
+                                    <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=833671&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/imgextra/i3/1812054091/TB2kwW0m6ihSKJjy0FiXXcuiFXa_!!1812054091.jpg_290x290.jpg"
+                                 alt="1m苹果6/7p锌合金智能二合一数据线"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>5.1                                    </b></span>
+                                <span class="old-price"><i>￥</i>20.1</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>15                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=833671&u=36050&pv=1"> 1m苹果6/7p锌合金智能二合一数据线</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">50693</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=831151&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://gd4.alicdn.com/imgextra/i4/188104345/TB2LQoBah8X3KJjSZPiXXcedFXa_!!188104345.jpg_290x290.jpg"
+                                 alt="led彩灯闪灯串灯ktv酒吧满天星星灯"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>2.2                                    </b></span>
+                                <span class="old-price"><i>￥</i>5.2</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>3                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=831151&u=36050&pv=1"> led彩灯闪灯串灯ktv酒吧满天星星灯</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">15789</b></span>
+                                <div class="goods-type">
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=792191&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i2/2924063788/TB2mpywiPihSKJjy0FeXXbJtpXa_!!2924063788.jpg_290x290.jpg"
+                                 alt="松上新品USB充电厨房秤烘焙电子称"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>29.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>39.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>10                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=792191&u=36050&pv=1"> 松上新品USB充电厨房秤烘焙电子称</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">2571</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=747970&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i2/2418280451/TB2io9cb1nAQeBjSZFGXXazoFXa_!!2418280451.jpg_290x290.jpg"
+                                 alt="志高暖风机迷你烤火炉取暖器省电"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>69                                    </b></span>
+                                <span class="old-price"><i>￥</i>149</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>80                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=747970&u=36050&pv=1"> 志高暖风机迷你烤火炉取暖器省电</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">3109</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                <i class="you" title="优品"></i>
+                                                                                                        </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=742117&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/imgextra/i3/2928122772/TB2lwH1m6uhSKJjSspaXXXFgFXa_!!2928122772.jpg_290x290.jpg"
+                                 alt="久量护眼可充电式led台灯"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>29                                    </b></span>
+                                <span class="old-price"><i>￥</i>49</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>20                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=742117&u=36050&pv=1"> 久量护眼可充电式led台灯</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">7602</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=734905&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i1/3029866779/TB2jceyX3Aq0eJjSZFtXXc.qVXa_!!3029866779.jpg_290x290.jpg"
+                                 alt="凌度车载充电器快充USB多功能点烟"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>28                                    </b></span>
+                                <span class="old-price"><i>￥</i>48</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>20                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=734905&u=36050&pv=1"> 凌度车载充电器快充USB多功能点烟</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">3100</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=703466&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i1/2261142585/TB2K2alkh3IL1JjSZPfXXcrUVXa_!!2261142585.jpg_290x290.jpg"
+                                 alt="久量LED护眼台灯书房阅读学习写字灯"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>29                                    </b></span>
+                                <span class="old-price"><i>￥</i>39</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>10                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=703466&u=36050&pv=1"> 久量LED护眼台灯书房阅读学习写字灯</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">7454</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=694197&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i2/2177042382/TB2yLP3b2APyuJjy0FcXXbCzpXa_!!2177042382.jpg_290x290.jpg"
+                                 alt="普菱达led台灯护眼灯学生宿舍书桌学习卧室床头夹子节能阅读灯"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>19                                    </b></span>
+                                <span class="old-price"><i>￥</i>49</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>30                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=694197&u=36050&pv=1"> 普菱达led台灯护眼灯学生宿舍书桌学习卧室床头夹子节能阅读灯</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">3585</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=647332&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/bao/uploaded/i2/1030249339/TB1RHDXXnJ_SKJjSZPiXXb3LpXa_!!0-item_pic.jpg_290x290.jpg"
+                                 alt="LED灯泡小螺口节能玉米灯4w"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>2.8                                    </b></span>
+                                <span class="old-price"><i>￥</i>5.8</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>3                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=647332&u=36050&pv=1"> LED灯泡小螺口节能玉米灯4w</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">6405</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=615512&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i1/2450281404/TB2xaffoodnpuFjSZPhXXbChpXa_!!2450281404.jpg_290x290.jpg"
+                                 alt="欧普照明灯泡3只装超亮暖白家用节能灯省电"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>9.4                                    </b></span>
+                                <span class="old-price"><i>￥</i>11.4</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>2                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=615512&u=36050&pv=1"> 欧普照明灯泡3只装超亮暖白家用节能灯省电</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">23527</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=601059&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img.alicdn.com/bao/uploaded/i1/TB1PhwLSXXXXXaEXVXXXXXXXXXX_!!0-item_pic.jpg_290x290.jpg"
+                                 alt="申宏高清手持放大镜带灯"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>9.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>19.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>10                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=601059&u=36050&pv=1"> 申宏高清手持放大镜带灯</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">12092</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=599215&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i2/2371852280/TB2zAXlawn.PuJjSZFkXXc_lpXa_!!2371852280.jpg_290x290.jpg"
+                                 alt="沿途双缸车用轮胎车载充气泵12V"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>110                                    </b></span>
+                                <span class="old-price"><i>￥</i>125</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>15                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=599215&u=36050&pv=1"> 沿途双缸车用轮胎车载充气泵12V</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">13509</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=597874&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i4/2040881108/TB28h8BXTzGK1JjSspbXXbHpFXa_!!2040881108.jpg_290x290.jpg"
+                                 alt="拍照抖音主播美颜瘦脸嫩肤高清打光"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>29                                    </b></span>
+                                <span class="old-price"><i>￥</i>39</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>10                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=597874&u=36050&pv=1"> 拍照抖音主播美颜瘦脸嫩肤高清打光</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">6672</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=573211&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/imgextra/i4/2337532339/TB2nQQecDZRMeJjSsppXXXrEpXa_!!2337532339.jpg_290x290.jpg"
+                                 alt="【光普能】汽车LED远近光雾灯超亮强光"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>156                                    </b></span>
+                                <span class="old-price"><i>￥</i>236</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>80                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=573211&u=36050&pv=1"> 【光普能】汽车LED远近光雾灯超亮强光</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">5604</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                <i class="you" title="优品"></i>
+                                                                                                        </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=551946&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i2/2103880744/TB2f_yccJBopuFjSZPcXXc9EpXa_!!2103880744.jpg_290x290.jpg"
+                                 alt="LED吸顶灯简约现代客厅灯"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>6.8                                    </b></span>
+                                <span class="old-price"><i>￥</i>11.8</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>5                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=551946&u=36050&pv=1"> LED吸顶灯简约现代客厅灯</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">12526</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                <i class="you" title="优品"></i>
+                                                                                                        </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=544991&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/imgextra/i2/818393718/TB2FUHbaoMgYeJjSZFGXXXsMXXa_!!818393718.jpg_290x290.jpg"
+                                 alt="酷毙灯大学生宿舍灯管led护眼台灯"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>7.8                                    </b></span>
+                                <span class="old-price"><i>￥</i>10.8</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>3                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=544991&u=36050&pv=1"> 酷毙灯大学生宿舍灯管led护眼台灯</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">144682</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=528261&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/imgextra/i2/892562212/TB2tLboagYDK1JjSZPcXXajZpXa_!!892562212.jpg_290x290.jpg"
+                                 alt="筒灯天花灯饰公分嵌入式灯具桶"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>3.46                                    </b></span>
+                                <span class="old-price"><i>￥</i>6.46</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>3                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=528261&u=36050&pv=1"> 筒灯天花灯饰公分嵌入式灯具桶</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">6980</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=526327&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://gd4.alicdn.com/bao/uploaded/i4/2649493878/TB2yp.1bNb9F1JjSZFqXXbotVXa_!!2649493878.jpg_290x290.jpg"
+                                 alt="汽车钥匙扣挂件男士刻字腰挂"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>5.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>8.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>3                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=526327&u=36050&pv=1"> 汽车钥匙扣挂件男士刻字腰挂</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">8778</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=525841&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/imgextra/i1/2378443470/TB2uMp7aTnI8KJjSszbXXb4KFXa_!!2378443470.jpg_290x290.jpg"
+                                 alt="新贝婴儿大容量新生儿宝宝湿纸巾加热器"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>119                                    </b></span>
+                                <span class="old-price"><i>￥</i>149</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>30                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=525841&u=36050&pv=1"> 新贝婴儿大容量新生儿宝宝湿纸巾加热器</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">1166</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=500730&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/bao/uploaded/i2/3064936319/TB28tPsgRcHL1JjSZFBXXaiGXXa_!!3064936319.jpg_290x290.jpg"
+                                 alt="久量LED阅读写字护眼台灯"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>49                                    </b></span>
+                                <span class="old-price"><i>￥</i>89</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>40                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=500730&u=36050&pv=1"> 久量LED阅读写字护眼台灯</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">3360</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=491076&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i3/2919039829/TB2zNOmaUUIL1JjSZFrXXb3xFXa_!!2919039829.jpg_290x290.jpg"
+                                 alt="酷毙灯大学生台灯宿舍灯led长条灯"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>7.8                                    </b></span>
+                                <span class="old-price"><i>￥</i>10.8</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>3                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=491076&u=36050&pv=1"> 酷毙灯大学生台灯宿舍灯led长条灯</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">156406</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                <i class="you" title="优品"></i>
+                                                                                                        </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=488590&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img.alicdn.com/imgextra/i4/2112677195/TB2CrdVlYplpuFjSspiXXcdfFXa_!!2112677195.jpg_290x290.jpg"
+                                 alt="【天猫】乐廷全波段老年收音机听戏机"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>19.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>29.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>10                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=488590&u=36050&pv=1"> 【天猫】乐廷全波段老年收音机听戏机</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">9342</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=463982&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img.alicdn.com/imgextra/i3/1731991132/TB2m93Qcb1J.eBjSszcXXbFzVXa_!!1731991132.jpg_290x290.jpg"
+                                 alt="精准0.01g厨房秤电子称"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>17                                    </b></span>
+                                <span class="old-price"><i>￥</i>22</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>5                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=463982&u=36050&pv=1"> 精准0.01g厨房秤电子称</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">14727</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=459361&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img.alicdn.com/imgextra/i3/1647713525/TB2UuXFjgNlpuFjy0FfXXX3CpXa_!!1647713525.jpg_290x290.jpg"
+                                 alt="简约现代圆形LED吸顶灯12W"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>5.5                                    </b></span>
+                                <span class="old-price"><i>￥</i>8.5</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>3                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=459361&u=36050&pv=1"> 简约现代圆形LED吸顶灯12W</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">8943</b></span>
+                                <div class="goods-type">
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=424861&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img.alicdn.com/imgextra/i3/467408696/TB2j4tSjxBmpuFjSZFDXXXD8pXa_!!467408696.jpg_290x290.jpg"
+                                 alt="吸顶灯led灯盘模组改造灯板"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>2.5                                    </b></span>
+                                <span class="old-price"><i>￥</i>4.5</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>2                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=424861&u=36050&pv=1"> 吸顶灯led灯盘模组改造灯板</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">6937</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=397956&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i4/1128631504/TB2e6wLi04opuFjSZFLXXX8mXXa_!!1128631504.jpg_290x290.jpg"
+                                 alt="led迷你感应小夜灯节能卧室床头灯夜光灯"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>8.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>13.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>5                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=397956&u=36050&pv=1"> led迷你感应小夜灯节能卧室床头灯夜光灯</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">11396</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                <i class="you" title="优品"></i>
+                                                                                                        </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=366635&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img.alicdn.com/imgextra/i4/TB1GI.kRVXXXXXlXFXXXXXXXXXX_!!0-item_pic.jpg_290x290.jpg"
+                                 alt="舜威车载点烟器一拖三多功能用插头"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>18                                    </b></span>
+                                <span class="old-price"><i>￥</i>28</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>10                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=366635&u=36050&pv=1"> 舜威车载点烟器一拖三多功能用插头</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">8416</b></span>
+                                <div class="goods-type">
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=343224&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/bao/uploaded/i4/727849540/TB2ZE6mubxmpuFjSZJiXXXauVXa_!!727849540.jpg_290x290.jpg"
+                                 alt="索莱德/SooladeLED遥控大气客厅灯具现代简约吸顶灯"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>3                                    </b></span>
+                                <span class="old-price"><i>￥</i>5</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>2                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=343224&u=36050&pv=1"> 索莱德/SooladeLED遥控大气客厅灯具现代简约吸顶灯</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">13141</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=308195&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img.alicdn.com/imgextra/i2/1910514259/TB2hWBlmDcCL1FjSZFPXXXZgpXa_!!1910514259.jpg_290x290.jpg"
+                                 alt="光控智能感应插电方形小夜灯"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>8.8                                    </b></span>
+                                <span class="old-price"><i>￥</i>13.8</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>5                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=308195&u=36050&pv=1"> 光控智能感应插电方形小夜灯</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">19239</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=294081&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/bao/uploaded/i2/TB1rwJ0QFXXXXXPXpXXXXXXXXXX_!!0-item_pic.jpg_290x290.jpg"
+                                 alt="彩灯闪灯串灯变色七彩色led星星灯"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>7.8                                    </b></span>
+                                <span class="old-price"><i>￥</i>10.8</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>3                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=294081&u=36050&pv=1"> 彩灯闪灯串灯变色七彩色led星星灯</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">5865</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=290666&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img.alicdn.com/imgextra/i4/2218033482/TB2CUyAphXkpuFjy0FiXXbUfFXa_!!2218033482.jpg_290x290.jpg"
+                                 alt="岩光led夹式折叠充电小台灯"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>19.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>29.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>10                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=290666&u=36050&pv=1"> 岩光led夹式折叠充电小台灯</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">6589</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=207622&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/imgextra/i4/757284614/TB2rJ2ui4BmpuFjSZFsXXcXpFXa_!!757284614.jpg_290x290.jpg"
+                                 alt="房间满天星浪漫装饰小彩灯"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>8.8                                    </b></span>
+                                <span class="old-price"><i>￥</i>11.8</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>3                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=207622&u=36050&pv=1"> 房间满天星浪漫装饰小彩灯</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">24448</b></span>
+                                <div class="goods-type">
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=246361&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i1/752416481/TB2nUo1ba_85uJjSZFlXXXemXXa_!!752416481.jpg_290x290.jpg"
+                                 alt="康铭  侧发光LED探照手电筒"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>16.8                                    </b></span>
+                                <span class="old-price"><i>￥</i>26.8</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>10                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=246361&u=36050&pv=1"> 康铭  侧发光LED探照手电筒</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">3117</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=229111&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i3/2994897750/TB2gU4hacnI8KJjSsziXXb8QpXa_!!2994897750.jpg_290x290.jpg"
+                                 alt="志高家用理发器充电式成人婴儿童剪发器"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>48                                    </b></span>
+                                <span class="old-price"><i>￥</i>58</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>10                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=229111&u=36050&pv=1"> 志高家用理发器充电式成人婴儿童剪发器</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">31048</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=189226&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img.alicdn.com/imgextra/i2/3064936319/TB2DluTxt0opuFjSZFxXXaDNVXa_!!3064936319.jpg_290x290.jpg"
+                                 alt="久量LED 护眼充电台灯"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>39                                    </b></span>
+                                <span class="old-price"><i>￥</i>59</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>20                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=189226&u=36050&pv=1"> 久量LED 护眼充电台灯</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">20143</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=100235&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img.alicdn.com/imgextra/i2/2454289897/TB2BFvehmFjpuFjSszhXXaBuVXa_!!2454289897.jpg_290x290.jpg"
+                                 alt="久量LED强光远射可充电探照灯"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>38                                    </b></span>
+                                <span class="old-price"><i>￥</i>48</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>10                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=100235&u=36050&pv=1"> 久量LED强光远射可充电探照灯</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">12315</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                <i class="you" title="优品"></i>
+                                                                                                        </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=52367&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img.alicdn.com/imgextra/i4/752416481/TB225Rwp80kpuFjSsziXXa.oVXa_!!752416481.jpg_290x290.jpg"
+                                 alt="【大牌~康铭】充电式远射程LED手电筒"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>7.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>12.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>5                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=52367&u=36050&pv=1"> 【大牌~康铭】充电式远射程LED手电筒</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">5219</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+            </ul>
+            </div>
+
+</div>
+
+<div id="footer" style="background-color: #373737;height: 190px;width: 100%;border-top: 3px solid #FF6C00;">
+    <div class="footer-wrapper " style="width: 1200px;margin: 0 auto;position: relative;text-align: center">
+        <img src="//cms6.qingtaoke.com/images/bottom_text.png" alt="" style="border: 0;margin-top: 50px;">
+
+        <div class="author" style="    position: absolute;
+    top: 67px;
+    left: 990px;
+    color: #FFFFFF;
+    font-size: 18px;">by
+            &nbsp;&nbsp;淘优惠</div>
+        <div class="text" style="color: #a2a2a2;
+    font-size: 16px;
+    margin-top: 33px;">&copy; CopyRight&nbsp;2017            &nbsp;<a href="http://newbug.xyz" target="_blank" rel="nofollow"
+                     style="color:#a2a2a2;">淘优惠</a>
+            &nbsp;http://newbug.xyz&nbsp;&nbsp;<a href="http://www.miitbeian.gov.cn/" target="_blank"
+                                                                     rel="nofollow"
+                                                                     style="color:#a2a2a2;">豫ICP备17010592号</a>
+            &nbsp;&nbsp;                <a target="_blank"
+                   href="http://wpa.qq.com/msgrd?v=3&uin=529778790&site=qq&menu=yes"
+                   style="color: #8da7cb" title="联系我帮你解答">^_^亲遇到问题，联系我帮你处理哈</a>
+                </div>
+    </div>
+</div>
+<div class="toTop" style="display: none" onclick=" $('body,html').animate({scrollTop:0},1000);"><span>回到顶部</span></div>
+<script type="text/javascript">
+    // 设置为主页
+    function SetHome(obj, vrl) {
+        try {
+            obj.style.behavior = 'url(#default#homepage)';
+            obj.setHomePage(vrl);
+        }
+        catch (e) {
+            if (window.netscape) {
+                try {
+                    netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                }
+                catch (e) {
+                    alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。");
+                }
+                var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+                prefs.setCharPref('browser.startup.homepage', vrl);
+            } else {
+                alert("您的浏览器不支持，请按照下面步骤操作：1.打开浏览器设置。2.点击设置网页。3.输入：" + vrl + "点击确定。");
+            }
+        }
+    }
+    // 加入收藏 兼容360和IE6
+    function shoucang(sTitle, sURL) {
+        try {
+            window.external.addFavorite(sURL, sTitle);
+        }
+        catch (e) {
+            try {
+                window.sidebar.addPanel(sTitle, sURL, "");
+            }
+            catch (e) {
+                alert("加入收藏失败，请使用Ctrl+D进行添加");
+            }
+        }
+    }
+    // toTop&fixedHead
+    function showElem() {
+        if ($(window).scrollTop() > 168) {
+            $(".toTop").stop().fadeIn(200);
+            $(".fixedHead-box").stop().slideDown(200);
+        } else {
+            $(".toTop").stop().fadeOut(200);
+            $(".fixedHead-box").stop().slideUp(200);
+        }
+    }
+    $(function () {
+        showElem();
+        $(window).scroll(function () {
+            showElem()
+        });
+
+        $('#navFeedback').on('click', function () {
+            layer.open({
+                type: 1,
+                //skin:'layui-layer-rim',
+                area: [600, 400],
+                title: false,
+                closeBtn: 1,
+                shadeClose: true,
+                //btn:['提交'],
+                content: $('#feedback')
+            });
+        });
+        $('#feedbackSubmit').on('click', function () {
+            var fContent = $('#feedbackContent').val();
+            var fContact = $('#feedbackContact').val();
+            if (fContent.trim() == '') {
+                layer.msg('请留下您的建议', {time: 1500});
+                return;
+            }
+            if (fContact.trim() == '') {
+                layer.msg('请留下您的联系方式', {time: 1500});
+                return;
+            }
+            var feedbackSuccess = function (ret) {
+                layer.closeAll();
+                $('#feedbackContent').val('');
+                $('#feedbackContact').val('');
+                layer.open({
+                    type: 1,
+                    area: [600, 400],
+                    title: false,
+                    closeBtn: 0,
+                    shadeClose: true,
+                    content: $('#feedbackSuccess')
+                });
+            }
+            $.ajax('index.php?r=Feedback/add', {
+                type: 'post',
+                dataType: 'json',
+                data: {
+                    "content": fContent.trim(),
+                    "contact": fContact.trim(),
+                    // 处理当uid为空时，js不报错。
+                    "uid":36050                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    return layer.msg(errorThrown);
+                },
+                success: feedbackSuccess
+            });
+        });
+        $('#feedbackClose').on('click', function () {
+            layer.closeAll();
+        });
+    });
+
+</script>
+<script type="text/javascript" src="http://counter.qingtaoke.com/js/count.js?t=5&amp;u=36050&amp;pv=1" id="counterJs"></script>
+<script type="text/javascript" src="//cms6.qingtaoke.com/js/scrollTop2.js?v=0331001"></script>
+</body>
+</html>
+";}

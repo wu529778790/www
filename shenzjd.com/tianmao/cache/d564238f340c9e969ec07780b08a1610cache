@@ -1,0 +1,816 @@
+a:3:{s:4:"time";i:1511676496;s:6:"expire";i:60;s:5:"value";s:48068:"<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="zh-CN">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" type="text/css" href="http://cmsstatic.dataoke.com//css/reset.css?v=201711171605">
+    <link rel="stylesheet" type="text/css" href="http://cmsstatic.dataoke.com//css/footer.css?v=201711171605">
+    <link rel="stylesheet" type="text/css" href="http://cmsstatic.dataoke.com//css/pager.css?v=201711171605">
+    <link rel="stylesheet" type="text/css" href="http://cmsstatic.dataoke.com//css/swiper.min.css?v=201711171605">
+    <link rel="stylesheet" type="text/css" href="http://cmsstatic.dataoke.com//css/dtk.css?v=201711171605">
+    <!-- 皮肤 S-->
+        <!-- 皮肤 E-->
+    <link rel="stylesheet" href="http://cmsstatic.dataoke.com//css/iconfont.css?v=201711171605">
+    <link rel="stylesheet" type="text/css" href="http://cmsstatic.dataoke.com//css/Coupon.css?v=201711171605" />
+<title>领券优惠直播--神族九帝</title>
+    <meta name="Keywords" content="神族九帝,优惠券折扣,9块9包邮,限时特卖,优品折扣,神族九帝"/>
+    <meta name="Description" content="神族九帝-优惠券折扣直播第一站！每天更新千款，纯人工筛选验货，限时限量特卖，全场1折包邮！"/>
+    <script src="http://cmsstatic.dataoke.com/other/jquery/1.12.4/jquery.min.js?v=201711171605"></script>
+    <script src="http://cmsstatic.dataoke.com//js/layer/layer.js?v=201711171605"></script>
+    <script src="http://cmsstatic.dataoke.com//js/dtk.js?v=201711171605"></script>
+    <script src="http://cmsstatic.dataoke.com//js/swiper.min.js?v=201711171605"></script>
+</head>
+<body>
+<style>
+    #navTop {
+        width: 100%;
+        background-color: #FFF;
+    }
+    .toTop {
+        font-family: iconfont;
+        position: fixed;
+        right: 70px;
+        bottom: 70px;
+        line-height: 50px;
+        text-align: center;
+        border: 1px solid #CCCCCC;
+        border-radius: 50px;
+        color: #858585;
+        width: 50px;
+        font-size: 36px;
+        cursor: pointer;
+        background-color: #fff;
+    }
+
+    .toTop:hover, .toTop:focus {
+        color: rgb(234, 42, 96);
+    }
+
+    body #headNav #header #showList dl {
+        margin: 5px 16px;
+    }
+
+    body #headNav #header #showList #search button {
+        height: 37px;
+        overflow: hidden;
+        padding: 7px 30px;
+    }
+    .floatNav{
+        width: 100%;
+        height: 50px;
+        background-color: #fff;
+        position: fixed;
+        top:0;
+        z-index: 9999;
+        display: none;
+    }
+    .fn-block{
+        width: 490px;
+        height:32px;
+        border: 2px solid #E8314B;
+        margin: 6px auto;
+        position: relative;
+    }
+    .fn-src{
+        width: 425px;
+        height: 32px;
+        border: none;
+        font-size: 12px;
+        font-family: 'microsoft yahei';
+        color: #aaa;
+        padding-left: 15px;
+    }
+    .srcBtn{
+        width: 50px;
+        height: 36px;
+        background-color: #E8314B;
+        border: none;
+        position: absolute;
+        right: -2px;
+        top:-2px;
+        color: #fff;
+        background-image: url("http://cmsstatic.dataoke.com//images/srcicos.png?v=201711171605");
+        background-size:auto 60% ;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+</style>
+
+<div id="navTop">
+
+    <div id="top">
+        <div id="topleft" style="margin: 0;line-height: 25px;">亲爱的，来加粉丝专享优惠QQ群                            <a target="_blank" style="height: 22px;float: right;" href="https://jq.qq.com/?_wv=1027&k=46dzoim">
+                    <img border="0" src="https://img.alicdn.com/imgextra/i1/2508158775/TB2SfmWqFXXXXb4XpXXXXXXXXXX_!!2508158775.png">
+                </a>
+                    </div>
+        <ul id="topright" style="line-height: 25px;">
+            <li style=" margin-right: 8px;">
+                <a class="set_home" href="javascript:void(0)" onclick="SetHome(this,window.location)" style="color: #757575" title="将本站设为首页">设为首页</a>
+            </li>
+            <li style="margin-right: 8px;">
+                <a class="add_favorite" href="javascript:void(0)" onclick="shoucang(document.title,window.location)" style="color: #757575" title="加入收藏，方便下次打开">加入收藏</a>
+            </li>
+            <li>
+                <a class="header_service" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=529778790&site=qq&menu=yes" style="color: #8da7cb" title="联系我帮你解答">遇到购物问题? 联系我 ></a>
+            </li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+</div>
+
+<div id="headNav">
+    <div id="header" style="padding-bottom: 10px;">
+        <a class="header_logo" href="/tianmao?r=index/index&u=493252"
+           style="width: 380px; height: 80px;display: inline-block;float: left;    background-size: inherit;    background: url('http://ongskmt08.bkt.clouddn.com/logo.PNG')left top no-repeat;    margin-top: -7px;text-align: left;line-height: 80px;color: red;font-size: 36px;padding-left: 20px;">
+                </a>
+        <div id="showList">
+            <div id="search">
+                                <form action="/tianmao?r=index/index">
+                    <input type="hidden" name="r" value="l">
+                    <input type="text" class="theme-border-color-1" value="ipad保护套2017" name="kw" placeholder="好宝贝 等你搜"/>
+                    <button type="submit" class="theme-bg-color-1">搜索</button>
+                </form>
+            </div>
+
+            <dl>
+                <dt class="rg"></dt>
+            </dl>
+            <dl>
+                <dt class="zy"></dt>
+            </dl>
+            <dl>
+                <dt class="qc"></dt>
+            </dl>
+
+        </div>
+        <div class="clear"></div>
+    </div>
+
+<!--    悬浮搜索框-->
+            <div class="floatNav">
+            <div class="fn-block">
+                <form action="/tianmao?r=index/index">
+                    <input type="hidden" name="r" value="l">
+                    <input type="text" class="fn-src" value="ipad保护套2017" name="kw" placeholder="好宝贝 等你搜"/>
+                    <button type="submit" class="srcBtn"></button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<div id="baner" class="theme-bg-color-1">
+    <div id="nav" style="font-size: 15px;">
+        <a href="/tianmao?r=index/index&u=493252" class="theme-hover-bg-color-8 iconM " style="padding:8px 27px;">
+            <i class="iconfont">&#xe601;</i><span style="margin-right: 7px;">今日上新</span>
+        </a>
+
+        <a class="theme-hover-bg-color-8 " href="/tianmao?r=l&u=493252" style="padding:8px 15px;">
+            领券优惠直播
+        </a>
+
+        <a class="theme-hover-bg-color-8 " href="/tianmao?r=ddq&u=493252" style="padding:8px 15px;">
+            咚咚抢<div style="position:absolute; width:24px; height:32px; background:#FFCC00;margin-left: 107px; margin-top: -25px; background:url(http://a.vpimg3.com/upload/dop/2016/01/04/148/HOTT_qeu.gif)"></div>
+        </a>
+
+        <a href="/tianmao?r=p&u=493252" class="theme-hover-bg-color-8 iconH " style="padding:8px 15px;">
+            超级人气榜
+        </a>
+
+        <a class="theme-hover-bg-color-8 " href="/tianmao?r=nine&u=493252" style="padding:8px 15px;">
+            9块9包邮
+        </a>
+
+        
+    </div>
+</div>
+
+<div id="dtk_mian">
+    <div class="search-wrap main-container">
+    <img src="https://img.alicdn.com/imgextra/i3/97012073/TB2Y9MifItnpuFjSZFKXXalFFXa_!!97012073.jpg"/>
+</div>
+
+<div class="cat-wrap main-container">
+    <div class="cat-list sale-type clearfix">
+        <span class="cat-lit-title">促销类型</span>
+        <ul class="clearfix">
+            <li class="theme-hover-color-1 " >
+                <a class="theme-a" href="/tianmao?r=l&kw=ipad%E4%BF%9D%E6%8A%A4%E5%A5%972017&cid=0&s=t&seckill=1"><i class="theme-i"></i>秒杀活动</a>
+            </li>
+            <li class="theme-hover-color-1 ">
+                <a class="theme-a" href="/tianmao?r=l&kw=ipad%E4%BF%9D%E6%8A%A4%E5%A5%972017&cid=0&s=t&jipin=1"><i class="theme-i"></i>优选</a>
+            </li>
+            <li class="theme-hover-color-1 ">
+                <a class="theme-a" href=" /tianmao?r=l&kw=ipad%E4%BF%9D%E6%8A%A4%E5%A5%972017&cid=0&s=t&tmall=1"><i class="theme-i"></i>天猫</a>
+            </li>
+            <li class="">
+                <a class="theme-a" href="/tianmao?r=l&kw=ipad%E4%BF%9D%E6%8A%A4%E5%A5%972017&cid=0&s=t&freight=1"><i class="theme-i"></i>运费险</a>
+            </li>
+            <li class="theme-hover-color-1 ">
+                <a class="theme-a" href="/tianmao?r=l&kw=ipad%E4%BF%9D%E6%8A%A4%E5%A5%972017&cid=0&s=t&amoy=1"><i class="theme-i"></i>海淘</a>
+            </li>
+            <li class="cat-lit-video theme-hover-color-1  ">
+                <a class="theme-a"  href="/tianmao?r=l&kw=ipad%E4%BF%9D%E6%8A%A4%E5%A5%972017&cid=0&s=t&video=1"><i class="theme-i"></i><span class="theme-span">视频商品</span></a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+<div class="tag-wrap main-container clearfix cat-wrap">
+    <div class="fixed-wrap fl theme-a-hover-active-border-top-1">
+                <a href="/tianmao?r=l&kw=ipad%E4%BF%9D%E6%8A%A4%E5%A5%972017&cid=0&s=t" class="tag-fixed active">人气</a>
+        <a href="/tianmao?r=l&kw=ipad%E4%BF%9D%E6%8A%A4%E5%A5%972017&cid=0&s=latest" class="tag-fixed ">最新</a>
+        <a href="/tianmao?r=l&kw=ipad%E4%BF%9D%E6%8A%A4%E5%A5%972017&cid=0&s=sell" class="tag-fixed ">销量</a>
+        <a href="/tianmao?r=l&kw=ipad%E4%BF%9D%E6%8A%A4%E5%A5%972017&cid=0&s=price" class="tag-fixed ">价格</a>
+        <div class="sort-price-area fl">
+            <form action="/tianmao?r=index/index">
+                                        <input type = 'hidden' name="kw"  value="ipad保护套2017">
+                                                <input type = 'hidden' name="cid"  value="0">
+                                                <input type = 'hidden' name="s"  value="t">
+                                        <input type="hidden" name="r" value="l">
+                <input class="min-price" name="jgqj1" value="" placeholder="￥"/>
+                <span>-</span>
+                <input class="max-price" name="jgqj2" value="" placeholder="￥"/>
+                <button class="theme-bg-color-1 theme-hover-bg-color-3">确定</button>
+                <a class="clear-price" href="/tianmao?r=l&u=493252&kw=ipad保护套2017&cid=0&s=t">清除</a>
+            </form>
+        </div>
+    </div>
+    <div class="goods-pages-page clearfix" style='visibility:hidden'>
+                    <span class="pagebtn disabled pre-page"></span>
+                <span class="page-num"><b>1</b>/1</span>
+                    <span class="pagebtn disabled next-page"></span>
+            </div>
+</div>
+    <div class="goods-list main-container">
+        <ul class="clearfix">
+            
+                <li class="theme-hover-border-color-1  g_over">
+                    <a data-gid="4583477" href="/tianmao?r=l/d&id=4583477&u=493252" class="img" rel="nofollow" target="_blank">
+                                                    <i class="today-new"></i>
+                                                <img src="https://img.alicdn.com/imgextra/i3/2284603445/TB2M2SqcAfb_uJjSsrbXXb6bVXa_!!2284603445.jpg_310x310.jpg" alt="">
+                                            </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>39</b>券后价</span>
+                            <span class="old-price"><i>￥</i>49</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a data-gid="4583477" target="_blank" href="/tianmao?r=l/d&id=4583477&u=493252">
+                                新款卡通可爱狗ipad mini2保护套                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>192</b></span>
+                                                        <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="theme-hover-border-color-1  g_over">
+                    <a data-gid="4565263" href="/tianmao?r=l/d&id=4565263&u=493252" class="img" rel="nofollow" target="_blank">
+                                                <img src="https://img.alicdn.com/imgextra/i3/1804785178/TB2Ot32bXTM8KJjSZFlXXaO8FXa_!!1804785178.jpg_310x310.jpg" alt="">
+                                            </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>39</b>券后价</span>
+                            <span class="old-price"><i>￥</i>49</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a data-gid="4565263" target="_blank" href="/tianmao?r=l/d&id=4565263&u=493252">
+                                新款卡通鹦鹉兄弟ipad mini2保护套                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>1045</b></span>
+                                                        <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="theme-hover-border-color-1  g_over">
+                    <a data-gid="4570628" href="/tianmao?r=l/d&id=4570628&u=493252" class="img" rel="nofollow" target="_blank">
+                                                <img src="https://img.alicdn.com/imgextra/i2/869502653/TB2RbWYaOAKL1JjSZFoXXagCFXa_!!869502653.jpg_310x310.jpg" alt="">
+                                            </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>39</b>券后价</span>
+                            <span class="old-price"><i>￥</i>49</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a data-gid="4570628" target="_blank" href="/tianmao?r=l/d&id=4570628&u=493252">
+                                ipad mini保护套潮牌时尚新款创意                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>668</b></span>
+                                                        <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="theme-hover-border-color-1 no-right g_over">
+                    <a data-gid="4564076" href="/tianmao?r=l/d&id=4564076&u=493252" class="img" rel="nofollow" target="_blank">
+                                                <img src="https://img.alicdn.com/imgextra/i1/2952177070/TB22fLGdtnJ8KJjSszdXXaxuFXa_!!2952177070.jpg_310x310.jpg" alt="">
+                                            </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>39</b>券后价</span>
+                            <span class="old-price"><i>￥</i>49</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a data-gid="4564076" target="_blank" href="/tianmao?r=l/d&id=4564076&u=493252">
+                                ipad mini2保护套卡通可爱                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>475</b></span>
+                                                        <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="theme-hover-border-color-1  g_over">
+                    <a data-gid="4561136" href="/tianmao?r=l/d&id=4561136&u=493252" class="img" rel="nofollow" target="_blank">
+                                                <img src="https://img.alicdn.com/imgextra/i3/1591640932/TB2OMU0er_I8KJjy1XaXXbsxpXa_!!1591640932.jpg_310x310.jpg" alt="">
+                                            </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>38</b>券后价</span>
+                            <span class="old-price"><i>￥</i>68</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>30</b></span>
+                        </div>
+                        <div class="title">
+                            <a data-gid="4561136" target="_blank" href="/tianmao?r=l/d&id=4561136&u=493252">
+                                2017新款iPad保护套pro                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>229</b></span>
+                                                        <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="theme-hover-border-color-1  g_over">
+                    <a data-gid="4548664" href="/tianmao?r=l/d&id=4548664&u=493252" class="img" rel="nofollow" target="_blank">
+                                                <img src="https://img.alicdn.com/imgextra/i3/1787040498/TB29chGbwfH8KJjy1zcXXcTzpXa_!!1787040498.jpg_310x310.jpg" alt="">
+                                            </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>23.8</b>券后价</span>
+                            <span class="old-price"><i>￥</i>28.8</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>5</b></span>
+                        </div>
+                        <div class="title">
+                            <a data-gid="4548664" target="_blank" href="/tianmao?r=l/d&id=4548664&u=493252">
+                                新款ipad防摔保护软壳9.7寸                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>139</b></span>
+                                                        <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="theme-hover-border-color-1  g_over">
+                    <a data-gid="4561229" href="/tianmao?r=l/d&id=4561229&u=493252" class="img" rel="nofollow" target="_blank">
+                                                <img src="https://img.alicdn.com/imgextra/i1/1591640932/TB23dASeznD8KJjSspbXXbbEXXa_!!1591640932.jpg_310x310.jpg" alt="">
+                                            </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>38</b>券后价</span>
+                            <span class="old-price"><i>￥</i>68</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>30</b></span>
+                        </div>
+                        <div class="title">
+                            <a data-gid="4561229" target="_blank" href="/tianmao?r=l/d&id=4561229&u=493252">
+                                星空ipadair2保护套mini                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>45</b></span>
+                                                        <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="theme-hover-border-color-1 no-right g_over">
+                    <a data-gid="4543875" href="/tianmao?r=l/d&id=4543875&u=493252" class="img" rel="nofollow" target="_blank">
+                                                <img src="//img.alicdn.com/bao/uploaded/i4/690794401/TB2rhWLrHJkpuFjy1zcXXa5FFXa_!!690794401.jpg_310x310.jpg" alt="">
+                                            </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>29</b>券后价</span>
+                            <span class="old-price"><i>￥</i>49</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>20</b></span>
+                        </div>
+                        <div class="title">
+                            <a data-gid="4543875" target="_blank" href="/tianmao?r=l/d&id=4543875&u=493252">
+                                新iPad保护套2017新款皮套                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>178</b></span>
+                                                        <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="theme-hover-border-color-1  g_over">
+                    <a data-gid="4555836" href="/tianmao?r=l/d&id=4555836&u=493252" class="img" rel="nofollow" target="_blank">
+                                                <img src="https://img.alicdn.com/imgextra/i4/209340057/TB23hPRmXXXXXb2XXXXXXXXXXXX_!!209340057.jpg_310x310.jpg" alt="">
+                                            </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>24.9</b>券后价</span>
+                            <span class="old-price"><i>￥</i>29.9</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>5</b></span>
+                        </div>
+                        <div class="title">
+                            <a data-gid="4555836" target="_blank" href="/tianmao?r=l/d&id=4555836&u=493252">
+                                2017新款苹果平板9.7寸彩绘保护壳                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>212</b></span>
+                                                        <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="theme-hover-border-color-1  g_over">
+                    <a data-gid="4507955" href="/tianmao?r=l/d&id=4507955&u=493252" class="img" rel="nofollow" target="_blank">
+                                                <img src="https://img.alicdn.com/imgextra/i2/114961875/TB2eIvweC3PL1JjSZFtXXclRVXa_!!114961875.jpg_310x310.jpg" alt="">
+                                            </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>19.9</b>券后价</span>
+                            <span class="old-price"><i>￥</i>29.9</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a data-gid="4507955" target="_blank" href="/tianmao?r=l/d&id=4507955&u=493252">
+                                减肥立志口号可爱ipad套迷你超薄                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>110</b></span>
+                                                        <div class="goods-type">
+                                                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="theme-hover-border-color-1  g_over">
+                    <a data-gid="4545011" href="/tianmao?r=l/d&id=4545011&u=493252" class="img" rel="nofollow" target="_blank">
+                                                <img src="https://gd4.alicdn.com/imgextra/i4/1891732733/TB2InFzdU1HTKJjSZFmXXXeYFXa_!!1891732733.jpg_310x310.jpg" alt="">
+                                            </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>20</b>券后价</span>
+                            <span class="old-price"><i>￥</i>35</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>15</b></span>
+                        </div>
+                        <div class="title">
+                            <a data-gid="4545011" target="_blank" href="/tianmao?r=l/d&id=4545011&u=493252">
+                                美少女2017新ipad保护套                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>175</b></span>
+                                                        <div class="goods-type">
+                                                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="theme-hover-border-color-1 no-right g_over">
+                    <a data-gid="4508941" href="/tianmao?r=l/d&id=4508941&u=493252" class="img" rel="nofollow" target="_blank">
+                                                <img src="https://gd4.alicdn.com/imgextra/i4/887876489/TB2kFEvXcjI8KJjSsppXXXbyVXa_!!887876489.jpg_310x310.jpg" alt="">
+                                            </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>21.8</b>券后价</span>
+                            <span class="old-price"><i>￥</i>31.8</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a data-gid="4508941" target="_blank" href="/tianmao?r=l/d&id=4508941&u=493252">
+                                新款ipad宠物保护套迷你超薄                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>89</b></span>
+                                                        <div class="goods-type">
+                                                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="theme-hover-border-color-1  g_over">
+                    <a data-gid="4520629" href="/tianmao?r=l/d&id=4520629&u=493252" class="img" rel="nofollow" target="_blank">
+                                                <img src="https://gd2.alicdn.com/imgextra/i1/1978212060/TB2FrWnjqmgSKJjSspiXXXyJFXa_!!1978212060.jpg_310x310.jpg" alt="">
+                                            </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>30</b>券后价</span>
+                            <span class="old-price"><i>￥</i>35</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>5</b></span>
+                        </div>
+                        <div class="title">
+                            <a data-gid="4520629" target="_blank" href="/tianmao?r=l/d&id=4520629&u=493252">
+                                2017新款ipad苹果air2保护套硅胶全包防摔                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>47</b></span>
+                                                        <div class="goods-type">
+                                                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="theme-hover-border-color-1  g_over">
+                    <a data-gid="4501322" href="/tianmao?r=l/d&id=4501322&u=493252" class="img" rel="nofollow" target="_blank">
+                                                <img src="https://img.alicdn.com/imgextra/i3/114961875/TB2FZ.0XQfb_uJkHFJHXXb4vFXa_!!114961875.jpg_310x310.jpg" alt="">
+                                            </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>20.9</b>券后价</span>
+                            <span class="old-price"><i>￥</i>30.9</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a data-gid="4501322" target="_blank" href="/tianmao?r=l/d&id=4501322&u=493252">
+                                新ipad保护套硅胶全包壳苹果皮套卡通                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>290</b></span>
+                                                        <div class="goods-type">
+                                                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="theme-hover-border-color-1  g_over">
+                    <a data-gid="4579363" href="/tianmao?r=l/d&id=4579363&u=493252" class="img" rel="nofollow" target="_blank">
+                                                    <i class="today-new"></i>
+                                                <img src="https://img.alicdn.com/imgextra/i4/2393671350/TB2Kjzwc_vI8KJjSspjXXcgjXXa_!!2393671350.jpg_310x310.jpg" alt="">
+                                            </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>18</b>券后价</span>
+                            <span class="old-price"><i>￥</i>23</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>5</b></span>
+                        </div>
+                        <div class="title">
+                            <a data-gid="4579363" target="_blank" href="/tianmao?r=l/d&id=4579363&u=493252">
+                                新款ipad air2保护套硅胶防摔壳                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>204</b></span>
+                                                        <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="theme-hover-border-color-1 no-right g_over">
+                    <a data-gid="4527450" href="/tianmao?r=l/d&id=4527450&u=493252" class="img" rel="nofollow" target="_blank">
+                                                <img src="https://img.alicdn.com/imgextra/i1/837881462/TB2CS7Kc3MPMeJjy1XdXXasrXXa_!!837881462.jpg_310x310.jpg" alt="">
+                                            </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>12.9</b>券后价</span>
+                            <span class="old-price"><i>￥</i>15.9</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>3</b></span>
+                        </div>
+                        <div class="title">
+                            <a data-gid="4527450" target="_blank" href="/tianmao?r=l/d&id=4527450&u=493252">
+                                苹果iPad数据线保护套平板充电线保护绳                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>247</b></span>
+                                                        <div class="goods-type">
+                                                            </div>
+                        </div>
+                    </div>
+                </li>
+                        </ul>
+    </div>
+
+
+
+<div class="pager main-container" style="margin: 20px auto;">
+    <div id="yw0" class="pager"><a class="pre-page disabled" href="javascript:void(0);">上一页</a>
+<a class="item cur" href="javascript:void(0);">1</a>
+<a class="next-page disabled" href="javascript:void(0);">下一页</a></div></div>
+
+<script>
+    $('.no-result a').click(function(){
+        history.back();
+    });
+    var regNum = new RegExp("^[0-9]*$"),isNotnum = [0,0];
+    var testNum = function(obj,n){
+        if(isNaN(Number(obj.val()))){
+            obj.val('0');
+        }
+        isNotnum[n] = 1;
+    }
+    testNum($('.min-price'),0);
+    testNum($('.max-price'),1);
+
+    $('.min-price').blur(function(){
+        testNum($('.min-price'),0);
+    })
+    $('.max-price').blur(function(){
+        testNum($('.max-price'),1);
+    })
+    $('.sort-price-area form button').click(function(){
+
+        if(isNotnum[0] == 1 && isNotnum[1] == 1 && $.trim($('.max-price').val()) && $.trim($('.min-price').val()) ){
+            var maxNum = Math.max(Number($('.max-price').val()),Number($('.min-price').val())),
+                minNum = Math.min(Number($('.max-price').val()),Number($('.min-price').val()));
+            $('.max-price').val(maxNum);
+            $('.min-price').val(minNum);
+        }
+        $('.sort-price-area form').submit();
+    })
+</script>
+</div>
+
+<div id="footer" class="theme-border-top-color-1" style="background-color: #373737;padding-bottom: 30px;width: 100%;border-top: 3px solid #ff3366;">
+    <div class="footer-wrapper " style="width: 1200px;margin: 0 auto;position: relative;text-align: center">
+        <img src="http://cmsstatic.dataoke.com//images/bottom_text.png" alt="" style="border: 0;margin-top: 50px;">
+        <div class="author" style="    position: absolute;
+    top: 67px;
+    left: 990px;
+    color: #FFFFFF;
+    font-size: 18px;">by &nbsp;&nbsp;神族九帝</div>
+        <div class="text" style="color: #a2a2a2; font-size: 16px; margin-top: 33px;">
+            &copy; CopyRight&nbsp;2017            &nbsp;
+            <a href="http://newbug.xyz" target="_blank" rel="nofollow" style="color:#a2a2a2;">
+                神族九帝            </a>
+            &nbsp;http://newbug.xyz&nbsp;&nbsp;
+            <a class="miitbeian" href="http://www.miitbeian.gov.cn/" target="_blank" rel="nofollow" style="color:#a2a2a2;">
+                            </a>
+            &nbsp;&nbsp;                <a target="_blank" class="footer_service" href="http://wpa.qq.com/msgrd?v=3&uin=529778790&site=qq&menu=yes" style="color: #8da7cb" title="联系我帮你解答">^_^亲遇到问题，联系我帮你处理哈</a>
+            
+            <p style="text-algin:center;margin-top:30px;"></p>
+        </div>
+    </div>
+</div>
+
+<div class="toTop" style="display: none" onclick=" $('body,html').animate({scrollTop:0},1000);"> &#xe60c;</div>
+
+<script type="text/javascript">
+
+    
+    //xc statistics
+        ;!(function(window, document) {
+            "use strict"
+            try {
+                var space = "xctj";
+
+                // 创建队列
+                window["xckj"] = space;
+                window[space] = window[space] || function () {
+                        (window[space].list = window[space].list || new Array()).push(arguments)
+                    };
+                window[space].time = window[space].time || 1 * new Date();
+
+                // 创建元素
+                var script = document.createElement("script");
+
+                // 设置元素
+                script.type = "text/javascript";
+                script.src = "https://tj.ffquan.com/satc.js?z=20170801" ; /* 配置satc.js路径 */
+                script.async = 1;
+
+                // 添加元素
+                var node = document.getElementsByTagName("script")[0];
+                node.parentNode.insertBefore(script, node)
+            } catch (error) { }
+        })(window, document);
+
+        //xc statistics 必填项
+        xctj("tid=xc-dtk-cms-493252", "at=pageview","ds=web","in=1");
+
+        var coutData =[{"page":"r=l","event_name":"qlist_search_goods","page_event":"click","page_class":".g_over a","is_data":"gid","is_posting_events":"0","is_num":"0","is_param":"kw"},{"page":"0","event_name":"index_search","page_event":"click","page_class":"#search button","is_data":"","is_posting_events":"0","is_num":"0","is_param":""},{"page":"0","event_name":"app_download_hover","page_event":"mouseenter","page_class":".app_download","is_data":"","is_posting_events":"0","is_num":"0","is_param":""},{"page":"0","event_name":"record_number","page_event":"click","page_class":".miitbeian","is_data":"","is_posting_events":"0","is_num":"0","is_param":""},{"page":"0","event_name":"service_bottom","page_event":"click","page_class":".footer_service","is_data":"","is_posting_events":"0","is_num":"0","is_param":""},{"page":"0","event_name":"service_top","page_event":"click","page_class":".header_service","is_data":"","is_posting_events":"0","is_num":"0","is_param":""},{"page":"0","event_name":"logo","page_event":"click","page_class":"#header .header_logo","is_data":"","is_posting_events":"0","is_num":"0","is_param":""},{"page":"0","event_name":"home_set","page_event":"click","page_class":".set_home","is_data":"","is_posting_events":"0","is_num":"0","is_param":""},{"page":"0","event_name":"collect_set","page_event":"click","page_class":".add_favorite","is_data":"","is_posting_events":"0","is_num":"0","is_param":""},{"page":"0","event_name":"index_banner ","page_event":"click","page_class":".swiper-slide a","is_data":"gid","is_posting_events":"0","is_num":"0","is_param":""},{"page":"r=l","event_name":"qlist_banner","page_event":"click","page_class":".search-wrap","is_data":"linkurl","is_posting_events":"0","is_num":"0","is_param":""},{"page":"r=l","event_name":"filter_low_price ","page_event":"focus","page_class":".min-price","is_data":"","is_posting_events":"0","is_num":"0","is_param":""},{"page":"r=l","event_name":"filter_high_price","page_event":"focus","page_class":".max-price","is_data":"","is_posting_events":"0","is_num":"0","is_param":""},{"page":"r=l","event_name":"qlist_goods_cat","page_event":"click","page_class":".g_over a","is_data":"gid","is_posting_events":"0","is_num":"0","is_param":"cid"},{"page":"r=l","event_name":"qlist_next_page","page_event":"click","page_class":".next-page","is_data":"","is_posting_events":"0","is_num":"0","is_param":"page"},{"page":"0","event_name":"index_left_cid","page_event":"click","page_class":"#banner .list li a","is_data":"catid","is_posting_events":"0","is_num":"0","is_param":""},{"page":"0","event_name":"index_qlist_goods","page_event":"click","page_class":".live .goods-list li a","is_data":"gid","is_posting_events":"0","is_num":"0","is_param":""},{"page":"0","event_name":"index_search_fixed","page_event":"click","page_class":".floatNav .srcBtn","is_data":"","is_posting_events":"0","is_num":"0","is_param":""}],
+            pageR =window.location.href.split('r=').length>1?"r="+window.location.href.split('r=')[1].split('&')[0]:'noR';
+            for(var i = 0 ; i < coutData.length ; i++){
+                if(coutData[i].page == pageR || coutData[i].page=="0"){//事件触发页面
+                    (function(s){
+                        var paramBoole =true;
+                        for(var a = 0 ;a < coutData[s].is_param.split(',').length ; a ++){
+                            var paramKey = coutData[s].is_param.split(',')[a]+"=";
+                            if(coutData[s].is_param.split(',')[a] != ''){
+                                if( window.location.href.split(paramKey).length<2){
+                                    paramBoole = false;
+                                    return false;
+                                }
+                            }
+                        }
+
+                        if(paramBoole ==false){//如果有参数，是否满足参数条件
+                            return false
+                        }
+
+                        var isData = coutData[s].is_data !=""?(($(coutData[s].page_class).data(coutData[s].is_data)!='' && $(coutData[s].page_class).data(coutData[s].is_data)!=undefined)?',"'+coutData[s].is_data+'='+$(coutData[s].page_class).data(coutData[s].is_data)+'"':''):'',//是否获取元素自定义数据
+                            xcStr = '"tid=xc-dtk-cms-493252","ds=web","ec='+coutData[s].page_event+'","in=1"'+isData;
+
+                        if(coutData[s].is_posting_events == 0){//是否事件代理
+                            $(coutData[s].page_class).on(coutData[s].page_event,function(){
+                                var eventName = coutData[s].is_num==1?',"ea='+coutData[s].event_name+'_'+($(this).index()+1)+'"':',"ea='+coutData[s].event_name+'"';//是否添加序号
+                                eval('xctj('+xcStr+eventName+')');
+                            });
+                        }else{
+                            $('body').on(coutData[s].page_event,coutData[s].page_class,function(){
+                                var eventName = coutData[s].is_num==1?',"ea='+coutData[s].event_name+'_'+($(this).index()+1)+'"':',"ea='+coutData[s].event_name+'"';//是否添加序号
+                                eval('xctj('+xcStr+eventName+')');
+                            })
+                        }
+                    })(i)
+                }
+            }
+
+    
+
+    // 设置为主页
+    function SetHome(obj, vrl) {
+        try {
+            obj.style.behavior = 'url(#default#homepage)';
+            obj.setHomePage(vrl);
+        }
+        catch (e) {
+            if (window.netscape) {
+                try {
+                    netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                }
+                catch (e) {
+                    alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。");
+                }
+                var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+                prefs.setCharPref('browser.startup.homepage', vrl);
+            } else {
+                alert("您的浏览器不支持，请按照下面步骤操作：1.打开浏览器设置。2.点击设置首页。3.输入：" + vrl + "点击确定。");
+            }
+        }
+    }
+    // 加入收藏 兼容360和IE6
+    function shoucang(sTitle, sURL) {
+        try {
+            window.external.addFavorite(sURL, sTitle);
+        }
+        catch (e) {
+            try {
+                window.sidebar.addPanel(sTitle, sURL, "");
+            }
+            catch (e) {
+                alert("加入收藏失败，请使用Ctrl+D进行添加");
+            }
+        }
+    }
+
+    var ok = '';
+    $(function () {
+        $('#search button').click(function () {
+            if($('#search input[name="kw"]').val().length > 16){
+                layer.msg("您搜索的关键词过长！",{
+                    timer: 2500
+                });
+                return false;
+            }
+        });
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 500) {
+                $(".toTop").fadeIn(1000);
+            }
+            else {
+                $(".toTop").fadeOut(1000);
+            }
+        });
+    });
+
+
+    $(window).scroll(function(){
+
+        var _scroll = $(window).scrollTop();
+
+        if(_scroll>130){
+            $(".floatNav").fadeIn();
+        }else{
+            $(".floatNav").fadeOut();
+        }
+
+    })
+
+</script>
+
+<script type="text/javascript" src="http://cmsstatic.dataoke.com//js/scrollTop2.js?v=201711171605"></script>
+</body>
+</html>
+";}

@@ -1,0 +1,434 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP USER AVATAR\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-04-27 17:21+0530\n"
+"PO-Revision-Date: 2016-04-27 17:21+0530\n"
+"Last-Translator: Flipper Code <hello@flippercode.com>\n"
+"Language-Team: Flipper Code <hello@flippercode.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-SearchPath-0: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/"
+"trunk\n"
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-admin.php:113
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-admin.php:266
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-widget.php:16
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/tinymce/window.php:21
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-options-page.php:43
+msgid "WP User Avatar"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-admin.php:113
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-admin.php:148
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-media-page.php:93
+msgid "Avatars"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-admin.php:114
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-admin.php:298
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-options-page.php:73
+msgid "Settings"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-admin.php:115
+msgid "Library"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-admin.php:229
+msgid "Mystery Man"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-admin.php:230
+msgid "Blank"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-admin.php:231
+msgid "Gravatar Logo"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-admin.php:232
+msgid "Identicon (Generated)"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-admin.php:233
+msgid "Wavatar (Generated)"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-admin.php:234
+msgid "MonsterID (Generated)"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-admin.php:235
+msgid "Retro (Generated)"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-admin.php:267
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar.php:176
+msgid "Choose Image"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-admin.php:267
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-admin.php:381
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-options-page.php:194
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-options-page.php:197
+msgid "Default Avatar"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-admin.php:268
+msgid "Remove"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-admin.php:268
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar.php:202
+msgid "Undo"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-admin.php:312
+msgid "Support Forums"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-admin.php:324
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-admin.php:378
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/tinymce/window.php:123
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-functions.php:79
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-functions.php:88
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-functions.php:93
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-functions.php:152
+msgid "Avatar"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-list-table.php:142
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-list-table.php:391
+msgid "Delete Permanently"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-list-table.php:171
+msgid "No media attachments found."
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-list-table.php:184
+msgid "Author"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-list-table.php:253
+#, php-format
+msgid "Select %s"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-list-table.php:268
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-list-table.php:283
+#, php-format
+msgid "Edit &#8220;%s&#8221;"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-list-table.php:313
+msgid "Unpublished"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-list-table.php:319
+#, php-format
+msgid "%s from now"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-list-table.php:321
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-list-table.php:323
+msgid "Y/m/d"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-list-table.php:381
+msgid "Edit"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-list-table.php:385
+msgid "Restore"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-list-table.php:387
+msgid "Trash"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-list-table.php:396
+#, php-format
+msgid "View &#8220;%s&#8221;"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-list-table.php:396
+msgid "View"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-shortcode.php:212
+msgid "Profile updated."
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-shortcode.php:236
+msgid "Update Profile"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-subscriber.php:99
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-widget.php:15
+msgid "Insert"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-widget.php:15
+msgid "[avatar_upload]"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-widget.php:72
+msgid "Title:"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-widget.php:76
+msgid "Description:"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar-widget.php:81
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar.php:180
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/tinymce/window.php:124
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/tinymce/window.php:196
+msgid "Upload"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar.php:183
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-options-page.php:125
+#, php-format
+msgid "Maximum upload file size: %d%s."
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar.php:184
+msgid "Allowed Files"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar.php:184
+msgid "<code>jpg jpeg png gif</code>"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar.php:190
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/tinymce/window.php:142
+msgid "Original Size"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar.php:194
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/tinymce/window.php:145
+msgid "Thumbnail"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar.php:197
+msgid "Remove Image"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar.php:199
+msgid "Edit Image"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar.php:226
+msgid "This file is not an image. Please try another."
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar.php:230
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar.php:256
+msgid "Memory exceeded. Please try another smaller file."
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/class-wp-user-avatar.php:234
+#, php-format
+msgid ""
+"Unable to create directory %s. Is its parent directory writable by the "
+"server?"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/tinymce/window.php:129
+msgid "User Name"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/tinymce/window.php:139
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/tinymce/window.php:151
+msgid "Size"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/tinymce/window.php:143
+msgid "Large"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/tinymce/window.php:144
+msgid "Medium"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/tinymce/window.php:146
+msgid "Custom"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/tinymce/window.php:156
+msgid "Alignment"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/tinymce/window.php:159
+msgid "Center"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/tinymce/window.php:160
+msgid "Left"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/tinymce/window.php:161
+msgid "Right"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/tinymce/window.php:166
+msgid "Link To"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/tinymce/window.php:169
+msgid "Image File"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/tinymce/window.php:170
+msgid "Attachment Page"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/tinymce/window.php:171
+msgid "Custom URL"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/tinymce/window.php:176
+msgid "URL"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/tinymce/window.php:182
+msgid "Open link in a new window"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/tinymce/window.php:186
+msgid "Caption"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/tinymce/window.php:191
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/tinymce/window.php:201
+msgid "Insert into Post"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-functions.php:90
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-functions.php:96
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-functions.php:155
+msgid "Image"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-media-page.php:39
+msgid "You do not have permission to upload files."
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-media-page.php:71
+msgid "You are not allowed to delete this post."
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-media-page.php:74
+msgid "Error in deleting."
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-media-page.php:95
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-media-page.php:110
+msgid "Search"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-options-page.php:81
+msgid "Add avatar button to Visual Editor"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-options-page.php:87
+msgid "Allow Contributors & Subscribers to upload avatars"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-options-page.php:93
+msgid "Disable Gravatar and use only local avatars"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-options-page.php:115
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-options-page.php:120
+msgid "Upload Size Limit"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-options-page.php:115
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-options-page.php:120
+msgid "(only for Contributors & Subscribers)"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-options-page.php:123
+#, php-format
+msgid "%s exceeds the maximum upload size for this site."
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-options-page.php:130
+msgid "Allow users to edit avatars"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-options-page.php:136
+msgid "Resize avatars on upload"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-options-page.php:140
+msgid "Width"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-options-page.php:142
+msgid "Height"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-options-page.php:146
+msgid "Crop avatars to exact dimensions"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-options-page.php:162
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-options-page.php:165
+msgid "Avatar Display"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-options-page.php:168
+msgid "Show Avatars"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-options-page.php:174
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-options-page.php:177
+msgid "Maximum Rating"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-options-page.php:180
+msgid "G &#8212; Suitable for all audiences"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-options-page.php:181
+msgid "PG &#8212; Possibly offensive, usually for audiences 13 and above"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-options-page.php:182
+msgid "R &#8212; Intended for adult audiences above 17"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-options-page.php:183
+msgid "X &#8212; Even more mature than above"
+msgstr ""
+
+#: /Users/apple/my-plugins/wordpress_org/wp-user-avatar/trunk/includes/wpua-options-page.php:198
+msgid ""
+"For users without a custom avatar of their own, you can either display a "
+"generic logo or a generated one based on their e-mail address."
+msgstr ""

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Language" content="zh-cn" />
+		<meta name="Keywords" content="" />
+		<meta name="Description" content="" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>活动产品</title>
+		<link rel="stylesheet" href="../../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/base.css"/>
+		<script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+		<script src="//wximg.qq.com/wxp/libs/wxmoment/0.0.4/wxmoment.min.js"></script>
+		<script src="../../js/url.js"></script>
+		<script src="../../js/base.js"></script>
+		<style type="text/css">
+			.buyBtn{
+				position: fixed;
+				bottom: 10px;
+				left: 0;
+				right: 0;
+				max-width: 750px;
+				margin: 0 auto;
+			}
+			.turnBtn{
+			 	 position: fixed;
+			 	 bottom: 90px;
+			 	 right: 20px;
+			 }
+			 .turnBtn img{
+			 	width: 70px;
+			 }
+			.activeDetail{
+			 	width: 100%;
+			 	display: block;
+			 }
+			 .pop{
+				height: 100vh;
+				text-align: center;
+				display: none;
+				position: fixed;
+				top:0px;
+				left: 0;
+				right: 0;
+				background-color: rgba(0,0,0,0.5);
+			}
+			.pop img{
+				width: 260px;
+				margin-top:40%;
+			}
+		</style>
+		<script type="text/javascript">
+		    window.zhuge = window.zhuge || [];window.zhuge.methods = "_init debug identify track trackLink trackForm page".split(" ");
+		    window.zhuge.factory = function(b) {return function() {var a = Array.prototype.slice.call(arguments);a.unshift(b);
+		    window.zhuge.push(a);return window.zhuge;}};for (var i = 0; i < window.zhuge.methods.length; i++) {
+		    var key = window.zhuge.methods[i];window.zhuge[key] = window.zhuge.factory(key);}window.zhuge.load = function(b, x) {
+		    if (!document.getElementById("zhuge-js")) {var a = document.createElement("script");var verDate = new Date();
+		    var verStr = verDate.getFullYear().toString()+ verDate.getMonth().toString() + verDate.getDate().toString();
+		    a.type = "text/javascript";a.id = "zhuge-js";a.async = !0;a.src = (location.protocol == 'http:' ? "http://sdk.zhugeio.com/zhuge.min.js?v=" : 'https://zgsdk.zhugeio.com/zhuge.min.js?v=') + verStr;
+		    a.onerror = function(){window.zhuge.identify = window.zhuge.track = function(ename, props, callback){if(callback && Object.prototype.toString.call(callback) === '[object Function]')callback();};};
+		    var c = document.getElementsByTagName("script")[0];c.parentNode.insertBefore(a, c);window.zhuge._init(b, x)}};
+		    window.zhuge.load('d2cec89795db49318b566c3fb3ecbd5d'
+		    ,{autoTrack: true,visualizer: true});//配置应用的AppKey
+		</script>
+	</head>
+	<body class="grayBg">
+		<div class="whiteBg productDetail">
+			<img src='' alt="" class="activeDetail" />
+		</div>
+		<div class="turnBtn">
+			<a href="activeRule.html">
+				<img src="" style=""/>
+			</a>
+		</div>
+		<div class="buyBtn textC">
+			<img class=" width90" src="" alt="" onclick="buyProduct()"/>
+		</div>
+		<div class="pop">
+			<img src="" alt="" />
+		</div>
+	</body>
+	<script type="text/javascript">
+		$('.productDetail img').attr('src',_staticImgUrl+'img/activeDetail.png');
+		$('.turnBtn img').attr('src',_staticImgUrl+'img/turnBtn.png');
+		$('.buyBtn img').attr('src',_staticImgUrl+'img/buyBtn.png');
+		$('.pop img').attr('src',_staticImgUrl+'img/pop.png');
+//		判断是否为第一次查看该页面
+		var isFirst = window.localStorage.getItem('isFirst') || true;	
+		if(isFirst == true){
+			window.localStorage.setItem('isFirst',false);
+			$('.pop').show();
+			setTimeout(function(){
+				$('.pop').hide();
+			},3000)
+		}	
+		var openId = getCookie('openId') || '';
+		var agentCode = GetRequest().agentCode || '',
+			parentOpenId = GetRequest().parentOpenId || '',
+			isF = GetRequest().isF || '';
+		if(!agentCode){
+			$.ajax({
+				  url: Url.GET_USER_INFO,
+				  type: "post",
+				  async: false,
+				  data: JSON.stringify({"openId":openId}), 
+				  contentType:'application/json',
+				  success: function(data){
+					agentCode = data.data.sourceAgentCode;
+				  },
+				  error:function(data){
+				  	console.log(data)
+				  }
+			})
+		}
+		var sendData,inviteSerialNo;
+		if(agentCode && parentOpenId){
+			sendData = {openId:openId,agentCode:agentCode,parentOpenId:parentOpenId};
+		}else if(agentCode && !parentOpenId){
+			sendData = {openId:openId,agentCode:agentCode,isF:isF};
+		}else if(!agentCode && parentOpenId){
+			sendData = {openId:openId,parentOpenId:parentOpenId,isF:isF};
+		}else{
+			sendData = {openId:openId,isF:isF};
+		}
+        var flag = true; 
+		function buyProduct(){
+			//		获取转发相关参数inviteSerialNo
+			if(flag){
+				flag = false;
+				if(isF!=''){
+					if(!confirm('直接通过此页面购买将不参与分享有礼相关活动。您确定通过此页面购买吗？')){
+						flag = true;
+						return;
+					}
+				}
+				$.ajax({
+				  url: Url.GET_INVITE_SERIAL_NO,
+				  type: "post",
+				  async: false,
+				  data: JSON.stringify(sendData), 
+				  contentType:'application/json',
+				  success: function(data){
+				  	if(data.code=='100'){
+				  		flag = true;
+				  		inviteSerialNo = data.data;
+				  		window.location.href = Url.GO_YIAN_PRODUCT+"&jkAgentCode="+agentCode+"&inviteSerialNo="+inviteSerialNo;
+				  	}else{
+				  		flag = true;
+				  		alert(data.msg);
+				  	}
+				  },
+				  error:function(data){
+				  	flag = true;
+				  	console.log(data)
+				  }
+				})
+			}
+		}
+//		分享
+		$(function(){	
+			 var url = location.href.split('#')[0];
+			 var shareUrl = Url.SHARE_URL+encodeURIComponent('?agentCode='+agentCode+'&parentOpenId='+openId)+"&agentCode="+agentCode;
+			 share(url,'珍爱宝贝','呵护宝贝健康 一天仅需0.25元','',shareUrl);//分享事件 ，引入Wx.js文件即可
+		})	
+		function share(url,title,desc,imgName,shareUrl){
+//			console.log(shareUrl);
+			$.ajax({
+				  async:false,
+				  type: 'post',
+				  url: _base+"/micromall/wechat/getJsJdkSign.do",
+				  //url:"http://localhost:7001/micromall/wechat/getJsJdkSign.do",
+				  contentType:"application/json",
+				  data:	'{"url":"'+url+'"}',
+				  error:function(data){
+				  	return ;
+				  },
+				  success:function(data){
+					  wx.config({
+					      debug: false,
+					      appId: data.appId,
+					      timestamp: data.jssdkReqData.timestamp,
+					      nonceStr: data.jssdkReqData.noncestr,
+					      signature: data.jssdkReqData.signature,
+					      jsApiList: [
+					        'checkJsApi',
+					        'onMenuShareTimeline',
+					        'onMenuShareAppMessage',
+					        'onMenuShareQQ',
+					        'onMenuShareWeibo',
+					        'onMenuShareQZone',
+					        'hideMenuItems',
+					        'showMenuItems',
+					        'hideAllNonBaseMenuItem',
+					        'showAllNonBaseMenuItem',
+					        'translateVoice',
+					        'startRecord',
+					        'stopRecord',
+					        'onVoiceRecordEnd',
+					        'playVoice',
+					        'onVoicePlayEnd',
+					        'pauseVoice',
+					        'stopVoice',
+					        'uploadVoice',
+					        'downloadVoice',
+					        'chooseImage',
+					        'previewImage',
+					        'uploadImage',
+					        'downloadImage',
+					        'getNetworkType',
+					        'openLocation',
+					        'getLocation',
+					        'hideOptionMenu',
+					        'showOptionMenu',
+					        'closeWindow',
+					        'scanQRCode',
+					        'chooseWXPay',
+					        'openProductSpecificView',
+					        'addCard',
+					        'chooseCard',
+					        'openCard'
+					      ]
+					  });
+//					  var state = "123";
+//					  var shareUrlTrue = location.href.split('#')[0];
+//					  shareUrl = "http://"+window.location.host+"/activity/shareGift/pages/share.html?shareurl="+encodeURIComponent(shareUrlTrue)+"&appId="+data.appId+"&state="+state;
+					  wx.ready(function(){
+							    // config信息验证后会执行ready方法，所有接口调用都必须在config接口获得结果之后，config是一个客户端的异步操作，所以如果需要在页面加载时就调用相关接口，则须把相关接口放在ready函数中调用来确保正确执行。对于用户触发时才调用的接口，则可以直接调用，不需要放在ready函数中。
+							 wx.onMenuShareTimeline({//分享到朋友圈
+								    title: desc, // 分享标题
+								    desc: desc,
+								    link: shareUrl, // 分享链接
+								    imgUrl: _staticImgUrl+"img/shareLogo.png", // 分享图标
+								    success: function () { 
+								        // 用户确认分享后执行的回调函数
+//								        console.log(shareUrl)
+								    },
+								    cancel: function () { 
+								        // 用户取消分享后执行的回调函数
+//								        console.log(shareUrl)
+								    }
+								});
+							 wx.onMenuShareAppMessage({//分享给朋友
+								    title: title, // 分享标题
+								    desc: desc, // 分享描述
+								    link: shareUrl, // 分享链接
+								    imgUrl: _staticImgUrl+"img/shareLogo.png", // 分享图标
+								    type: '', // 分享类型,music、video或link，不填默认为link
+								    dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+								    success: function () { 
+								        // 用户确认分享后执行的回调函数
+								        console.log(shareUrl)
+								    },
+								    cancel: function () { 
+								        // 用户取消分享后执行的回调函数
+								        console.log(shareUrl)
+								    }
+								});
+							 wx.onMenuShareQQ({//分享到QQ
+								    title: title, // 分享标题
+								    desc: desc, // 分享描述
+								    link: shareUrl, // 分享链接
+								    //imgUrl: data.imgUrl+imgName, // 分享图标
+								    success: function () { 
+								       // 用户确认分享后执行的回调函数
+								    },
+								    cancel: function () { 
+								       // 用户取消分享后执行的回调函数
+								    }
+								});
+							 wx.onMenuShareWeibo({//享到腾讯微博
+								    title: title, // 分享标题
+								    desc: desc, // 分享描述
+								    link: shareUrl, // 分享链接
+								    //imgUrl: data.imgUrl+imgName, // 分享图标
+								    success: function () { 
+								       // 用户确认分享后执行的回调函数
+								    },
+								    cancel: function () { 
+								        // 用户取消分享后执行的回调函数
+								    }
+								});
+							 wx.onMenuShareQZone({//分享到QQ空间
+								    title: desc, // 分享标题
+								    desc: desc, // 分享描述
+								    link: shareUrl, // 分享链接
+								    //imgUrl: data.imgUrl+imgName, // 分享图标
+								    success: function () { 
+								       // 用户确认分享后执行的回调函数
+								    },
+								    cancel: function () { 
+								        // 用户取消分享后执行的回调函数
+								    }
+								});
+							 wx.error(function(res){
+						         // config信息验证失败会执行error函数，如签名过期导致验证失败，具体错误信息可以打开config的debug模式查看，也可以在返回的res参数中查看，对于SPA可以在这里更新签名。
+						     });
+						 });
+			  }
+			});
+		}
+	</script>
+</html>

@@ -1,0 +1,170 @@
+﻿
+        body, html {
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            height: 100%;
+            background-color: #ECF0F1;
+        }
+        #txtSong:focus{
+      border: 2px solid #16A085;
+	outline: none;
+
+        }
+        a {
+            color: white;
+        }
+
+            a:hover {
+                color: white;
+            }
+
+        * {
+            font-family: 微软雅黑;
+        }
+
+        .nav {
+            width: 100%;
+            text-align: right;
+            color: white;
+            font-family: 微软雅黑;
+            font-size: 16px;
+            position: relative;
+            top: 10px;
+        }
+
+        #title {
+            width: 100%;
+            font-size: 56px;
+            text-shadow: -5px 5px 0 rgba(0,0,0,0.1);
+            color: white;
+            text-align: center;
+            position: relative;
+            top: 30px;
+        }
+
+        .min-title {
+            width: 100%;
+            color: white;
+            text-align: center;
+            position: relative;
+            top: 50px;
+        }
+
+        #txtSong {
+            width: 50%;
+            height: 52px;
+            border-style: none;
+            font-size: 20px;
+            color: gray;
+            text-align: center;
+        }
+
+        #btnSearch {
+            height: 40px;
+            position: relative;
+            right: 55px;
+            bottom: 0px;
+            z-index: 9999;
+            cursor: pointer;
+        }
+
+        .player-min {
+            height: 68px;
+            width: 21px;
+            background-color: #16A085;
+            position: relative;
+            left: 330px;
+            top: 30px;
+            color: white;
+            background-image: url(../Images/toleft.png);
+            border-top-right-radius: 2px;
+            border-bottom-right-radius: 2px;
+            cursor: pointer;
+        }
+
+        .play-left {
+            transform: translate(-330px,0px);
+            transition: 0.5s;
+        }
+
+        .play-right {
+            transform: translate(0px,0px);
+            transition: 0.5s;
+        }
+
+        th {
+            text-align: center;
+        }
+
+        .datatable {
+            width: 92%;
+            margin: auto;
+            background-color: white;
+            position: relative;
+            top: 10px;
+        }
+
+        .songImg {
+            height: 50px;
+            width: 50px;
+            border-radius: 50px;
+        }
+
+        td {
+            text-align: center;
+            font-size: 17px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            line-height: 39px;
+        }
+
+        .jAudio--playlist {
+            height: 239px;
+            overflow-x: hidden;
+            overflow-y: scroll;
+        }
+
+
+
+        @media screen and (max-width: 1000px) {
+            #txtSong {
+                width: 80%;
+                height: 52px;
+                border-style: none;
+                color: gray;
+                text-align: center;
+            }
+        }
+
+        ::-webkit-scrollbar {
+            width: 3px;
+            height: 9px;
+            background-color: #10725F;
+        }
+
+        /*定义滚动条轨道 内阴影+圆角*/
+        ::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+            background-color: #F5F5F5;
+        }
+
+        /*定义滑块 内阴影+圆角*/
+        ::-webkit-scrollbar-thumb {
+            background-color: #16A085;
+        }
+/*本版本版权归属于 天虎娱乐网（www.tianhuwl.com）此版本免费分享 请大家尊重本一下误删除此注释谢谢*/
+        .jAudio--playlist-meta-text {
+            position: relative;
+        }
+
+        .del {
+            float: right;
+            position: absolute;
+            top: 19px;
+            right: -5px;
+            height: 30px;
+            cursor: pointer;
+        }
+        .goup-container{background-image:url(../Images/goup.png);    background-size: contain;}

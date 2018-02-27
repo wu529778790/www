@@ -1,0 +1,28 @@
+#text{
+    height:50px;
+    text-align:center;
+    font-size: 18px;
+}
+#mainCenter{
+    max-width:400px;
+    margin:0 auto;
+    padding:0 5px;
+    text-align:center;
+}
+#myCanvas{
+    display:none;
+}
+#downPic{
+    margin:30px 0 0 0;
+    width:100%;
+}
+.shadow{
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+    -moz-box-shadow: 0px 0px 10px #000000;
+    -webkit-box-shadow: 0px 0px 10px #000000;
+    box-shadow: 0px 0px 10px #000000;
+    /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+}

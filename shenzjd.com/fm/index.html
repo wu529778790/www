@@ -1,0 +1,193 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta content="always" name="referrer" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>快乐FM电台-全网音乐搜索-支持一键获取歌曲外链、图片地址等</title>
+    <!--<script src="http://cdn.staticfile.org/jquery/2.2.1/jquery.min.js"></script>
+    <link href="Scripts/bootstrap.min.css" rel="stylesheet" />
+    <script src="http://cdn.staticfile.org/twitter-bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"></script>
+    <script src="Scripts/dataTables.bootstrap.js"></script>
+    <script src="Scripts/jquery.dataTables.min.js"></script>
+    <link href="Scripts/dataTables.bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script src="js/jaudio.js"></script>
+    <script src="http://cdn.staticfile.org/amazeui/2.2.1/js/amazeui.min.js"></script>
+    <link href="http://cdn.staticfile.org/amazeui/2.2.1/css/amazeui.min.css" rel="stylesheet" />
+    <link href="assets/css/app.css" rel="stylesheet" />
+    <link href="css/animate.min.css" rel="stylesheet" />
+    <link href="css/default.css" rel="stylesheet" />
+    <script src="http://cdn.staticfile.org/layer.js/1.9.3/layer.js"></script>-->
+
+
+    <script src="Scripts/jquery-2.1.4.min.js"></script>
+    <link href="Scripts/bootstrap.min.css" rel="stylesheet" />
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/dataTables.bootstrap.js"></script>
+    <script src="Scripts/jquery.dataTables.min.js"></script>
+    <link href="Scripts/dataTables.bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script src="js/jaudio.js"></script>
+    <script src="assets/js/amazeui.min.js"></script>
+    <link href="assets/css/amazeui.min.css" rel="stylesheet" />
+    <link href="assets/css/app.css" rel="stylesheet" />
+    <link href="css/animate.min.css" rel="stylesheet" />
+    <link href="css/default.css" rel="stylesheet" />
+    <script src="layer/layer.js"></script>
+    <link href="css/Cloud.css" rel="stylesheet" />
+    <script src="Scripts/Cloud.js"></script>
+    <script src="js/jquery.goup.js"></script>
+</head>
+<body>
+
+
+    <!--<div style="height:30px; background-color:#16A085; text-align:center; font-size:15px ">
+        <a href="http://www.8u8.ren" style=" position:relative;top:5px" target="_blank">有任何疑问以及Bug反馈，欢迎点击此处给我留言！</a>
+
+    </div>-->
+    <div style="height:354px; background-image: url(../Images/beijing2.jpg); background-repeat:no-repeat;background-attachment:fixed;">
+<!--http://fm.ercy.vip/bing.php-->
+        <div class="animated fadeInDown">
+            <div id="title">
+                <font>快</font>
+                <font>乐</font>
+                <font> F</font>
+                <font>M</font>
+                <font>音</font>
+                <font>乐</font>
+                <font>电</font>
+                <font>台</font>
+            </div>
+            <div class="min-title">
+                <span style="font-size:20px">在线搜索全网音乐，支持一键获取歌曲外链、图片地址等</span><br />
+                <span style="font-size:17px">其他功能正在添加中....</span>
+            </div>
+
+            <div style="width:100%; text-align:center; position:relative;top:80px">
+                <input type="text" onkeyup="ss()" id="txtSong" placeholder="请输入歌曲名称，例如：张杰 周杰伦..." /><img src="Scripts/search.png" id="btnSearch" />
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <div>
+
+
+        <table class="table table-striped table-bordered table-hover datatable">
+            <thead>
+                <tr>
+                    <th>封面</th>
+                    <th>歌手</th>
+                    <th>歌名</th>
+                    <!--<th>歌曲地址</th>-->
+                    <th>专辑名</th>
+                    <th>播放</th>
+                    <th>添加列表</th>
+                    <th>下载</th>
+                    <th>外链</th>
+                </tr>
+            </thead>
+            <tbody id="UserList"></tbody>
+            <tr id="LoadMore" style="display:none;cursor:pointer" offset="0" search="0"><td colspan="8">点击加载更多</td></tr>
+        </table>
+
+
+        <!--<div style="width:100%;position:absolute;bottom:0px; text-align:center;font-size:19px; font-weight:600;color:gray; height:70px; background-color:#ECECEC">
+            <br />
+            <span></span>
+        </div>-->
+
+        <div style="color:black; font-family:微软雅黑; font-size:14px; position:relative; top:80px;text-align:center">
+            &copy; 快乐FM电台  本站仅供交流学习使用 所有法律责任概不负责
+
+
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+    <div class="animated flipInY min-music" style="border:solid 0px red;width:400px; height:300px; ">
+
+        <div class='jAudio--player'>
+
+            <audio></audio>
+            <div class='jAudio--ui'>
+                <div class='jAudio--thumb'>
+                </div>
+
+                <div class='jAudio--status-bar'>
+
+                    <div class='jAudio--details'></div>
+                    <div class='jAudio--volume-bar'></div>
+
+                    <div class='jAudio--progress-bar'>
+                        <div class='jAudio--progress-bar-wrapper'>
+                            <div class='jAudio--progress-bar-played'>
+                                <span class='jAudio--progress-bar-pointer'></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='jAudio--time'>
+                        <span class='jAudio--time-elapsed'>00:00</span>
+                        <span class='jAudio--time-total'>00:00</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class='jAudio--playlist'>
+
+            </div>
+
+            <div class='jAudio--controls' style="background-color: #ECECEC;">
+                <ul style="position: relative; top: 10px;">
+                    <li><div class='btn' data-action='prev' id='btn-prev'><img src="Images/prev.png" style="width:40px" /></div></li>
+                    <li><div class='btn' data-action='play' id='btn-play'><img src="Images/play.png" style="width:40px" class="PlayerState" /></div></li>
+                    <li><div class='btn' data-action='next' id='btn-next'><img src="Images/next.PNG" style="width:40px" /></div></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="player-min"></div>
+    </div>
+    <div class="link-web" style="width:100%; text-align:center; display:none">
+        <div style="width:92%; margin:auto; position:relative;top:20px">
+            <p>你的浏览器不支持直接复制，请在以下输入框手动复制：</p>
+            <input type="text" class="link-music am-form-field am-radius" />
+            <br />
+            <button onclick="javascript:layer.closeAll()" class='am-btn  am-btn-warning am-radius OutLink' style='background-color:#00B38C; border-color:#00B38C; float:right'><i class='am-icon-paint-brush'></i>&nbsp;确定</button>
+        </div>
+    </div>
+
+
+
+    <script src="js/notie.js"></script>
+    <script type="text/javascript">
+
+
+        function ss() {
+            if ($("#txtSong").val().length >= 2) {
+                $("#btnSearch").click();
+            }
+        }
+
+
+    </script>
+    <script type="text/javascript">
+
+    </script>
+</body>
+</html>

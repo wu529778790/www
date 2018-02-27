@@ -1,0 +1,2091 @@
+a:3:{s:4:"time";i:1511523189;s:6:"expire";i:60;s:5:"value";s:142343:"<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="zh-CN">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" type="text/css" href="http://cmsstatic.dataoke.com//css/reset.css?v=201711171605">
+    <link rel="stylesheet" type="text/css" href="http://cmsstatic.dataoke.com//css/footer.css?v=201711171605">
+    <link rel="stylesheet" type="text/css" href="http://cmsstatic.dataoke.com//css/pager.css?v=201711171605">
+    <link rel="stylesheet" type="text/css" href="http://cmsstatic.dataoke.com//css/swiper.min.css?v=201711171605">
+    <link rel="stylesheet" type="text/css" href="http://cmsstatic.dataoke.com//css/dtk.css?v=201711171605">
+    <!-- 皮肤 S-->
+        <!-- 皮肤 E-->
+    <link rel="stylesheet" href="http://cmsstatic.dataoke.com//css/iconfont.css?v=201711171605">
+    <link rel="stylesheet" type="text/css" href="http://cmsstatic.dataoke.com//css/Coupon.css?v=201711171605" />
+<title>数码家电折扣，领券立减-神族九帝</title>
+    <meta name="Keywords" content="神族九帝,优惠券折扣,9块9包邮,限时特卖,优品折扣,神族九帝"/>
+    <meta name="Description" content="神族九帝-优惠券折扣直播第一站！每天更新千款，纯人工筛选验货，限时限量特卖，全场1折包邮！"/>
+    <script src="http://cmsstatic.dataoke.com/other/jquery/1.12.4/jquery.min.js?v=201711171605"></script>
+    <script src="http://cmsstatic.dataoke.com//js/layer/layer.js?v=201711171605"></script>
+    <script src="http://cmsstatic.dataoke.com//js/dtk.js?v=201711171605"></script>
+    <script src="http://cmsstatic.dataoke.com//js/swiper.min.js?v=201711171605"></script>
+</head>
+<body>
+<style>
+    #navTop {
+        width: 100%;
+        background-color: #FFF;
+    }
+    .toTop {
+        font-family: iconfont;
+        position: fixed;
+        right: 70px;
+        bottom: 70px;
+        line-height: 50px;
+        text-align: center;
+        border: 1px solid #CCCCCC;
+        border-radius: 50px;
+        color: #858585;
+        width: 50px;
+        font-size: 36px;
+        cursor: pointer;
+        background-color: #fff;
+    }
+
+    .toTop:hover, .toTop:focus {
+        color: rgb(234, 42, 96);
+    }
+
+    body #headNav #header #showList dl {
+        margin: 5px 16px;
+    }
+
+    body #headNav #header #showList #search button {
+        height: 37px;
+        overflow: hidden;
+        padding: 7px 30px;
+    }
+    .floatNav{
+        width: 100%;
+        height: 50px;
+        background-color: #fff;
+        position: fixed;
+        top:0;
+        z-index: 9999;
+        display: none;
+    }
+    .fn-block{
+        width: 490px;
+        height:32px;
+        border: 2px solid #E8314B;
+        margin: 6px auto;
+        position: relative;
+    }
+    .fn-src{
+        width: 425px;
+        height: 32px;
+        border: none;
+        font-size: 12px;
+        font-family: 'microsoft yahei';
+        color: #aaa;
+        padding-left: 15px;
+    }
+    .srcBtn{
+        width: 50px;
+        height: 36px;
+        background-color: #E8314B;
+        border: none;
+        position: absolute;
+        right: -2px;
+        top:-2px;
+        color: #fff;
+        background-image: url("http://cmsstatic.dataoke.com//images/srcicos.png?v=201711171605");
+        background-size:auto 60% ;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+</style>
+
+<div id="navTop">
+
+    <div id="top">
+        <div id="topleft" style="margin: 0;line-height: 25px;">亲爱的，来加粉丝专享优惠QQ群                            <a target="_blank" style="height: 22px;float: right;" href="https://jq.qq.com/?_wv=1027&k=46dzoim">
+                    <img border="0" src="https://img.alicdn.com/imgextra/i1/2508158775/TB2SfmWqFXXXXb4XpXXXXXXXXXX_!!2508158775.png">
+                </a>
+                    </div>
+        <ul id="topright" style="line-height: 25px;">
+            <li style=" margin-right: 8px;">
+                <a class="set_home" href="javascript:void(0)" onclick="SetHome(this,window.location)" style="color: #757575" title="将本站设为首页">设为首页</a>
+            </li>
+            <li style="margin-right: 8px;">
+                <a class="add_favorite" href="javascript:void(0)" onclick="shoucang(document.title,window.location)" style="color: #757575" title="加入收藏，方便下次打开">加入收藏</a>
+            </li>
+            <li>
+                <a class="header_service" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=529778790&site=qq&menu=yes" style="color: #8da7cb" title="联系我帮你解答">遇到购物问题? 联系我 ></a>
+            </li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+</div>
+
+<div id="headNav">
+    <div id="header" style="padding-bottom: 10px;">
+        <a class="header_logo" href="/tianmao?r=index/index&u=493252"
+           style="width: 380px; height: 80px;display: inline-block;float: left;    background-size: inherit;    background: url('http://ongskmt08.bkt.clouddn.com/logo.PNG')left top no-repeat;    margin-top: -7px;text-align: left;line-height: 80px;color: red;font-size: 36px;padding-left: 20px;">
+                </a>
+        <div id="showList">
+            <div id="search">
+                                <form action="/tianmao?r=index/index">
+                    <input type="hidden" name="r" value="l">
+                    <input type="text" class="theme-border-color-1" value="" name="kw" placeholder="好宝贝 等你搜"/>
+                    <button type="submit" class="theme-bg-color-1">搜索</button>
+                </form>
+            </div>
+
+            <dl>
+                <dt class="rg"></dt>
+            </dl>
+            <dl>
+                <dt class="zy"></dt>
+            </dl>
+            <dl>
+                <dt class="qc"></dt>
+            </dl>
+
+        </div>
+        <div class="clear"></div>
+    </div>
+
+<!--    悬浮搜索框-->
+            <div class="floatNav">
+            <div class="fn-block">
+                <form action="/tianmao?r=index/index">
+                    <input type="hidden" name="r" value="l">
+                    <input type="text" class="fn-src" value="" name="kw" placeholder="好宝贝 等你搜"/>
+                    <button type="submit" class="srcBtn"></button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<div id="baner" class="theme-bg-color-1">
+    <div id="nav" style="font-size: 15px;">
+        <a href="/tianmao?r=index/index&u=493252" class="theme-hover-bg-color-8 iconM " style="padding:8px 27px;">
+            <i class="iconfont">&#xe601;</i><span style="margin-right: 7px;">今日上新</span>
+        </a>
+
+        <a class="theme-hover-bg-color-8 active" href="/tianmao?r=l&u=493252" style="padding:8px 15px;">
+            领券优惠直播
+        </a>
+
+        <a class="theme-hover-bg-color-8 " href="/tianmao?r=ddq&u=493252" style="padding:8px 15px;">
+            咚咚抢<div style="position:absolute; width:24px; height:32px; background:#FFCC00;margin-left: 107px; margin-top: -25px; background:url(http://a.vpimg3.com/upload/dop/2016/01/04/148/HOTT_qeu.gif)"></div>
+        </a>
+
+        <a href="/tianmao?r=p&u=493252" class="theme-hover-bg-color-8 iconH " style="padding:8px 15px;">
+            超级人气榜
+        </a>
+
+        <a class="theme-hover-bg-color-8 " href="/tianmao?r=nine&u=493252" style="padding:8px 15px;">
+            9块9包邮
+        </a>
+
+        
+    </div>
+</div>
+
+<div id="dtk_mian">
+    <div class="search-wrap main-container" data-linkurl="null">
+    <img src="https://img.alicdn.com/imgextra/i3/97012073/TB2Y9MifItnpuFjSZFKXXalFFXa_!!97012073.jpg"/>
+</div>
+<div class="cat-wrap main-container">
+    <div class="cat-list clearfix">
+        <span class="cat-lit-title">商品分类</span>
+        <ul class="clearfix">
+            <li class="theme-hover-color-1 ">
+                <a class="theme-a" href="/tianmao?r=l&cid=0&u=493252">全部优惠<b class="theme-b">(62230)</b></a>
+            </li>
+                                <li class="theme-hover-color-1 ">
+                        <a class="theme-a" data-page="page=1" href="/tianmao?r=l&cid=1&u=493252">
+                            女装<b class="theme-b">(6429)</b>
+                        </a>
+                    </li>
+                                <li class="theme-hover-color-1 ">
+                        <a class="theme-a" data-page="page=1" href="/tianmao?r=l&cid=9&u=493252">
+                            男装<b class="theme-b">(2957)</b>
+                        </a>
+                    </li>
+                                <li class="theme-hover-color-1 ">
+                        <a class="theme-a" data-page="page=1" href="/tianmao?r=l&cid=10&u=493252">
+                            内衣<b class="theme-b">(4005)</b>
+                        </a>
+                    </li>
+                                <li class="theme-hover-color-1 ">
+                        <a class="theme-a" data-page="page=1" href="/tianmao?r=l&cid=2&u=493252">
+                            母婴<b class="theme-b">(7810)</b>
+                        </a>
+                    </li>
+                                <li class="theme-hover-color-1 ">
+                        <a class="theme-a" data-page="page=1" href="/tianmao?r=l&cid=3&u=493252">
+                            化妆品<b class="theme-b">(3399)</b>
+                        </a>
+                    </li>
+                                <li class="theme-hover-color-1 ">
+                        <a class="theme-a" data-page="page=1" href="/tianmao?r=l&cid=4&u=493252">
+                            居家<b class="theme-b">(13345)</b>
+                        </a>
+                    </li>
+                                <li class="theme-hover-color-1 ">
+                        <a class="theme-a" data-page="page=1" href="/tianmao?r=l&cid=5&u=493252">
+                            鞋包配饰<b class="theme-b">(7887)</b>
+                        </a>
+                    </li>
+                                <li class="theme-hover-color-1 ">
+                        <a class="theme-a" data-page="page=1" href="/tianmao?r=l&cid=6&u=493252">
+                            美食<b class="theme-b">(6845)</b>
+                        </a>
+                    </li>
+                                <li class="theme-hover-color-1 ">
+                        <a class="theme-a" data-page="page=1" href="/tianmao?r=l&cid=7&u=493252">
+                            文体车品<b class="theme-b">(5497)</b>
+                        </a>
+                    </li>
+                                <li class="theme-hover-color-1 active">
+                        <a class="theme-a" data-page="page=1" href="/tianmao?r=l&cid=8&u=493252">
+                            数码家电<b class="theme-b">(4056)</b>
+                        </a>
+                    </li>
+                    </ul>
+    </div>
+
+    <div class="cat-list sale-type clearfix">
+        <span class="cat-lit-title">促销类型</span>
+        <ul class="clearfix">
+            <li class="theme-hover-color-1 " >
+                <a class="theme-a" href="/tianmao?r=l&video=1&cid=8&s=t&seckill=1"><i class="theme-i"></i>秒杀活动</a>
+            </li>
+            <li class="theme-hover-color-1 ">
+                <a class="theme-a" href="/tianmao?r=l&video=1&cid=8&s=t&jipin=1"><i class="theme-i"></i>优选</a>
+            </li>
+            <li class="theme-hover-color-1 ">
+                <a class="theme-a" href="/tianmao?r=l&video=1&cid=8&s=t&tmall=1"><i class="theme-i"></i>天猫</a>
+            </li>
+            <li class="theme-hover-color-1 ">
+                <a class="theme-a" href="/tianmao?r=l&video=1&cid=8&s=t&freight=1"><i class="theme-i"></i>运费险</a>
+            </li>
+            <li class="theme-hover-color-1 ">
+                <a class="theme-a" href="/tianmao?r=l&video=1&cid=8&s=t&amoy=1"><i class="theme-i"></i>海淘</a>
+            </li>
+            <li class="theme-hover-color-1 cat-lit-video active">
+                <a class="theme-a" href="/tianmao?r=l&video=0&cid=8&s=t"><i class="theme-i"></i><span class="theme-span">视频商品</span></a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+<div class="tag-wrap main-container clearfix cat-wrap">
+    <div class="fixed-wrap fl theme-a-hover-active-border-top-1">
+                <a href="/tianmao?r=l&video=1&cid=8&s=t" class="tag-fixed active">人气</a>
+        <a href="/tianmao?r=l&video=1&cid=8&s=latest" class="tag-fixed ">最新</a>
+        <a href="/tianmao?r=l&video=1&cid=8&s=sell" class="tag-fixed ">销量</a>
+                <a href="/tianmao?r=l&video=1&cid=8&s=price" class="tag-fixed ">价格</a>
+        <div class="sort-price-area fl">
+            <form action="/tianmao?r=index/index">
+                                        <input type = 'hidden' name="video"  value="1">
+                                                <input type = 'hidden' name="cid"  value="8">
+                                                <input type = 'hidden' name="s"  value="t">
+                                        <input type="hidden" name="r" value="l">
+
+                <input class="min-price" name="jgqj1" value="" placeholder="￥"/>
+                <span>-</span>
+                <input class="max-price" name="jgqj2" value="" placeholder="￥"/>
+                <button class="theme-bg-color-1 theme-hover-bg-color-3">确定</button>
+                <a class="clear-price" href="/tianmao?r=l&u=493252&video=1&cid=8&s=t">清除</a>
+            </form>
+        </div>
+    </div>
+    <div class="goods-pages-page clearfix" style='visibility:hidden'>
+
+                    <span class="pagebtn disabled pre-page"></span>
+        
+        <span class="page-num"><b>1</b>/1</span>
+
+                    <span class="pagebtn disabled next-page"></span>
+        
+    </div>
+</div>
+    <div class="goods-list main-container">
+        <ul class="clearfix">
+                            <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4572056&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4572056">
+                                                    <i class="today-new"></i>
+                                                <img src="https://img.alicdn.com/imgextra/i2/526505054/TB2H3fMroQIL1JjSZFhXXaDZFXa_!!526505054.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>149</b>券后价</span>
+                            <span class="old-price"><i>￥</i>299</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>150</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4572056&nav_wrap=l&u=493252" data-gid="4572056">
+                                【宝家丽】紫外线高频吸尘除螨仪                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>11294</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4536533&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4536533">
+                                                <img src="https://img.alicdn.com/bao/uploaded/i3/2196374352/TB1XElcaCYH8KJjSspdXXcRgVXa_!!0-item_pic.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>39.9</b>券后价</span>
+                            <span class="old-price"><i>￥</i>59.9</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>20</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4536533&nav_wrap=l&u=493252" data-gid="4536533">
+                                雅兰仕 F1全民k歌手机唱吧麦克风话筒                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>40456</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4574225&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4574225">
+                                                    <i class="today-new"></i>
+                                                <img src="https://img.alicdn.com/imgextra/i4/2606133964/TB2.8c2XCVmpuFjSZFFXXcZApXa_!!2606133964.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>129</b>券后价</span>
+                            <span class="old-price"><i>￥</i>189</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>60</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4574225&nav_wrap=l&u=493252" data-gid="4574225">
+                                摄像头智能高清远程无线监控                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>205</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1 no-right g_over">
+                    <a href="/tianmao?r=l/d&id=4562925&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4562925">
+                                                <img src="https://img.alicdn.com/imgextra/i3/2982986820/TB2wPEAhUMgYeJjSZFGXXXsMXXa_!!2982986820.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>46.9</b>券后价</span>
+                            <span class="old-price"><i>￥</i>49.9</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>3</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4562925&nav_wrap=l&u=493252" data-gid="4562925">
+                                无线蓝牙耳机耳挂耳塞式超长待机                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>25923</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4533423&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4533423">
+                                                <img src="https://img.alicdn.com/imgextra/i1/3090811096/TB2NUPhcrtlpuFjSspfXXXLUpXa_!!3090811096.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>33.99</b>券后价</span>
+                            <span class="old-price"><i>￥</i>133.99</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>100</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4533423&nav_wrap=l&u=493252" data-gid="4533423">
+                                惠能达大功率不伤发吹风机                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>17187</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i><i class="you" title="优品"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4551293&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4551293">
+                                                <img src="https://img.alicdn.com/imgextra/i4/305542322/TB2MVuabQGj11JjSZFMXXXnRVXa_!!305542322.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>24.9</b>券后价</span>
+                            <span class="old-price"><i>￥</i>34.9</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4551293&nav_wrap=l&u=493252" data-gid="4551293">
+                                迷你取暖器电暖风机家用电暖器                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>11069</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4565285&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4565285">
+                                                    <i class="today-new"></i>
+                                                <img src="https://img.alicdn.com/imgextra/i3/2326622954/TB2.PDtaMvD8KJjSsplXXaIEFXa_!!2326622954.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>369</b>券后价</span>
+                            <span class="old-price"><i>￥</i>449</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>80</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4565285&nav_wrap=l&u=493252" data-gid="4565285">
+                                【九阳】1.6L破壁免滤智能双预约大容量                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>1001</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1 no-right g_over">
+                    <a href="/tianmao?r=l/d&id=4554158&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4554158">
+                                                <img src="https://img.alicdn.com/imgextra/i1/2791783410/TB23pN6bfjM8KJjSZFNXXbQjFXa_!!2791783410.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>24.9</b>券后价</span>
+                            <span class="old-price"><i>￥</i>29.9</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>5</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4554158&nav_wrap=l&u=493252" data-gid="4554158">
+                                手持家用电动奶油打蛋和面烘焙搅拌机                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>7133</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4568676&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4568676">
+                                                    <i class="today-new"></i>
+                                                <img src="https://img.alicdn.com/imgextra/i2/606606471/TB22YYidIbI8KJjy1zdXXbe1VXa_!!606606471.png_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>6.9</b>券后价</span>
+                            <span class="old-price"><i>￥</i>11.9</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>5</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4568676&nav_wrap=l&u=493252" data-gid="4568676">
+                                飞毛腿苹果安卓快充数据线 【两条装】                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>25798</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4545092&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4545092">
+                                                <img src="https://img.alicdn.com/imgextra/i2/410566851/TB2SBdPf6uhSKJjSspjXXci8VXa_!!410566851.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>5.9</b>券后价</span>
+                            <span class="old-price"><i>￥</i>15.9</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4545092&nav_wrap=l&u=493252" data-gid="4545092">
+                                苹果6系列手机壳防摔磨砂送钢化膜                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>1551</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4526550&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4526550">
+                                                <img src="https://img.alicdn.com/imgextra/i4/1823144704/TB2gtPfqHsTMeJjSszdXXcEupXa_!!1823144704.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>16.9</b>券后价</span>
+                            <span class="old-price"><i>￥</i>19.9</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>3</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4526550&nav_wrap=l&u=493252" data-gid="4526550">
+                                家用迷你榨橙汁水果柠檬榨汁机                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>14925</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i><i class="ddq" title="咚咚"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1 no-right g_over">
+                    <a href="/tianmao?r=l/d&id=4504431&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4504431">
+                                                <img src="https://gd3.alicdn.com/imgextra/i4/98778895/TB2rxZjnaagSKJjy0FgXXcRqFXa_!!98778895.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>35</b>券后价</span>
+                            <span class="old-price"><i>￥</i>40</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>5</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4504431&nav_wrap=l&u=493252" data-gid="4504431">
+                                毛绒苹果手机壳全包獭兔毛水钻个性保护壳                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>405</b></span>
+                            
+                            <div class="goods-type">
+                                                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4560023&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4560023">
+                                                <img src="https://img.alicdn.com/imgextra/i1/579778147/TB2IV3Xazgy_uJjSZJnXXbuOXXa_!!579778147.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>14.8</b>券后价</span>
+                            <span class="old-price"><i>￥</i>19.8</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>5</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4560023&nav_wrap=l&u=493252" data-gid="4560023">
+                                oppor9s手机壳r11浮雕软胶套                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>2233</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4547824&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4547824">
+                                                <img src="https://img.alicdn.com/bao/uploaded/i3/3338926100/TB1GmTuXSr85uJjSZPhXXbXgpXa_!!0-item_pic.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>14.8</b>券后价</span>
+                            <span class="old-price"><i>￥</i>19.8</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>5</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4547824&nav_wrap=l&u=493252" data-gid="4547824">
+                                vivoy67手机壳浮雕赠全屏膜                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>1319</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4516064&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4516064">
+                                                <img src="https://img.alicdn.com/imgextra/i1/1835497519/TB2Ph67bAUOyuJjy1XdXXXlkXXa_!!1835497519.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>14.9</b>券后价</span>
+                            <span class="old-price"><i>￥</i>19.9</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>5</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4516064&nav_wrap=l&u=493252" data-gid="4516064">
+                                苹果6/6s/6plus磨砂卡通壳                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>1006</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1 no-right g_over">
+                    <a href="/tianmao?r=l/d&id=4547865&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4547865">
+                                                <img src="https://img.alicdn.com/imgextra/i4/410566851/TB231z9bMfH8KJjy1zcXXcTzpXa_!!410566851.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>13.8</b>券后价</span>
+                            <span class="old-price"><i>￥</i>18.8</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>5</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4547865&nav_wrap=l&u=493252" data-gid="4547865">
+                                OPPOR11硅胶手机壳赠钢化膜                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>936</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4560577&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4560577">
+                                                <img src="https://img.alicdn.com/imgextra/i3/579778147/TB2TRXSciqAXuNjy1XdXXaYcVXa_!!579778147.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>14.8</b>券后价</span>
+                            <span class="old-price"><i>￥</i>19.8</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>5</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4560577&nav_wrap=l&u=493252" data-gid="4560577">
+                                iPhone彩绘浮雕软胶手机壳【四件套】                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>889</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4561118&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4561118">
+                                                <img src="https://img.alicdn.com/imgextra/i4/579778147/TB2PXbKdwDD8KJjy0FdXXcjvXXa_!!579778147.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>14.8</b>券后价</span>
+                            <span class="old-price"><i>￥</i>19.8</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>5</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4561118&nav_wrap=l&u=493252" data-gid="4561118">
+                                oppoR11s硅胶软磨砂防摔壳赠钢化膜                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>620</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4552334&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4552334">
+                                                <img src="https://img.alicdn.com/bao/uploaded/i3/3338926100/TB1YdkrXx6I8KJjy0FgXXXXzVXa_!!0-item_pic.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>14.8</b>券后价</span>
+                            <span class="old-price"><i>￥</i>19.8</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>5</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4552334&nav_wrap=l&u=493252" data-gid="4552334">
+                                vivoX9S手机壳浮雕赠全屏膜                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>502</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1 no-right g_over">
+                    <a href="/tianmao?r=l/d&id=4563129&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4563129">
+                                                    <i class="today-new"></i>
+                                                <img src="https://img.alicdn.com/imgextra/i2/715470002/TB2Xrx9atqUQKJjSZFIXXcOkFXa_!!715470002.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>38</b>券后价</span>
+                            <span class="old-price"><i>￥</i>88</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>50</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4563129&nav_wrap=l&u=493252" data-gid="4563129">
+                                数码经络按摩仪针灸脉冲理疗电疗仪                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>1838</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4552253&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4552253">
+                                                <img src="https://img.alicdn.com/bao/uploaded/i1/3338926100/TB12RwvmgMPMeJjy1XbXXcwxVXa_!!0-item_pic.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>14.8</b>券后价</span>
+                            <span class="old-price"><i>￥</i>19.8</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>5</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4552253&nav_wrap=l&u=493252" data-gid="4552253">
+                                oppoa37手机壳浮雕赠全屏膜                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>406</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4546759&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4546759">
+                                                <img src="https://img.alicdn.com/imgextra/i3/878393178/TB2WkDEX7fb_uJkHFJHXXb4vFXa_!!878393178.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>10</b>券后价</span>
+                            <span class="old-price"><i>￥</i>15</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>5</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4546759&nav_wrap=l&u=493252" data-gid="4546759">
+                                邻家D1韩国迷你重低音炮入耳式                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>4595</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4544333&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4544333">
+                                                <img src="https://img.alicdn.com/imgextra/i2/1990782362/TB2Rl5zXYaI.eBjy1XdXXcoqXXa-1990782362.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>129</b>券后价</span>
+                            <span class="old-price"><i>￥</i>179</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>50</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4544333&nav_wrap=l&u=493252" data-gid="4544333">
+                                先锋取暖器家用暖风机                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>58</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1 no-right g_over">
+                    <a href="/tianmao?r=l/d&id=4561024&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4561024">
+                                                <img src="https://img.alicdn.com/imgextra/i3/1654050000/TB2Yviujm7PL1JjSZFHXXcciXXa_!!1654050000.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>78</b>券后价</span>
+                            <span class="old-price"><i>￥</i>178</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>100</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4561024&nav_wrap=l&u=493252" data-gid="4561024">
+                                金稻梳夹板直卷两用直发器电卷棒                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>1319</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4524130&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4524130">
+                                                <img src="https://img.alicdn.com/imgextra/i4/1838814586/TB2vBW5cBUSMeJjSspfXXX0VFXa_!!1838814586.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>6.8</b>券后价</span>
+                            <span class="old-price"><i>￥</i>16.8</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4524130&nav_wrap=l&u=493252" data-gid="4524130">
+                                vivo手机壳x9防摔保护套                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>964</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4524007&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4524007">
+                                                <img src="https://img.alicdn.com/imgextra/i3/1838814586/TB2aR43X7fb_uJkSne1XXbE4XXa_!!1838814586.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>6.8</b>券后价</span>
+                            <span class="old-price"><i>￥</i>16.8</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4524007&nav_wrap=l&u=493252" data-gid="4524007">
+                                红米4x手机壳小米note保护套                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>751</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4523449&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4523449">
+                                                <img src="https://img.alicdn.com/imgextra/i2/1838814586/TB2INcucNPI8KJjSspoXXX6MFXa_!!1838814586.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>6.8</b>券后价</span>
+                            <span class="old-price"><i>￥</i>16.8</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4523449&nav_wrap=l&u=493252" data-gid="4523449">
+                                魅蓝note5手机壳全包保护套                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>521</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1 no-right g_over">
+                    <a href="/tianmao?r=l/d&id=4510514&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4510514">
+                                                <img src="https://img.alicdn.com/imgextra/i4/2101546432/TB2TsHYmvBNTKJjy1zdXXaScpXa_!!2101546432.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>15</b>券后价</span>
+                            <span class="old-price"><i>￥</i>25</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4510514&nav_wrap=l&u=493252" data-gid="4510514">
+                                苹果7磨/8plus手机壳+钢化膜                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>2308</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4516919&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4516919">
+                                                <img src="https://img.alicdn.com/imgextra/i2/2261328265/TB2Ifsfwr8kpuFjy0FcXXaUhpXa_!!2261328265.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>19.9</b>券后价</span>
+                            <span class="old-price"><i>￥</i>29.9</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4516919&nav_wrap=l&u=493252" data-gid="4516919">
+                                4D全屏覆盖苹果7手机钢化膜6s                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>825</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4558664&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4558664">
+                                                <img src="https://img.alicdn.com/imgextra/i3/1654050000/TB2PXLNi6ihSKJjy0FiXXcuiFXa_!!1654050000.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>14.8</b>券后价</span>
+                            <span class="old-price"><i>￥</i>19.8</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>5</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4558664&nav_wrap=l&u=493252" data-gid="4558664">
+                                苹果6硅胶6s手机壳气囊防摔男女潮款                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>868</b></span>
+                            
+                            <div class="goods-type">
+                                                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4543024&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4543024">
+                                                <img src="https://img.alicdn.com/imgextra/i1/2101546432/TB2J6Z2lrBmpuFjSZFuXXaG_XXa_!!2101546432.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>19</b>券后价</span>
+                            <span class="old-price"><i>￥</i>29</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4543024&nav_wrap=l&u=493252" data-gid="4543024">
+                                oppor9/9s手机壳+钢化膜                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>697</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1 no-right g_over">
+                    <a href="/tianmao?r=l/d&id=4543511&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4543511">
+                                                <img src="https://img.alicdn.com/imgextra/i1/1838814586/TB2puqnaBE_1uJjSZFOXXXNwXXa_!!1838814586.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>15</b>券后价</span>
+                            <span class="old-price"><i>￥</i>25</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4543511&nav_wrap=l&u=493252" data-gid="4543511">
+                                苹果6手机壳 6s保护套通用                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>400</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4496720&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4496720">
+                                                <img src="https://img.alicdn.com/imgextra/i3/1869065007/TB2i5HJj93PL1JjSZFtXXclRVXa_!!1869065007.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>12.8</b>券后价</span>
+                            <span class="old-price"><i>￥</i>17.8</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>5</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4496720&nav_wrap=l&u=493252" data-gid="4496720">
+                                【玩胜】魅蓝5/5s/note蓝光钢化膜                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>453</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4543455&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4543455">
+                                                <img src="https://img.alicdn.com/imgextra/i1/1838814586/TB2vNBpXcrHK1JjSszbXXXbvVXa_!!1838814586.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>15</b>券后价</span>
+                            <span class="old-price"><i>￥</i>25</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4543455&nav_wrap=l&u=493252" data-gid="4543455">
+                                苹果5手机壳 5s保护套                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>233</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4504258&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4504258">
+                                                <img src="https://img.alicdn.com/imgextra/i1/2051040164/TB2kUxsdNHI8KJjy1zbXXaxdpXa_!!2051040164.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>6</b>券后价</span>
+                            <span class="old-price"><i>￥</i>9</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>3</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4504258&nav_wrap=l&u=493252" data-gid="4504258">
+                                天猫魔盒遥控器天猫网络机顶盒子摇控板                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>5500</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1 no-right g_over">
+                    <a href="/tianmao?r=l/d&id=4563550&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4563550">
+                                                    <i class="today-new"></i>
+                                                <img src="https://img.alicdn.com/imgextra/i1/2015305247/TB2yWE4l.hnpuFjSZFEXXX0PFXa_!!2015305247.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>29.9</b>券后价</span>
+                            <span class="old-price"><i>￥</i>129.9</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>100</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4563550&nav_wrap=l&u=493252" data-gid="4563550">
+                                卷直两用电卷棒夹发板拉板直发器                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>294</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4532884&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4532884">
+                                                <img src="https://img.alicdn.com/imgextra/i3/2309965528/TB2xtM1lWagSKJjy0FhXXcrbFXa_!!2309965528.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>69</b>券后价</span>
+                            <span class="old-price"><i>￥</i>169</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>100</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4532884&nav_wrap=l&u=493252" data-gid="4532884">
+                                云镶智能运动跑步手环测心率计步器                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>2619</b></span>
+                            
+                            <div class="goods-type">
+                                                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4502432&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4502432">
+                                                <img src="https://img.alicdn.com/imgextra/i2/1738652297/TB2PsVup8cHL1JjSZJiXXcKcpXa_!!1738652297.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>283</b>券后价</span>
+                            <span class="old-price"><i>￥</i>298</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>15</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4502432&nav_wrap=l&u=493252" data-gid="4502432">
+                                【健康管家】足浴盆全自动按摩洗脚盆                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>4501</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i><i class="you" title="优品"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4538453&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4538453">
+                                                <img src="https://img.alicdn.com/imgextra/i2/1135239823/TB2._6.jUQIL1JjSZFhXXaDZFXa_!!1135239823.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>79.9</b>券后价</span>
+                            <span class="old-price"><i>￥</i>119.9</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>40</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4538453&nav_wrap=l&u=493252" data-gid="4538453">
+                                韩伟养生壶全自动加厚玻璃多功能煮茶器                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>1407</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1 no-right g_over">
+                    <a href="/tianmao?r=l/d&id=4540834&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4540834">
+                                                <img src="https://img.alicdn.com/imgextra/i1/139011728/TB2jPkxaRDH8KJjy1zeXXXjepXa_!!139011728.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>129</b>券后价</span>
+                            <span class="old-price"><i>￥</i>179</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>50</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4540834&nav_wrap=l&u=493252" data-gid="4540834">
+                                无线运动单双耳迷你蓝牙耳机                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>157</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4552219&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4552219">
+                                                <img src="//img.alicdn.com/bao/uploaded/i1/3379191241/TB2vOpmXnTI8KJjSsphXXcFppXa_!!3379191241.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>58</b>券后价</span>
+                            <span class="old-price"><i>￥</i>68</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4552219&nav_wrap=l&u=493252" data-gid="4552219">
+                                新科 I6苹果耳机入耳式原裝正品                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>992</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4534814&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4534814">
+                                                <img src="http://img.alicdn.com/bao/uploaded/i2/2774688537/TB2JSGfb4XkpuFjy0FiXXbUfFXa_!!2774688537.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>398</b>券后价</span>
+                            <span class="old-price"><i>￥</i>598</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>200</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4534814&nav_wrap=l&u=493252" data-gid="4534814">
+                                科语全自动智能扫地机器人拖擦地                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>720</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4541426&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4541426">
+                                                <img src="https://gd2.alicdn.com/imgextra/i1/597126196/TB2MvImc5IRMeJjy0FbXXbnqXXa_!!597126196.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>25.9</b>券后价</span>
+                            <span class="old-price"><i>￥</i>35.9</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4541426&nav_wrap=l&u=493252" data-gid="4541426">
+                                折叠吹风机冷热风家用小功率静音                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>687</b></span>
+                            
+                            <div class="goods-type">
+                                                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1 no-right g_over">
+                    <a href="/tianmao?r=l/d&id=4559947&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4559947">
+                                                <img src="https://gd2.alicdn.com/imgextra/i4/200259132/TB2aL.6XnfN8KJjSZFjXXXGvpXa_!!200259132.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>15.5</b>券后价</span>
+                            <span class="old-price"><i>￥</i>25.5</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4559947&nav_wrap=l&u=493252" data-gid="4559947">
+                                【苹果通用】情侣手机壳+挂绳                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>82</b></span>
+                            
+                            <div class="goods-type">
+                                                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4538541&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4538541">
+                                                <img src="https://gd2.alicdn.com/imgextra/i2/32965103/TB2wa88ahwlyKJjSZFsXXar3XXa_!!32965103.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>19.8</b>券后价</span>
+                            <span class="old-price"><i>￥</i>29.8</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4538541&nav_wrap=l&u=493252" data-gid="4538541">
+                                通用自拍杆手机三脚架带后视镜自拍神器                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>245</b></span>
+                            
+                            <div class="goods-type">
+                                                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4538298&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4538298">
+                                                <img src="https://gd2.alicdn.com/imgextra/i2/32965103/TB2kC9RX_QMVeJjSZFMXXbVzpXa_!!32965103.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>28</b>券后价</span>
+                            <span class="old-price"><i>￥</i>38</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4538298&nav_wrap=l&u=493252" data-gid="4538298">
+                                线控自拍杆通用型迷你自牌杆自拍神器                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>220</b></span>
+                            
+                            <div class="goods-type">
+                                                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4538274&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4538274">
+                                                <img src="https://gd4.alicdn.com/imgextra/i4/32965103/TB2nbaQaoFWMKJjSZFvXXaenFXa_!!32965103.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>38</b>券后价</span>
+                            <span class="old-price"><i>￥</i>48</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4538274&nav_wrap=l&u=493252" data-gid="4538274">
+                                LED护眼小台灯台灯usb灯可充护眼灯                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>70</b></span>
+                            
+                            <div class="goods-type">
+                                                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1 no-right g_over">
+                    <a href="/tianmao?r=l/d&id=4504537&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4504537">
+                                                <img src="https://gd4.alicdn.com/imgextra/i2/98778895/TB2wKfohJXXWeJjSZFvXXa6lpXa_!!98778895.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>15</b>券后价</span>
+                            <span class="old-price"><i>￥</i>20</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>5</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4504537&nav_wrap=l&u=493252" data-gid="4504537">
+                                奢华豹纹獭兔毛球苹果7P6s8/X手机壳                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>402</b></span>
+                            
+                            <div class="goods-type">
+                                                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4551269&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4551269">
+                                                <img src="https://img.alicdn.com/imgextra/i4/73858622/TB2P_OdaUcKL1JjSZFzXXcfJXXa_!!73858622.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>29.9</b>券后价</span>
+                            <span class="old-price"><i>￥</i>39.9</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4551269&nav_wrap=l&u=493252" data-gid="4551269">
+                                加湿器usb迷你办公室桌面家用卧室                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>2319</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4538181&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4538181">
+                                                <img src="https://gd3.alicdn.com/imgextra/i3/2633766644/TB2VPRWafJNTKJjSspoXXc6mpXa_!!2633766644.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>43</b>券后价</span>
+                            <span class="old-price"><i>￥</i>48</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>5</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4538181&nav_wrap=l&u=493252" data-gid="4538181">
+                                粗盐热敷袋电加热盐膝盖理疗袋                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>2314</b></span>
+                            
+                            <div class="goods-type">
+                                                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4507692&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4507692">
+                                                <img src="https://img.alicdn.com/imgextra/i4/2894500445/TB2S5eSbFcJL1JjSZFOXXcWlXXa_!!2894500445.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>19.9</b>券后价</span>
+                            <span class="old-price"><i>￥</i>29.9</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4507692&nav_wrap=l&u=493252" data-gid="4507692">
+                                重低音苹果安卓小米通用带麦耳塞                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>9343</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1 no-right g_over">
+                    <a href="/tianmao?r=l/d&id=4517630&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4517630">
+                                                <img src="https://img.alicdn.com/imgextra/i3/78349157/TB2JcddcQfb_uJjSsrbXXb6bVXa_!!78349157.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>29.9</b>券后价</span>
+                            <span class="old-price"><i>￥</i>129.9</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>100</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4517630&nav_wrap=l&u=493252" data-gid="4517630">
+                                吹风机家用大功率2200以上冷热恒温                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>12347</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4554709&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4554709">
+                                                <img src="https://img.alicdn.com/imgextra/i1/1838814586/TB2KbB2anJ_SKJjSZPiXXb3LpXa_!!1838814586.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>29.9</b>券后价</span>
+                            <span class="old-price"><i>￥</i>39.9</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4554709&nav_wrap=l&u=493252" data-gid="4554709">
+                                无线超迷你蓝牙耳机耳塞式耳机                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>2798</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4511279&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4511279">
+                                                <img src="https://img.alicdn.com/imgextra/i1/3322904678/TB2VujLXlLkJKJjSspjXXXkLXXa_!!3322904678.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>49</b>券后价</span>
+                            <span class="old-price"><i>￥</i>69</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>20</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4511279&nav_wrap=l&u=493252" data-gid="4511279">
+                                康夫智能电吹风机家用大功率2300W                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>1363</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4523917&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4523917">
+                                                <img src="https://img.alicdn.com/imgextra/i4/1838814586/TB2U8hebgb.PuJjSZFpXXbuFpXa_!!1838814586.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>6.8</b>券后价</span>
+                            <span class="old-price"><i>￥</i>16.8</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4523917&nav_wrap=l&u=493252" data-gid="4523917">
+                                oppo R9s手机壳保护套                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>1743</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1 no-right g_over">
+                    <a href="/tianmao?r=l/d&id=4524166&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4524166">
+                                                <img src="https://img.alicdn.com/imgextra/i4/1838814586/TB2h.BicUvMR1JjSZPcXXc1tFXa_!!1838814586.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>6.8</b>券后价</span>
+                            <span class="old-price"><i>￥</i>16.8</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4524166&nav_wrap=l&u=493252" data-gid="4524166">
+                                OPPO 手机壳r11保护套                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>409</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4513456&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4513456">
+                                                <img src="https://img.alicdn.com/imgextra/i2/3039861820/TB2AOesjuJ8puFjy1XbXXagqVXa_!!3039861820.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>69</b>券后价</span>
+                            <span class="old-price"><i>￥</i>99</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>30</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4513456&nav_wrap=l&u=493252" data-gid="4513456">
+                                全新康夫2200W大功率电吹风冷热风                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>1216</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4528022&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4528022">
+                                                <img src="https://img.alicdn.com/imgextra/i2/2069835880/TB2_8nxarsTMeJjy1zcXXXAgXXa_!!2069835880.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>10.9</b>券后价</span>
+                            <span class="old-price"><i>￥</i>13.9</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>3</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4528022&nav_wrap=l&u=493252" data-gid="4528022">
+                                品胜安卓数据线快充正品                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>846</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4521704&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4521704">
+                                                <img src="https://img.alicdn.com/imgextra/i3/696953371/TB2CPZTj98mpuFjSZFMXXaxpVXa_!!696953371.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>8</b>券后价</span>
+                            <span class="old-price"><i>￥</i>18</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4521704&nav_wrap=l&u=493252" data-gid="4521704">
+                                苹果iPhone6s钢化膜6Plus全屏                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>2520</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1 no-right g_over">
+                    <a href="/tianmao?r=l/d&id=4560725&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4560725">
+                                                <img src="https://img.alicdn.com/imgextra/i3/926933473/TB20EOCv0FopuFjSZFHXXbSlXXa_!!926933473.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>39.9</b>券后价</span>
+                            <span class="old-price"><i>￥</i>139.9</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>100</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4560725&nav_wrap=l&u=493252" data-gid="4560725">
+                                索卡负离子恒温护发大功率吹风筒                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>457</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4522886&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4522886">
+                                                <img src="https://img.alicdn.com/imgextra/i1/696953371/TB2vhHDXG9I.eBjy0FeXXXqwFXa_!!696953371.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>8.8</b>券后价</span>
+                            <span class="old-price"><i>￥</i>18.8</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4522886&nav_wrap=l&u=493252" data-gid="4522886">
+                                苹果iPhone7钢化膜软边3D全屏                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>1589</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4522794&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4522794">
+                                                <img src="https://img.alicdn.com/imgextra/i2/696953371/TB2DtI_b.3iyKJjy1zeXXbxZFXa_!!696953371.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>8.8</b>券后价</span>
+                            <span class="old-price"><i>￥</i>18.8</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4522794&nav_wrap=l&u=493252" data-gid="4522794">
+                                苹果iphone7钢化膜卡通可爱全屏                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>636</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4522832&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4522832">
+                                                <img src="http://img.alicdn.com/bao/uploaded/i2/696953371/TB2k9swX8P8F1JjSszdXXcG6XXa_!!696953371.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>8.8</b>券后价</span>
+                            <span class="old-price"><i>￥</i>18.8</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4522832&nav_wrap=l&u=493252" data-gid="4522832">
+                                苹果phone6s钢化膜全屏软边                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>528</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1 no-right g_over">
+                    <a href="/tianmao?r=l/d&id=4554066&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4554066">
+                                                <img src="https://img.alicdn.com/imgextra/i3/1654050000/TB260qbesbI8KJjy1zdXXbe1VXa_!!1654050000.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>59</b>券后价</span>
+                            <span class="old-price"><i>￥</i>119</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>60</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4554066&nav_wrap=l&u=493252" data-gid="4554066">
+                                金稻卷发棒负离子养发不伤发电卷棒                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>63</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4523052&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4523052">
+                                                <img src="http://img.alicdn.com/bao/uploaded/i3/696953371/TB22jNaeWmgSKJjSsplXXaICpXa_!!696953371.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>9.9</b>券后价</span>
+                            <span class="old-price"><i>￥</i>19.9</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4523052&nav_wrap=l&u=493252" data-gid="4523052">
+                                苹果iPhone7手机壳7Plus磨砂                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>476</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4562989&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4562989">
+                                                    <i class="today-new"></i>
+                                                <img src="https://img.alicdn.com/imgextra/i1/2015305247/TB2EX5OaAfb_uJkHFNRXXc3vpXa_!!2015305247.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>29.9</b>券后价</span>
+                            <span class="old-price"><i>￥</i>129.9</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>100</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4562989&nav_wrap=l&u=493252" data-gid="4562989">
+                                吹风机家用大功率2200以上冷热恒温                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>2256</b></span>
+                            
+                            <div class="goods-type">
+                                <i class="tmall" title="天猫"></i>                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4540716&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4540716">
+                                                <img src="https://gd4.alicdn.com/imgextra/i2/597126196/TB2q8ZopCVmpuFjSZFFXXcZApXa_!!597126196.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>29.9</b>券后价</span>
+                            <span class="old-price"><i>￥</i>79.9</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>50</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4540716&nav_wrap=l&u=493252" data-gid="4540716">
+                                浩发吹风机冷热风恒温负离子不伤发                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>1304</b></span>
+                            
+                            <div class="goods-type">
+                                                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1 no-right g_over">
+                    <a href="/tianmao?r=l/d&id=4492993&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4492993">
+                                                <img src="https://img.alicdn.com/imgextra/i4/410566851/TB2GhbwchHI8KJjy1zbXXaxdpXa_!!410566851.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>39.9</b>券后价</span>
+                            <span class="old-price"><i>￥</i>79.9</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>40</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4492993&nav_wrap=l&u=493252" data-gid="4492993">
+                                素妍美洗脸仪电动洁面仪硅胶清洁器                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>1073</b></span>
+                            
+                            <div class="goods-type">
+                                                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4547233&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4547233">
+                                                <img src="https://gd4.alicdn.com/imgextra/i4/2809190314/TB25LnIlHXlpuFjy1zbXXb_qpXa_!!2809190314.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>29.9</b>券后价</span>
+                            <span class="old-price"><i>￥</i>79.9</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>50</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4547233&nav_wrap=l&u=493252" data-gid="4547233">
+                                浩发吹风机家用冷热风大功率                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>413</b></span>
+                            
+                            <div class="goods-type">
+                                                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4541233&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4541233">
+                                                <img src="https://gd2.alicdn.com/imgextra/i2/597126196/TB2RKz1m3xlpuFjSszgXXcJdpXa_!!597126196.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>29.9</b>券后价</span>
+                            <span class="old-price"><i>￥</i>69.9</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>40</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4541233&nav_wrap=l&u=493252" data-gid="4541233">
+                                浩发大功率恒温负离子吹风机冷热风                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>393</b></span>
+                            
+                            <div class="goods-type">
+                                                            </div>
+                        </div>
+                    </div>
+                </li>
+                                <li class="theme-hover-border-color-1  g_over">
+                    <a href="/tianmao?r=l/d&id=4542651&nav_wrap=l&u=493252" class="img" rel="nofollow" target="_blank" data-gid="4542651">
+                                                <img src="https://gd3.alicdn.com/imgextra/i3/597126196/TB20YIKapgkyKJjSspoXXcOPpXa_!!597126196.jpg_310x310.jpg" alt="">
+                        <span class="video_icon"></span>                    </a>
+                    <div class="goods-padding">
+                        <div class="coupon-wrap clearfix">
+                            <span class="price theme-color-8"><b><i>￥</i>25.9</b>券后价</span>
+                            <span class="old-price"><i>￥</i>35.9</span>
+                            <span class="coupon theme-bg-color-9 theme-color-1 theme-border-color-1">券<b><i>￥</i>10</b></span>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" href="/tianmao?r=l/d&id=4542651&nav_wrap=l&u=493252" data-gid="4542651">
+                                小功率家宿舍专用静音负离子电吹风                            </a>
+                        </div>
+                        <div class="goods-num-type">
+                                                            <span class="goods-num">销量<b>232</b></span>
+                            
+                            <div class="goods-type">
+                                                            </div>
+                        </div>
+                    </div>
+                </li>
+                        </ul>
+    </div>
+    <div class="pager main-container" style="margin: 20px auto;">
+        <div id="yw0" class="pager"><a class="pre-page disabled" href="javascript:void(0);">上一页</a>
+<a class="item cur" href="javascript:void(0);">1</a>
+<a class="next-page disabled" href="javascript:void(0);">下一页</a></div>    </div>
+
+<script>
+    $('.no-result a').click(function(){
+    history.back();
+    });
+    var regNum = new RegExp("^[0-9]*$"),isNotnum = [0,0];
+    var testNum = function(obj,n){
+        if(isNaN(Number(obj.val()))){
+            obj.val('0');
+        }
+        isNotnum[n] = 1;
+    }
+    testNum($('.min-price'),0);
+    testNum($('.max-price'),1);
+
+    $('.min-price').blur(function(){
+        testNum($('.min-price'),0);
+    })
+    $('.max-price').blur(function(){
+        testNum($('.max-price'),1);
+    })
+    $('.sort-price-area form button').click(function(){
+
+        if(isNotnum[0] == 1 && isNotnum[1] == 1 && $.trim($('.max-price').val()) && $.trim($('.min-price').val()) ){
+            var maxNum = Math.max(Number($('.max-price').val()),Number($('.min-price').val())),
+                minNum = Math.min(Number($('.max-price').val()),Number($('.min-price').val()));
+            $('.max-price').val(maxNum);
+            $('.min-price').val(minNum);
+        }
+        $('.sort-price-area form').submit();
+    })
+</script>
+</div>
+
+<div id="footer" class="theme-border-top-color-1" style="background-color: #373737;padding-bottom: 30px;width: 100%;border-top: 3px solid #ff3366;">
+    <div class="footer-wrapper " style="width: 1200px;margin: 0 auto;position: relative;text-align: center">
+        <img src="http://cmsstatic.dataoke.com//images/bottom_text.png" alt="" style="border: 0;margin-top: 50px;">
+        <div class="author" style="    position: absolute;
+    top: 67px;
+    left: 990px;
+    color: #FFFFFF;
+    font-size: 18px;">by &nbsp;&nbsp;神族九帝</div>
+        <div class="text" style="color: #a2a2a2; font-size: 16px; margin-top: 33px;">
+            &copy; CopyRight&nbsp;2017            &nbsp;
+            <a href="http://newbug.xyz" target="_blank" rel="nofollow" style="color:#a2a2a2;">
+                神族九帝            </a>
+            &nbsp;http://newbug.xyz&nbsp;&nbsp;
+            <a class="miitbeian" href="http://www.miitbeian.gov.cn/" target="_blank" rel="nofollow" style="color:#a2a2a2;">
+                            </a>
+            &nbsp;&nbsp;                <a target="_blank" class="footer_service" href="http://wpa.qq.com/msgrd?v=3&uin=529778790&site=qq&menu=yes" style="color: #8da7cb" title="联系我帮你解答">^_^亲遇到问题，联系我帮你处理哈</a>
+            
+            <p style="text-algin:center;margin-top:30px;"></p>
+        </div>
+    </div>
+</div>
+
+<div class="toTop" style="display: none" onclick=" $('body,html').animate({scrollTop:0},1000);"> &#xe60c;</div>
+
+<script type="text/javascript">
+
+    
+    //xc statistics
+        ;!(function(window, document) {
+            "use strict"
+            try {
+                var space = "xctj";
+
+                // 创建队列
+                window["xckj"] = space;
+                window[space] = window[space] || function () {
+                        (window[space].list = window[space].list || new Array()).push(arguments)
+                    };
+                window[space].time = window[space].time || 1 * new Date();
+
+                // 创建元素
+                var script = document.createElement("script");
+
+                // 设置元素
+                script.type = "text/javascript";
+                script.src = "https://tj.ffquan.com/satc.js?z=20170801" ; /* 配置satc.js路径 */
+                script.async = 1;
+
+                // 添加元素
+                var node = document.getElementsByTagName("script")[0];
+                node.parentNode.insertBefore(script, node)
+            } catch (error) { }
+        })(window, document);
+
+        //xc statistics 必填项
+        xctj("tid=xc-dtk-cms-493252", "at=pageview","ds=web","in=1");
+
+        var coutData =[{"page":"r=l","event_name":"qlist_search_goods","page_event":"click","page_class":".g_over a","is_data":"gid","is_posting_events":"0","is_num":"0","is_param":"kw"},{"page":"0","event_name":"index_search","page_event":"click","page_class":"#search button","is_data":"","is_posting_events":"0","is_num":"0","is_param":""},{"page":"0","event_name":"app_download_hover","page_event":"mouseenter","page_class":".app_download","is_data":"","is_posting_events":"0","is_num":"0","is_param":""},{"page":"0","event_name":"record_number","page_event":"click","page_class":".miitbeian","is_data":"","is_posting_events":"0","is_num":"0","is_param":""},{"page":"0","event_name":"service_bottom","page_event":"click","page_class":".footer_service","is_data":"","is_posting_events":"0","is_num":"0","is_param":""},{"page":"0","event_name":"service_top","page_event":"click","page_class":".header_service","is_data":"","is_posting_events":"0","is_num":"0","is_param":""},{"page":"0","event_name":"logo","page_event":"click","page_class":"#header .header_logo","is_data":"","is_posting_events":"0","is_num":"0","is_param":""},{"page":"0","event_name":"home_set","page_event":"click","page_class":".set_home","is_data":"","is_posting_events":"0","is_num":"0","is_param":""},{"page":"0","event_name":"collect_set","page_event":"click","page_class":".add_favorite","is_data":"","is_posting_events":"0","is_num":"0","is_param":""},{"page":"0","event_name":"index_banner ","page_event":"click","page_class":".swiper-slide a","is_data":"gid","is_posting_events":"0","is_num":"0","is_param":""},{"page":"r=l","event_name":"qlist_banner","page_event":"click","page_class":".search-wrap","is_data":"linkurl","is_posting_events":"0","is_num":"0","is_param":""},{"page":"r=l","event_name":"filter_low_price ","page_event":"focus","page_class":".min-price","is_data":"","is_posting_events":"0","is_num":"0","is_param":""},{"page":"r=l","event_name":"filter_high_price","page_event":"focus","page_class":".max-price","is_data":"","is_posting_events":"0","is_num":"0","is_param":""},{"page":"r=l","event_name":"qlist_goods_cat","page_event":"click","page_class":".g_over a","is_data":"gid","is_posting_events":"0","is_num":"0","is_param":"cid"},{"page":"r=l","event_name":"qlist_next_page","page_event":"click","page_class":".next-page","is_data":"","is_posting_events":"0","is_num":"0","is_param":"page"},{"page":"0","event_name":"index_left_cid","page_event":"click","page_class":"#banner .list li a","is_data":"catid","is_posting_events":"0","is_num":"0","is_param":""},{"page":"0","event_name":"index_qlist_goods","page_event":"click","page_class":".live .goods-list li a","is_data":"gid","is_posting_events":"0","is_num":"0","is_param":""},{"page":"0","event_name":"index_search_fixed","page_event":"click","page_class":".floatNav .srcBtn","is_data":"","is_posting_events":"0","is_num":"0","is_param":""}],
+            pageR =window.location.href.split('r=').length>1?"r="+window.location.href.split('r=')[1].split('&')[0]:'noR';
+            for(var i = 0 ; i < coutData.length ; i++){
+                if(coutData[i].page == pageR || coutData[i].page=="0"){//事件触发页面
+                    (function(s){
+                        var paramBoole =true;
+                        for(var a = 0 ;a < coutData[s].is_param.split(',').length ; a ++){
+                            var paramKey = coutData[s].is_param.split(',')[a]+"=";
+                            if(coutData[s].is_param.split(',')[a] != ''){
+                                if( window.location.href.split(paramKey).length<2){
+                                    paramBoole = false;
+                                    return false;
+                                }
+                            }
+                        }
+
+                        if(paramBoole ==false){//如果有参数，是否满足参数条件
+                            return false
+                        }
+
+                        var isData = coutData[s].is_data !=""?(($(coutData[s].page_class).data(coutData[s].is_data)!='' && $(coutData[s].page_class).data(coutData[s].is_data)!=undefined)?',"'+coutData[s].is_data+'='+$(coutData[s].page_class).data(coutData[s].is_data)+'"':''):'',//是否获取元素自定义数据
+                            xcStr = '"tid=xc-dtk-cms-493252","ds=web","ec='+coutData[s].page_event+'","in=1"'+isData;
+
+                        if(coutData[s].is_posting_events == 0){//是否事件代理
+                            $(coutData[s].page_class).on(coutData[s].page_event,function(){
+                                var eventName = coutData[s].is_num==1?',"ea='+coutData[s].event_name+'_'+($(this).index()+1)+'"':',"ea='+coutData[s].event_name+'"';//是否添加序号
+                                eval('xctj('+xcStr+eventName+')');
+                            });
+                        }else{
+                            $('body').on(coutData[s].page_event,coutData[s].page_class,function(){
+                                var eventName = coutData[s].is_num==1?',"ea='+coutData[s].event_name+'_'+($(this).index()+1)+'"':',"ea='+coutData[s].event_name+'"';//是否添加序号
+                                eval('xctj('+xcStr+eventName+')');
+                            })
+                        }
+                    })(i)
+                }
+            }
+
+    
+
+    // 设置为主页
+    function SetHome(obj, vrl) {
+        try {
+            obj.style.behavior = 'url(#default#homepage)';
+            obj.setHomePage(vrl);
+        }
+        catch (e) {
+            if (window.netscape) {
+                try {
+                    netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                }
+                catch (e) {
+                    alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。");
+                }
+                var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+                prefs.setCharPref('browser.startup.homepage', vrl);
+            } else {
+                alert("您的浏览器不支持，请按照下面步骤操作：1.打开浏览器设置。2.点击设置首页。3.输入：" + vrl + "点击确定。");
+            }
+        }
+    }
+    // 加入收藏 兼容360和IE6
+    function shoucang(sTitle, sURL) {
+        try {
+            window.external.addFavorite(sURL, sTitle);
+        }
+        catch (e) {
+            try {
+                window.sidebar.addPanel(sTitle, sURL, "");
+            }
+            catch (e) {
+                alert("加入收藏失败，请使用Ctrl+D进行添加");
+            }
+        }
+    }
+
+    var ok = '';
+    $(function () {
+        $('#search button').click(function () {
+            if($('#search input[name="kw"]').val().length > 16){
+                layer.msg("您搜索的关键词过长！",{
+                    timer: 2500
+                });
+                return false;
+            }
+        });
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 500) {
+                $(".toTop").fadeIn(1000);
+            }
+            else {
+                $(".toTop").fadeOut(1000);
+            }
+        });
+    });
+
+
+    $(window).scroll(function(){
+
+        var _scroll = $(window).scrollTop();
+
+        if(_scroll>130){
+            $(".floatNav").fadeIn();
+        }else{
+            $(".floatNav").fadeOut();
+        }
+
+    })
+
+</script>
+
+<script type="text/javascript" src="http://cmsstatic.dataoke.com//js/scrollTop2.js?v=201711171605"></script>
+</body>
+</html>
+";}

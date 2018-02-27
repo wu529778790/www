@@ -1,0 +1,72 @@
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{padding:0;margin:0;}
+table{border-collapse:collapse;border-spacing:0; }
+fieldset,img{border:0;}
+em,strong,th{font-style:normal;font-weight:400;}
+ol,ul{list-style:none;}
+th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-weight:400;font-size:100%;} 
+input,textarea,select,button,option{font-family:inherit;font-size:inherit;font-weight:inherit;}
+
+/* global */
+body{font-size:12px; font-family:"Microsoft Yahei",Arial, Helvetica, sans-serif;color:#4D4D4D;background:#F1F3F5;}
+a{color:#2464B2;text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+img{border:0;}
+em{color:#F00; font-style:normal;}
+h3{margin:0; padding:0; font-size:14px;}
+ul,li{list-style:none;margin:0; padding:0;}
+p,form,div,h2,h4{margin:0; padding:0}
+*{margin:0; padding:0;}
+b{font-weight:bold;}
+.red{color:#F00;}
+.blue{color:#00F;}
+.green{color:#008000;}
+.cl{clear:both; overflow:hidden; height:0px;}
+.cl5{clear:both; overflow:hidden; height:5px;}
+.cl8{clear:both; overflow:hidden; height:8px;}
+.cl10{clear:both; overflow:hidden; height:10px;}
+input,button,select,textarea{outline:none}
+.gray{ color:#999;}
+
+#header{height:70px; background:#65718A; overflow:hidden; border-top:5px solid #525252;}
+#header .con{ height:70px; width:1000px; margin:0 auto; overflow:hidden;}
+
+.logo{height:60px; width:300px; margin:5px 10px 0 5px; overflow:hidden; background:url(adminlogo.png) no-repeat center top; display:inline-block; float:left;}
+.logo a{height:60px; width:300px; display:block; line-height:300px; overflow:hidden;}
+
+.aik_info{ float:right; display:inline-block; height:30px; line-height:30px; text-align:right; color:#FF3;}
+.aik_info a{ color:#FFF;}
+
+.aik_nav{ width:650px; float:right; clear:right; display:inline-block; height:30px; margin:5px 0 0 0; overflow:hidden;}
+.aik_nav li{ width:60px; float:left; margin:0 5px;}
+.aik_nav li a{ width:60px; display:block; height:30px; line-height:30px; text-align:center; color:#FFF; font-size:14px; font-weight:bold; }
+.aik_nav li a:hover{ text-decoration:none; background-color:#999;}
+.aik_nav li a.this{background-color:#66F;}
+
+
+#hd_main{ margin:6px auto 8px auto; width:980px; padding:7px 10px; overflow:hidden; clear:both; position:relative; background-color:#FFF; padding-bottom:15px;background-color:#FFF;-moz-border-radius: 8px;-webkit-border-radius: 8px; border-radius:8px; border:1px solid #E6E6E6; min-height:400px;}
+
+.tablecss{background:#D6E0EF;margin:0px auto;word-break:break-all;}
+.tablecss tr{background:#F8F8F8;}
+.tablecss td{ padding:5px 5px; font-size:14px;border:#D6E0EF solid 1px; *border:0px;}
+.tablecss textarea{font-family:Courier New;padding:1px 3px 1px 3px;}
+.tablecss input{font-family:11px; padding:1px 2px 1px 2px;}
+.tablecss tr.header td{ padding:5px 7px 5px 7px; background-color:#68ADE1; color:#FFFFFF;background:#68ADE1;}
+.tablecss tr.header td a{ color:#FFF;}
+.fnum{font-size:9px;}
+.s_title{ color:#003366; padding:2px 0px;}
+
+.theads td{ background:#F6F9FD; padding:3px 7px;}
+.thead td{ background:#EaikFF url(aik_bgs.gif) repeat-x 0 -235px; padding:3px 7px; overflow:hidden;}
+.tfoot td{ background:#E8E8E8 url(aik_bgs.gif) repeat-x 0 -235px; padding:2px 7px; line-height:200%; }
+
+.btnlist{ margin:20px auto;}
+.btnlist a{ display:inline-block; float:left; width:120px; height:36px; line-height:36px; text-align:center; background-color:#03F; color:#FFF; font-size:14px; margin:0 0px 0 30px;}
+.btnlist a:hover{ text-decoration:none; background-color:#F60;}
+.btnlist a.this{ text-decoration:none; background-color:#F60;}
+.sxlist{ display:inline; float:left; margin-right:10px;}
+.sxlist li{ display:inline-block; width:30px; height:30px; text-align:center; line-height:30px; border:1px solid #999; margin-left:5px; cursor:pointer; background-color:#CCC;}
+
+#footer{ height:36px; line-height:36px; color:#999999; text-align:center; clear:both;}

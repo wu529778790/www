@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <link href="./assets/img/favicon.ico" rel="icon" type="image/x-icon" />
+    <title>计划书</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        /**
+         * 日期格式化
+         */
+        Date.prototype.Format = function(fmt) { //author: meizz   
+            let o = {
+                "M+": this.getMonth() + 1, //月份   
+                "d+": this.getDate(), //日   
+                "h+": this.getHours(), //小时   
+                "m+": this.getMinutes(), //分   
+                "s+": this.getSeconds(), //秒   
+                "q+": Math.floor((this.getMonth() + 3) / 3), //季度   
+                "S": this.getMilliseconds() //毫秒   
+            };
+            if (/(y+)/.test(fmt))
+                fmt = fmt.replace(RegExp.$1, (this.getFullYear() + "").substr(4 - RegExp.$1.length));
+            for (let k in o)
+                if (new RegExp("(" + k + ")").test(fmt))
+                    fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
+            return fmt;
+        };
+        /**
+         * 获取Url参数
+         * @param  {String}  name 参数名
+         * @param {String} url Url地址非必填（默认取当前window.location）
+         * @return {String}
+         */
+        function getUrlParams(name, url) {
+            let reg = new RegExp(name + "=([^&]*)(&|$)");
+            let r = (url || window.location.search.substr(1)).match(reg);
+            if (r !== null) return decodeURIComponent(r[1]);
+            r = (url ? url.split('#')[1] || window.location.hash : window.location.hash).match(reg);
+            if (r !== null) return decodeURIComponent(r[1]);
+            return null;
+        }
+        (function() {
+            let hash = getUrlParams('hash'),
+                timestamp = getUrlParams('t');
+            if (hash && timestamp && /^(\+|-)?\d+($|\.\d+$)/.test(timestamp)) {
+                let oscript = document.createElement('script')
+                oscript.type = 'text/javascript';
+                oscript.src = 'http://jkimg0626-10054369.cossh.myqcloud.com/jkjj/uatRecord/' + new Date(Number(timestamp)).Format('yyyyMMdd') + '/prospectus/' + hash + '.js';
+                document.querySelector('head').appendChild(oscript);
+                window.onload = function() {
+                    document.documentElement.innerHTML = prospectusHtml;
+                }
+                window.onerror = function(errMsg, scriptURI, lineNumber, columnNumber, errorObj) {
+                    if (errMsg && errMsg.indexOf('prospectusHtml') !== -1) {
+                        document.documentElement.innerHTML = '<head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible"content="IE=edge,chrome=1"/><meta name="viewport"content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/><meta name="format-detection"content="telephone=no, email=no"/><link href="./assets/img/favicon.ico"rel="icon"type="image/x-icon"/></head><body><p style="width:100%;font-size:20px;text-align:center;color:rgb(192,204,218);top:35%;position:absolute;">404 page not found</p></body>'
+                    }
+                }
+            } else {
+                document.documentElement.innerHTML = '<head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible"content="IE=edge,chrome=1"/><meta name="viewport"content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/><meta name="format-detection"content="telephone=no, email=no"/><link href="./assets/img/favicon.ico"rel="icon"type="image/x-icon"/></head><body><p style="width:100%;font-size:20px;text-align:center;color:rgb(192,204,218);top:35%;position:absolute;">404 page not found</p></body>'
+            }
+        })()
+    </script>
+</body>
+
+</html>

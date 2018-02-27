@@ -1,0 +1,537 @@
+a:3:{s:4:"time";i:1494504922;s:6:"expire";i:60;s:5:"value";s:22883:"<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="zh-CN">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+    <meta name="renderer" content="webkit">
+    <!-- blueprint CSS framework //cdn.bootcss.com/jquery/1.12.1/jquery.js -->
+    <link rel="stylesheet" type="text/css" href="//cms6.qingtaoke.com/css/reset.css?v=20170508010">
+    <link rel="stylesheet" type="text/css" href="//cms6.qingtaoke.com/css/footer.css?v=1494504922">
+    <link rel="stylesheet" type="text/css" href="//cms6.qingtaoke.com/css/pager.css?v=1494504922">
+    <link rel="stylesheet" type="text/css" href="//cms6.qingtaoke.com/css/dtk.css?v=20170508010">
+    <link rel="stylesheet" href="//cms6.qingtaoke.com/css/iconfont.css?t=06160032">
+    <!--    <link rel="stylesheet" type="text/css" href="--><!--/css/dtk.css?v=-->
+    <!--">-->
+    <link rel="stylesheet" type="text/css" href="//cms6.qingtaoke.com/css/Coupon.css?v=20170508010" />
+<title>领券优惠直播--淘优惠</title>
+    <meta name="Keywords" content="淘宝，优惠券，天猫，bug,淘优惠"/>
+    <meta name="Description" content=""/>
+
+    <script src="//cdn.bootcss.com/jquery/1.12.1/jquery.js"></script>
+    <script src="//cms6.qingtaoke.com/js/layer/layer.js"></script>
+    <script src="//cms6.qingtaoke.com/js/dtk.js?v=06160032"></script>
+    <script src="//cms6.qingtaoke.com/js/unslider.min.js??v=06160032"></script>
+
+    <script>
+        $(function () {
+            $("body").on('click', '.cnzzCounter', function () {
+                var fkId = $(this).attr('data-cnzz');
+                var fkType = $(this).attr('data-cnzz-type');
+                var tPaht = "/taobao/index.php";
+                var reqUrl = "/taobao/?r=l&kw=%E6%B8%94%E5%85%B7";
+                $.ajax(tPaht, {
+                    data: {r: 'site/cnzz', fkId: fkId, req: reqUrl, cnzzType: fkType},
+                    dataType: 'json',
+                    type: 'post',
+                    error: function (xhr, type, errorThrown) {
+
+                    },
+                    success: function (result, status, xhr) {
+
+                    }
+                });
+            });
+        });
+    </script>
+
+</head>
+<body>
+<style>
+    #navTop {
+        width: 100%;
+
+        /*border-bottom: 1px solid #ccc;*/
+    }
+
+    body #headNav #header #showList dl {
+        margin: 5px 16px;
+    }
+
+    body #headNav #header #showList #search button {
+        height: 37px;
+        overflow: hidden;
+        padding: 7px 30px;
+    }
+
+    .feedback {
+        display: none;
+        padding-bottom: 30px;
+    }
+
+    .feedback .feedback-title {
+        color: #ff6600;
+        font-size: 20px;
+    }
+
+    .feedback .line {
+        margin: 20px 50px 0px 50px;
+    }
+
+    .feedback input {
+        width: 538px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .feedback textarea {
+        width: 538px;
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .feedback button {
+        /*display: inline-block;*/
+        /*font-family: inherit;*/
+        background: #ff6600;
+        line-height: 40px;
+        font-weight: 700;
+        font-size: 14px;
+        height: 40px;
+        color: #fff;
+        border: 0;
+        width: 120px;
+        padding: 0 15px;
+        border: 0;
+        border-radius: 10px;
+    }
+
+    .layui-layer-setwin .layui-layer-close2 {
+        background-position: -149px -31px !important;
+    }
+
+    #feedback {
+        background-color: white;
+    }
+
+    .cms-slogan {
+        width: 100%;
+        height: 80px;
+        overflow: hidden;
+    }
+
+    .cms-slogan .cms-slogan-box {
+        width: 1920px;
+        position: relative;
+        left: 50%;
+        margin-left: -960px;
+    }
+</style>
+
+<!--cms头部通告banner-->
+
+<div id="navTop">
+    <div id="top">
+        <div id="topleft" style="margin: 0;line-height: 25px;">                            <a target="_blank" style="height: 22px;float: right;"
+                   href="https://jq.qq.com/?_wv=1027&k=46dzoim"><img
+                        border="0"
+                        src="https://img.alicdn.com/imgextra/i1/2508158775/TB2SfmWqFXXXXb4XpXXXXXXXXXX_!!2508158775.png"></a>
+                        </div>
+        <ul id="topright" style="line-height: 25px;">
+            <li style=" margin-right: 8px;"><a
+                    href="javascript:void(0)" onclick="SetHome(this,window.location)" style="color: #757575"
+                    title="将本站设为首页">设为首页</a>
+            </li>
+            <li style="margin-right: 8px;"><a
+                    href="javascript:void(0)" onclick="shoucang(document.title,window.location)" style="color: #757575"
+                    title="加入收藏，方便下次打开">加入收藏</a>
+            </li>
+            <li><a target="_blank"
+                   href="http://wpa.qq.com/msgrd?v=3&uin=529778790&site=qq&menu=yes"
+                   style="color: #8da7cb" title="联系我帮你解答">遇到购物问题? 联系我 ></a>
+            </li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+</div>
+
+<div id="headNav">
+    <div id="header">
+        <a id="logo" class="cnzzCounter" data-cnzz-type="50" data-cnzz="0"
+           href="/taobao?r=index/index&u=36050&pv=1"
+           style="background-image:url('http://ongskmt08.bkt.clouddn.com/logo.PNG')" title="">
+        </a>
+
+        <div id="search">
+            <form action="/taobao?r=index/index&pv=1"><input type="hidden" name="r" value="l">
+                <input type="text" value="渔具"
+                       name="kw" placeholder="好宝贝 等你搜"/>
+                <button type="submit" class="cnzzCounter" data-cnzz-type="54" data-cnzz="1"></button>
+            </form>
+        </div>
+        <div class="showChar">
+            <div class="showChar-div showChar-3 right">
+                <i></i>
+                <span>验货保障</span>
+            </div>
+            <div class="showChar-div showChar-2">
+                <i></i>
+                <span>买手砍价</span>
+            </div>
+            <div class="showChar-div showChar-1">
+                <i></i>
+                <span>9:00开抢</span>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+
+<div id="baner">
+    <div id="nav">
+        <a href="/taobao?r=index/index&u=36050&pv=1"
+           class="cnzzCounter " data-cnzz-type="50"
+           data-cnzz="0">今日上新</a>
+        <a class="cnzzCounter "
+           href="/taobao?r=l&u=36050&pv=1" data-cnzz-type="51"
+           data-cnzz="0">领券优惠直播</a>
+        <a href="/taobao?r=p&u=36050&pv=1"
+           class="cnzzCounter iconH " data-cnzz-type="52" data-cnzz="0">超级人气榜
+            <i style="position:absolute; top:4px; right:30px; display:block; width:24px; height:32px; background:#FFCC00;background:url(http://a.vpimg3.com/upload/dop/2016/01/04/148/HOTT_qeu.gif)"></i>
+        </a>
+        <a class="cnzzCounter "
+           href="/taobao?r=nine&u=36050&pv=1" data-cnzz-type="53"
+           data-cnzz="0">9块9包邮</a>
+        <a id="navFeedback" style="float: right;width: auto;font-size: 12px;line-height: 46px;">意见反馈
+            <img src="//cms6.qingtaoke.com/images/feedback.png" alt="" style="width:12px;"></a>
+    </div>
+</div>
+
+<div id="feedback" class="feedback">
+    <div style="text-align:center;">
+        <div class="line">
+            <h1 class="feedback-title">意见反馈</h1>
+        </div>
+        <div class="line">
+            <p>感谢您对我们的支持，您的建议我们会认真采纳并不断优化，为您提供更好的服务和体验！</p>
+        </div>
+        <div class="line">
+            <textarea id="feedbackContent" rows="10" maxlength="400" placeholder="请输入您的建议或遇到的问题"></textarea><br/>
+        </div>
+        <div class="line">
+            <input id="feedbackContact" maxlength="40" placeholder="请优先填写QQ号码，方便在线联系"/><br/>
+        </div>
+        <div class="line">
+            <button id="feedbackSubmit">提交</button>
+        </div>
+    </div>
+</div>
+<div id="feedbackSuccess" class="feedback">
+    <div style="text-align:center;">
+        <div class="line">
+            <h1 class="feedback-title">提交成功</h1>
+        </div>
+        <div class="line">
+            <p>感谢您对我们的反馈，对您给予的帮助和支持我们深表感谢！</p>
+        </div>
+        <div class="line">
+            <button id="feedbackClose">关闭</button>
+        </div>
+    </div>
+</div>
+<!--浮动顶部-->
+<div class="fixedHead-box">
+    <div class="fixedHead">
+        <div class="fixedHead-nav">
+            <span class="cate">
+                <a href="./" class="cnzzCounter" data-cnzz-type="50" data-cnzz="0" data-cnzz-type="50" data-cnzz="0">今日上新<i></i></a>
+            </span>
+            <span class="split-line"></span>
+            <span class="cate">
+                <a href="/taobao?r=l&u=36050&pv=1" class="cnzzCounter"
+                   data-cnzz-type="51" data-cnzz="0">领券优惠直播<i></i></a>
+            </span>
+            <span class="split-line"></span>
+            <span class="cate">
+                <a href="/taobao?r=p&u=36050&pv=1" class="cnzzCounter"
+                   data-cnzz-type="52" data-cnzz="0">超级人气榜<i></i></a>
+            </span>
+            <span class="split-line"></span>
+            <span class="cate">
+                <a href="/taobao?r=nine&u=36050&pv=1" class="cnzzCounter"
+                   data-cnzz-type="53" data-cnzz="0">9块9包邮<i></i></a>
+            </span>
+        </div>
+        <div class="fixedHead-search" id="fixedSearch">
+            <form action="/taobao?r=index/index&pv=1">
+                <input type="hidden" name="r" value="l">
+                <input type="text" value="渔具"
+                       name="kw" placeholder="好宝贝 等你搜"/>
+                <button type="submit" class="cnzzCounter" data-cnzz-type="54" data-cnzz="1"></button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<div id="dtk_mian">
+    
+    <style type="text/css">
+        .g_over {
+            border: 1px solid #F3E9EC;
+        }
+
+        .g_over:hover, .g_over:focus {
+            border: 1px solid #de366e;
+        }
+    </style>
+    <div class="search-wrap main-container">
+        <img src="https://img.alicdn.com/imgextra/i2/847774267/TB2dWOvbTcCL1FjSZFPXXXZgpXa_!!847774267.png?v=20170508010" alt="">
+    </div>
+
+    <div class="cat-wrap main-container">
+                <div class="cat-list sale-type clearfix">
+            <span class="cat-lit-title">促销类型</span>
+            <ul class="clearfix">
+                <li class="">
+                                        <a href="/taobao?r=l&cid=0&kw=%E6%B8%94%E5%85%B7&s=n&min=0&max=0&seckill=0&jipin=1&tmall=0&u=36050&pv=1"><i></i>优选</a>
+                </li>
+                <li class="">
+                                        <a href="/taobao?r=l&cid=0&kw=%E6%B8%94%E5%85%B7&s=n&min=0&max=0&seckill=0&jipin=0&tmall=1&u=36050&pv=1"><i></i>天猫</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="tag-wrap main-container clearfix cat-wrap">
+        <div class="fixed-wrap fl">
+                        <a href="/taobao?r=l&cid=0&kw=%E6%B8%94%E5%85%B7&s=n&min=0&max=0&seckill=0&jipin=0&tmall=0&u=36050&pv=1"
+               class="tag-fixed active">销量从高到低</a>
+                        <a href="/taobao?r=l&cid=0&kw=%E6%B8%94%E5%85%B7&s=t&min=0&max=0&seckill=0&jipin=0&tmall=0&u=36050&pv=1"
+               class="tag-fixed ">最新</a>
+                        <a href="/taobao?r=l&cid=0&kw=%E6%B8%94%E5%85%B7&s=q&min=0&max=0&seckill=0&jipin=0&tmall=0&u=36050&pv=1"
+               class="tag-fixed ">领券量</a>
+                        <a href="/taobao?r=l&cid=0&kw=%E6%B8%94%E5%85%B7&s=r&min=0&max=0&seckill=0&jipin=0&tmall=0&u=36050&pv=1"
+               class="tag-fixed ">价格</a>
+
+            <div class="sort-price-area fl">
+                <form action="/taobao?r=l&cid=0&kw=%E6%B8%94%E5%85%B7&s=r&min=0&max=0&seckill=0&jipin=0&tmall=0&u=36050&pv=1"
+                      onsubmit="var param = $(this).serialize();window.location.href = $(this).prop('action')+'&'+param;return false;">
+                    <input class="min-price" onkeyup="this.value=this.value.replace(/[^\-?\d.]/g,'')" id="min" name="min" value="" placeholder="￥">
+                    <span>-</span>
+                    <input class="max-price" onkeyup="this.value=this.value.replace(/[^\-?\d.]/g,'')" id="max" name="max" value="" placeholder="￥">
+                    <button>确定</button>
+                </form>
+            </div>
+        </div>
+        <div class="goods-pages-page clearfix" style="">
+                        <span class="pagebtn disabled pre-page">
+                    </span>
+            <span class="page-num"><b>1</b>/1</span>
+                        <span class="pagebtn disabled next-page">
+                    </span>
+        </div>
+    </div>
+
+    <div class="goods-list main-container" style="overflow:hidden;">
+        
+            <ul class="clearfix">
+                                    <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=239748&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img.alicdn.com/imgextra/i3/TB1gqVbNVXXXXcQXXXXXXXXXXXX_!!0-item_pic.jpg_290x290.jpg"
+                                 alt="浪华手海竿套装全套钓鱼竿手杆溪流竿"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>8.8                                    </b></span>
+                                <span class="old-price"><i>￥</i>18.8</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>10                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=239748&u=36050&pv=1"> 浪华手海竿套装全套钓鱼竿手杆溪流竿</a>
+                            </div>
+                            <div class="goods-num-type">
+                                                                    <span class="goods-num">销量<b _hover-ignore="1">1176</b></span>
+                                
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=241226&u=36050&pv=1" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img.alicdn.com/imgextra/i2/2878721733/TB2hm6fX5Zd61BjSZFLXXXMMFXa_!!2878721733.gif_290x290.jpg"
+                                 alt="太宇碳素路亚竿套装鱼杆渔具"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>109                                    </b></span>
+                                <span class="old-price"><i>￥</i>129</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>20                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=241226&u=36050&pv=1"> 太宇碳素路亚竿套装鱼杆渔具</a>
+                            </div>
+                            <div class="goods-num-type">
+                                                                    <span class="goods-num">销量<b _hover-ignore="1">164</b></span>
+                                
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+            </ul>
+            </div>
+
+</div>
+
+<div id="footer" style="background-color: #373737;height: 190px;width: 100%;border-top: 3px solid #FF6C00;">
+    <div class="footer-wrapper " style="width: 1200px;margin: 0 auto;position: relative;text-align: center">
+        <img src="//cms6.qingtaoke.com/images/bottom_text.png" alt="" style="border: 0;margin-top: 50px;">
+
+        <div class="author" style="    position: absolute;
+    top: 67px;
+    left: 990px;
+    color: #FFFFFF;
+    font-size: 18px;">by
+            &nbsp;&nbsp;淘优惠</div>
+        <div class="text" style="color: #a2a2a2;
+    font-size: 16px;
+    margin-top: 33px;">&copy; CopyRight&nbsp;2017            &nbsp;<a href="http://newbug.xyz" target="_blank" rel="nofollow"
+                     style="color:#a2a2a2;">淘优惠</a>
+            &nbsp;http://newbug.xyz&nbsp;&nbsp;<a href="http://www.miitbeian.gov.cn/" target="_blank"
+                                                                     rel="nofollow"
+                                                                     style="color:#a2a2a2;">豫ICP备17010592号</a>
+            &nbsp;&nbsp;                <a target="_blank"
+                   href="http://wpa.qq.com/msgrd?v=3&uin=529778790&site=qq&menu=yes"
+                   style="color: #8da7cb" title="联系我帮你解答">^_^亲遇到问题，联系我帮你处理哈</a>
+                </div>
+    </div>
+</div>
+<div class="toTop" style="display: none" onclick=" $('body,html').animate({scrollTop:0},1000);"><span>回到顶部</span></div>
+<script type="text/javascript">
+    // 设置为主页
+    function SetHome(obj, vrl) {
+        try {
+            obj.style.behavior = 'url(#default#homepage)';
+            obj.setHomePage(vrl);
+        }
+        catch (e) {
+            if (window.netscape) {
+                try {
+                    netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                }
+                catch (e) {
+                    alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。");
+                }
+                var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+                prefs.setCharPref('browser.startup.homepage', vrl);
+            } else {
+                alert("您的浏览器不支持，请按照下面步骤操作：1.打开浏览器设置。2.点击设置网页。3.输入：" + vrl + "点击确定。");
+            }
+        }
+    }
+    // 加入收藏 兼容360和IE6
+    function shoucang(sTitle, sURL) {
+        try {
+            window.external.addFavorite(sURL, sTitle);
+        }
+        catch (e) {
+            try {
+                window.sidebar.addPanel(sTitle, sURL, "");
+            }
+            catch (e) {
+                alert("加入收藏失败，请使用Ctrl+D进行添加");
+            }
+        }
+    }
+    // toTop&fixedHead
+    function showElem() {
+        if ($(window).scrollTop() > 168) {
+            $(".toTop").stop().fadeIn(200);
+            $(".fixedHead-box").stop().slideDown(200);
+        } else {
+            $(".toTop").stop().fadeOut(200);
+            $(".fixedHead-box").stop().slideUp(200);
+        }
+    }
+    $(function () {
+        showElem();
+        $(window).scroll(function () {
+            showElem()
+        });
+
+        $('#navFeedback').on('click', function () {
+            layer.open({
+                type: 1,
+                //skin:'layui-layer-rim',
+                area: [600, 400],
+                title: false,
+                closeBtn: 1,
+                shadeClose: true,
+                //btn:['提交'],
+                content: $('#feedback')
+            });
+        });
+        $('#feedbackSubmit').on('click', function () {
+            var fContent = $('#feedbackContent').val();
+            var fContact = $('#feedbackContact').val();
+            if (fContent.trim() == '') {
+                layer.msg('请留下您的建议', {time: 1500});
+                return;
+            }
+            if (fContact.trim() == '') {
+                layer.msg('请留下您的联系方式', {time: 1500});
+                return;
+            }
+            var feedbackSuccess = function (ret) {
+                layer.closeAll();
+                $('#feedbackContent').val('');
+                $('#feedbackContact').val('');
+                layer.open({
+                    type: 1,
+                    area: [600, 400],
+                    title: false,
+                    closeBtn: 0,
+                    shadeClose: true,
+                    content: $('#feedbackSuccess')
+                });
+            }
+            $.ajax('index.php?r=Feedback/add', {
+                type: 'post',
+                dataType: 'json',
+                data: {
+                    "content": fContent.trim(),
+                    "contact": fContact.trim(),
+                    // 处理当uid为空时，js不报错。
+                    "uid":36050                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    return layer.msg(errorThrown);
+                },
+                success: feedbackSuccess
+            });
+        });
+        $('#feedbackClose').on('click', function () {
+            layer.closeAll();
+        });
+    });
+
+</script>
+<script type="text/javascript" src="http://counter.qingtaoke.com/js/count.js?t=5&amp;u=36050&amp;pv=1" id="counterJs"></script>
+<script type="text/javascript" src="http://counter.dataoke.com/js/kwCount.js?t=5&amp;u=36050&amp;kw=&quot;\u6e14\u5177&quot;&amp;type=4" id="kwCounterJs"></script>
+<script type="text/javascript" src="//cms6.qingtaoke.com/js/scrollTop2.js?v=0331001"></script>
+</body>
+</html>
+";}

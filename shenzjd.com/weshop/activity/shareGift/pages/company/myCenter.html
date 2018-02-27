@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Language" content="zh-cn" />
+		<meta name="Keywords" content="" />
+		<meta name="Description" content="" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>个人中心</title>
+		<link rel="stylesheet" href="../../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/base.css"/>
+		<script src="//wximg.qq.com/wxp/libs/wxmoment/0.0.4/wxmoment.min.js"></script>
+		<script src="../../js/url.js"></script>
+		<script src="../../js/base.js"></script>
+		<script type="text/javascript">
+		    window.zhuge = window.zhuge || [];window.zhuge.methods = "_init debug identify track trackLink trackForm page".split(" ");
+		    window.zhuge.factory = function(b) {return function() {var a = Array.prototype.slice.call(arguments);a.unshift(b);
+		    window.zhuge.push(a);return window.zhuge;}};for (var i = 0; i < window.zhuge.methods.length; i++) {
+		    var key = window.zhuge.methods[i];window.zhuge[key] = window.zhuge.factory(key);}window.zhuge.load = function(b, x) {
+		    if (!document.getElementById("zhuge-js")) {var a = document.createElement("script");var verDate = new Date();
+		    var verStr = verDate.getFullYear().toString()+ verDate.getMonth().toString() + verDate.getDate().toString();
+		    a.type = "text/javascript";a.id = "zhuge-js";a.async = !0;a.src = (location.protocol == 'http:' ? "http://sdk.zhugeio.com/zhuge.min.js?v=" : 'https://zgsdk.zhugeio.com/zhuge.min.js?v=') + verStr;
+		    a.onerror = function(){window.zhuge.identify = window.zhuge.track = function(ename, props, callback){if(callback && Object.prototype.toString.call(callback) === '[object Function]')callback();};};
+		    var c = document.getElementsByTagName("script")[0];c.parentNode.insertBefore(a, c);window.zhuge._init(b, x)}};
+		    window.zhuge.load('d2cec89795db49318b566c3fb3ecbd5d'
+		    ,{autoTrack: true,visualizer: true});//配置应用的AppKey
+		</script>
+		<style>
+			.userImg{
+				 border-radius: 100%;
+				 width: 100px;
+				 height: 100px;
+				 border: 1px solid #FFFFFF;
+			}
+			.arrow{
+				position: absolute;
+				right: 15px;
+				top:0;
+				line-height: 63px;				
+			}
+		</style>
+	</head>
+	<body class="grayBg">
+		<div class="centerBg textC PTB15">
+			<div>
+				<img class="userImg" src="" alt=""/>
+				<p class="whiteTex font18 nickname"></p>
+			</div>
+		</div>
+		<div class="whiteBg MT10 textC PT10">
+			<a href="relayDetail.html">
+				<div class="grayTex font20">累计转发</div>
+				<div style="position: relative;">
+					<span class="font45 yellowTex turnNum">0</span>
+					<span class="blackTex">人</span>
+					<div class="arrow">
+						<img src="" alt="" style="width: 8px;"/>
+					</div>
+				</div>
+			</a>
+		</div>
+		<div class="whiteBg MT10 textC" style="overflow: hidden;">
+			<div class="width50 fl PTB10" style="border-right:1px solid #ccc ;">
+				<a href="awardDetail.html">
+					<div class="grayTex font18">累计奖励</div>
+					<div class="blackTex PT5">￥<span class="sumAward"></span>元</div>
+				</a>
+			</div>
+			<div class="width50 fr PTB10">
+				<a href="withdraw.html">
+					<div class="grayTex font18" style="position: relative;">账户余额<span class="font14 blueTex" style="position: absolute;top: 4px;right: 6px;">提现</span></div>
+					<div class="blackTex PT5">￥<span class="award"></span>元</div>
+				</a>
+			</div>
+		</div>
+		<div style="margin: 100px 0;text-align: center;">
+			<a href="activeProduct.html?isF=1">
+				<span style="padding: 8px 50px;background-color: #37A9FB;border-radius: 5px;color: #FFFFFF;">进入转发页面</span>
+			</a>
+		</div>
+	</body>
+	<script>
+	$(function(){
+		var base = new Base64(); 
+//		$('.userImg').attr('src',_staticImgUrl+'img/touxiang.jpg');
+		$('.arrow img').attr('src',_staticImgUrl+'img/arrow.png');
+		$('.centerBg').css('background-image','url('+_staticImgUrl+'img/centerBg.png)');		
+		var agentCode = getCookie('agentCode'),
+			HeadUrl = getCookie('jkHeadUrl');
+		$('.userImg').attr('src',HeadUrl);
+		$('.nickname').text(base.decode(getCookie('jkName')));		
+		setCookie('myCenterMsg',JSON.stringify({count:0,sumCommission:0}),1)
+//		获取个人中心信息
+		ajaxPost(
+			Url.GET_WITHDRAWAL,
+			{"agentcode":agentCode,"code":"0"},
+			function(data){
+				console.log(JSON.stringify(data))
+				if(data.code == 100){
+					setCookie('myCenterMsg',JSON.stringify({count:data.data.count,sumCommission:data.data.sumCommission}),1)
+					$('.turnNum').text(data.data.count);
+					$('.sumAward').text(data.data.sumCommission+'.00');
+					$('.award').text(data.data.withdrawal+'.00');
+				}
+			},
+			function(data){
+				console.log('失败'+JSON.stringify(data))
+			}
+		)
+//		编解码base64
+function Base64() {    
+    _keyStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";  
+    this.encode = function (input) {  
+        var output = "";  
+        var chr1, chr2, chr3, enc1, enc2, enc3, enc4;  
+        var i = 0;  
+        input = _utf8_encode(input);  
+        while (i < input.length) {  
+            chr1 = input.charCodeAt(i++);  
+            chr2 = input.charCodeAt(i++);  
+            chr3 = input.charCodeAt(i++);  
+            enc1 = chr1 >> 2;  
+            enc2 = ((chr1 & 3) << 4) | (chr2 >> 4);  
+            enc3 = ((chr2 & 15) << 2) | (chr3 >> 6);  
+            enc4 = chr3 & 63;  
+            if (isNaN(chr2)) {  
+                enc3 = enc4 = 64;  
+            } else if (isNaN(chr3)) {  
+                enc4 = 64;  
+            }  
+            output = output +  
+            _keyStr.charAt(enc1) + _keyStr.charAt(enc2) +  
+            _keyStr.charAt(enc3) + _keyStr.charAt(enc4);  
+        }  
+        return output;  
+    }  
+   
+    // public method for decoding  
+    this.decode = function (input) {  
+        var output = "";  
+        var chr1, chr2, chr3;  
+        var enc1, enc2, enc3, enc4;  
+        var i = 0;  
+        input = input.replace(/[^A-Za-z0-9\+\/\=]/g, "");  
+        while (i < input.length) {  
+            enc1 = _keyStr.indexOf(input.charAt(i++));  
+            enc2 = _keyStr.indexOf(input.charAt(i++));  
+            enc3 = _keyStr.indexOf(input.charAt(i++));  
+            enc4 = _keyStr.indexOf(input.charAt(i++));  
+            chr1 = (enc1 << 2) | (enc2 >> 4);  
+            chr2 = ((enc2 & 15) << 4) | (enc3 >> 2);  
+            chr3 = ((enc3 & 3) << 6) | enc4;  
+            output = output + String.fromCharCode(chr1);  
+            if (enc3 != 64) {  
+                output = output + String.fromCharCode(chr2);  
+            }  
+            if (enc4 != 64) {  
+                output = output + String.fromCharCode(chr3);  
+            }  
+        }  
+        output = _utf8_decode(output);  
+        return output;  
+    }  
+   
+    // private method for UTF-8 encoding  
+    _utf8_encode = function (string) {  
+        string = string.replace(/\r\n/g,"\n");  
+        var utftext = "";  
+        for (var n = 0; n < string.length; n++) {  
+            var c = string.charCodeAt(n);  
+            if (c < 128) {  
+                utftext += String.fromCharCode(c);  
+            } else if((c > 127) && (c < 2048)) {  
+                utftext += String.fromCharCode((c >> 6) | 192);  
+                utftext += String.fromCharCode((c & 63) | 128);  
+            } else {  
+                utftext += String.fromCharCode((c >> 12) | 224);  
+                utftext += String.fromCharCode(((c >> 6) & 63) | 128);  
+                utftext += String.fromCharCode((c & 63) | 128);  
+            }  
+   
+        }  
+        return utftext;  
+    }  
+   
+    // private method for UTF-8 decoding  
+    _utf8_decode = function (utftext) {  
+        var string = "";  
+        var i = 0;  
+        var c = c1 = c2 = 0;  
+        while ( i < utftext.length ) {  
+            c = utftext.charCodeAt(i);  
+            if (c < 128) {  
+                string += String.fromCharCode(c);  
+                i++;  
+            } else if((c > 191) && (c < 224)) {  
+                c2 = utftext.charCodeAt(i+1);  
+                string += String.fromCharCode(((c & 31) << 6) | (c2 & 63));  
+                i += 2;  
+            } else {  
+                c2 = utftext.charCodeAt(i+1);  
+                c3 = utftext.charCodeAt(i+2);  
+                string += String.fromCharCode(((c & 15) << 12) | ((c2 & 63) << 6) | (c3 & 63));  
+                i += 3;  
+            }  
+        }  
+        return string;  
+    }  
+} 
+	})
+	</script>
+	<script src="../../js/forbidShare.js"></script>
+</html>

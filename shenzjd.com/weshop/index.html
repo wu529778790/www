@@ -1,0 +1,52 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1"><meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><meta name=format-detection content="telephone=no, email=no"><link href=./assets/img/favicon.ico rel=icon type=image/x-icon><title>君康顾问通</title><style>html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }</style><script type=text/javascript>window.globalConfig = {
+          uat: 'UAT' === 'UAT',
+          ali: 'UAT' === 'ALI'
+        };
+        if ('false' === 'false') {
+            window.zhuge = window.zhuge || [];
+            window.zhuge.methods = "_init debug identify track trackLink trackForm page".split(" ");
+            window.zhuge.factory = function(b) {
+                return function() {
+                    var a = Array.prototype.slice.call(arguments);
+                    a.unshift(b);
+                    window.zhuge.push(a);
+                    return window.zhuge;
+                }
+            };
+            for (var i = 0; i < window.zhuge.methods.length; i++) {
+                var key = window.zhuge.methods[i];
+                window.zhuge[key] = window.zhuge.factory(key);
+            }
+            window.zhuge.load = function(b, x) {
+                if (!document.getElementById("zhuge-js")) {
+                    var a = document.createElement("script");
+                    var verDate = new Date();
+                    var verStr = verDate.getFullYear().toString() + verDate.getMonth().toString() + verDate.getDate().toString();
+                    a.type = "text/javascript";
+                    a.id = "zhuge-js";
+                    a.async = !0;
+                    a.src = (location.protocol == 'http:' ? "http://sdk.zhugeio.com/zhuge.min.js?v=" : 'https://zgsdk.zhugeio.com/zhuge.min.js?v=') + verStr;
+                    a.onerror = function() {
+                        window.zhuge.identify = window.zhuge.track = function(ename, props, callback) {
+                            if (callback && Object.prototype.toString.call(callback) === '[object Function]') callback();
+                        };
+                    };
+                    var c = document.getElementsByTagName("script")[0];
+                    c.parentNode.insertBefore(a, c);
+                    window.zhuge._init(b, x)
+                }
+            };
+            window.zhuge.load('d2cec89795db49318b566c3fb3ecbd5d', {
+                platform: {
+                    '环境': 'UAT'
+                },
+                autoTrack: true, //启用全埋点采集
+                singlePage: true, //启用单页面应用（SPA）采集
+                visualizer: true //启用可视化埋点
+            });
+        }</script><link href=./assets/css/app.df3cdd1e9390b1d6ec946bb583f57858.css rel=stylesheet></head><body><div id=app></div><script src=https://res.wx.qq.com/open/js/jweixin-1.2.0.js></script><script type=text/javascript src=./assets/js/manifest.90e7f8d793c1ad2296eb.js></script><script type=text/javascript src=./assets/js/vendor.710812c72279cee6f765.js></script><script type=text/javascript src=./assets/js/app.945fef8fef56752a562d.js></script></body></html>

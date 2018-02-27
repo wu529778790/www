@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Language" content="zh-cn" />
+		<meta name="Keywords" content="" />
+		<meta name="Description" content="" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>绑定个人信息</title>
+		<link rel="stylesheet" href="../../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/base.css"/>
+		<script src="//wximg.qq.com/wxp/libs/wxmoment/0.0.4/wxmoment.min.js"></script>
+		<script src="../../js/url.js?v=1"></script>
+		<script src="../../js/base.js?v=1"></script>
+		<script type="text/javascript">
+		    window.zhuge = window.zhuge || [];window.zhuge.methods = "_init debug identify track trackLink trackForm page".split(" ");
+		    window.zhuge.factory = function(b) {return function() {var a = Array.prototype.slice.call(arguments);a.unshift(b);
+		    window.zhuge.push(a);return window.zhuge;}};for (var i = 0; i < window.zhuge.methods.length; i++) {
+		    var key = window.zhuge.methods[i];window.zhuge[key] = window.zhuge.factory(key);}window.zhuge.load = function(b, x) {
+		    if (!document.getElementById("zhuge-js")) {var a = document.createElement("script");var verDate = new Date();
+		    var verStr = verDate.getFullYear().toString()+ verDate.getMonth().toString() + verDate.getDate().toString();
+		    a.type = "text/javascript";a.id = "zhuge-js";a.async = !0;a.src = (location.protocol == 'http:' ? "http://sdk.zhugeio.com/zhuge.min.js?v=" : 'https://zgsdk.zhugeio.com/zhuge.min.js?v=') + verStr;
+		    a.onerror = function(){window.zhuge.identify = window.zhuge.track = function(ename, props, callback){if(callback && Object.prototype.toString.call(callback) === '[object Function]')callback();};};
+		    var c = document.getElementsByTagName("script")[0];c.parentNode.insertBefore(a, c);window.zhuge._init(b, x)}};
+		    window.zhuge.load('d2cec89795db49318b566c3fb3ecbd5d'
+		    ,{autoTrack: true,visualizer: true});//配置应用的AppKey
+		</script>
+		<style type="text/css">
+			input{
+				border: 0;
+			}
+			.logo{
+				margin-top: 100px;
+				text-align: center;
+			}
+			.border{
+				border: 1px solid #ccc;
+				padding: 2px 0 2px 10px;
+				width: 70%;
+				margin: 10px 15%;
+				line-height: 30px;
+			}
+			.border input{
+				line-height: 30px;
+			}
+			.cBtn{
+				background: #ccc;
+				color: #666;
+				float: right;
+			}	
+			.errorMsg{
+				font-size: 14px;
+				text-align: center;
+				color: red;
+				line-height: 20px;
+				height: 20px;
+			}
+			.phone{
+				width: 95%;
+			}
+			.captchaTime{
+				display: none;
+				width:110px
+			}
+		</style>
+	</head>
+	<body>
+		<div class="logo"><img src="" alt="" /></div>
+		<div class="border">
+			<input type="tel" class="phone" name="phone" maxlength="11" autocomplete="off" placeholder="请输入手机号码"/>
+		</div>
+		<div class="border">
+			<input type="tel" class="captcha" name="captcha" maxlength="4" autocomplete="off" placeholder="请输入验证码" style="width: 100px;"/>
+			<span class="captchaBtn cBtn">获取验证码</span>
+			<span class="cBtn captchaTime"><em>60</em>s后重新获取</span>
+			
+		</div>
+		<div class="errorMsg"></div>
+		<div class="btn width70 blueBg whiteTex font20" style="margin-top: 10px;">马上绑定</div>
+	</body>
+	<script src="../../js/forbidShare.js"></script>
+	<script>
+		$('.logo img').attr('src',_staticImgUrl+'img/logo.png');
+		function verify(ele){			
+			var pattern = /^(|(1((3\d)|(4[57])|(5[012356789])|(7[0678])|(8\d))\d{8}))$/;
+			var value = ele.val() || '';
+			if(value.length == 0){
+				errorMsg('手机号码不能为空')
+				return false;
+			}
+			if(!pattern.test(value)){
+				errorMsg('手机号码格式不正确');
+				return false;
+			}
+			return true;
+		}
+		$('.captchaBtn').bind('click',function(){
+			var ele = $('.phone');	
+			if(!verify(ele)){
+				return;
+			}
+			var phoneData = {mobile:ele.val()};
+//			获取短信验证码
+			ajaxPost(
+				Url.SEND_MESSAGE,
+				phoneData,
+				function(data){
+					if(data.code == 100){
+						$('.captchaBtn').hide();
+						$('.captchaTime').show();
+						var num = 60;
+						$('.captchaTime em').text(num);
+						var timer = setInterval(function(){
+							num--;
+							$('.captchaTime em').text(num);
+						},1000)
+						setTimeout(function(){
+							$('.captchaBtn').show();
+							$('.captchaTime').hide();
+							clearInterval(timer);
+						},60000)
+					}else{
+						errorMsg(data.msg);
+					}
+				},
+				function(data){
+					console.log(data);
+				}
+			)
+		})
+		$('.btn').bind('click',function(){
+			var ele = $('.phone');
+			var captcha = $('.captcha').val();
+			if(!verify(ele)){
+				return;
+			}
+			if(captcha.length == 0){
+				errorMsg('验证码不能为空');
+				return;
+			}
+			var openId = getCookie('openId') || '';
+//			绑定手机号
+			ajaxPost(
+				Url.ADD_PHONE,
+				{mobile:ele.val(),identifyingCode:captcha,openId:openId},
+				function(data){
+					if(data.code == 100){
+						window.location.href = _base + '/activity/shareGift/pages/server/myCenter.html';
+					}else{
+						errorMsg(data.msg);
+					}
+				},
+				function(data){
+					console.log(data);
+				}
+			)
+		})
+		function errorMsg(msg){
+			$('.errorMsg').text(msg);
+			setTimeout(function(){
+				$('.errorMsg').text('');
+			},3000)
+		}
+	</script>
+</html>

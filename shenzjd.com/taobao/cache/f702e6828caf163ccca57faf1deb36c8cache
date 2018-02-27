@@ -1,0 +1,2740 @@
+a:3:{s:4:"time";i:1510446808;s:6:"expire";i:60;s:5:"value";s:182016:"<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="zh-CN">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+    <meta name="renderer" content="webkit">
+    <!-- blueprint CSS framework //cdn.bootcss.com/jquery/1.12.1/jquery.js -->
+    <link rel="stylesheet" type="text/css" href="//cms6.qingtaoke.com/css/reset.css?v=20171103007">
+    <link rel="stylesheet" type="text/css" href="//cms6.qingtaoke.com/css/footer.css?v=1510446808">
+    <link rel="stylesheet" type="text/css" href="//cms6.qingtaoke.com/css/pager.css?v=1510446808">
+    <link rel="stylesheet" type="text/css" href="//cms6.qingtaoke.com/css/dtk.css?v=20171103007">
+    <link rel="stylesheet" href="//cms6.qingtaoke.com/css/iconfont.css?t=06160032">
+    <!--    <link rel="stylesheet" type="text/css" href="--><!--/css/dtk.css?v=-->
+    <!--">-->
+    <link rel="stylesheet" type="text/css" href="//cms6.qingtaoke.com/css/Coupon.css?v=20171103007" />
+<title>美食折扣，领券立减-淘优惠</title>
+    <meta name="Keywords" content="淘宝，优惠券，天猫，bug,淘优惠"/>
+    <meta name="Description" content=""/>
+
+    <script src="//cdn.bootcss.com/jquery/1.12.1/jquery.js"></script>
+    <script src="//cms6.qingtaoke.com/js/layer/layer.js"></script>
+    <script src="//cms6.qingtaoke.com/js/dtk.js?v=06160032"></script>
+    <script src="//cms6.qingtaoke.com/js/unslider.min.js??v=06160032"></script>
+    <!--<script src="http://tj.quan007.com/satc.js?t=<?/*=Util::getVersion()*/?>" charset="utf-8" type="application/javascript"></script>-->
+    <script src="//cms6.qingtaoke.com/js/myTj.js?t=20171103007"></script>
+
+    <script>
+        $(function () {
+            $("body").on('click', '.cnzzCounter', function () {
+                var fkId = $(this).attr('data-cnzz');
+                var fkType = $(this).attr('data-cnzz-type');
+                var tPaht = "/taobao/index.php";
+                var reqUrl = "/taobao/?r=l&cid=6&u=36050&pv=1";
+                $.ajax(tPaht, {
+                    data: {r: 'site/cnzz', fkId: fkId, req: reqUrl, cnzzType: fkType},
+                    dataType: 'json',
+                    type: 'post',
+                    error: function (xhr, type, errorThrown) {
+
+                    },
+                    success: function (result, status, xhr) {
+
+                    }
+                });
+            });
+        });
+    </script>
+
+</head>
+<body>
+<style>
+    #navTop {
+        width: 100%;
+
+        /*border-bottom: 1px solid #ccc;*/
+    }
+
+    body #headNav #header #showList dl {
+        margin: 5px 16px;
+    }
+
+    body #headNav #header #showList #search button {
+        height: 37px;
+        overflow: hidden;
+        padding: 7px 30px;
+    }
+
+    #feedbackSuccess {
+        text-align: center;
+    }
+
+    .feedback-content {
+        display: inline-block;
+        background-color: #fff;
+        padding-bottom: 30px;
+    }
+
+    .feedback {
+        display: none;
+        padding-bottom: 30px;
+    }
+
+    .feedback .feedback-title {
+        color: #ff6600;
+        font-size: 20px;
+        padding-top: 15px;
+    }
+
+    .feedback .line {
+        margin: 20px 50px 0px 50px;
+    }
+
+    .feedback input {
+        width: 538px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .feedback textarea {
+        width: 538px;
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .feedback button {
+        /*display: inline-block;*/
+        /*font-family: inherit;*/
+        background: #ff6600;
+        line-height: 40px;
+        font-weight: 700;
+        font-size: 14px;
+        height: 40px;
+        color: #fff;
+        border: 0;
+        width: 120px;
+        padding: 0 15px;
+        border: 0;
+        border-radius: 2px;
+    }
+
+    .layui-layer-setwin .layui-layer-close2 {
+        background-position: -149px -31px !important;
+    }
+
+    #feedback {
+        background-color: white;
+    }
+
+    .cms-slogan {
+        width: 100%;
+        height: 80px;
+        overflow: hidden;
+    }
+
+    .cms-slogan .cms-slogan-box {
+        width: 1920px;
+        position: relative;
+        left: 50%;
+        margin-left: -960px;
+    }
+</style>
+
+<!--cms头部通告banner-->
+
+<div id="navTop">
+    <div id="top">
+        <div id="topleft" style="margin: 0;line-height: 25px;">                            <a target="_blank" style="height: 22px;float: right;"
+                   href="https://jq.qq.com/?_wv=1027&k=46dzoim"><img
+                        border="0"
+                        src="https://img.alicdn.com/imgextra/i1/2508158775/TB2SfmWqFXXXXb4XpXXXXXXXXXX_!!2508158775.png"></a>
+                        </div>
+        <ul id="topright" style="line-height: 25px;">
+            <li style=" margin-right: 8px;"><a
+                    href="javascript:void(0)" onclick="SetHome(this,window.location)" style="color: #757575"
+                    title="将本站设为首页">设为首页</a>
+            </li>
+            <li style="margin-right: 8px;"><a
+                    href="javascript:void(0)" onclick="shoucang(document.title,window.location)" style="color: #757575"
+                    title="加入收藏，方便下次打开">加入收藏</a>
+            </li>
+            <li><a target="_blank"
+                   href="http://wpa.qq.com/msgrd?v=3&uin=529778790&site=qq&menu=yes"
+                   style="color: #8da7cb" title="联系我帮你解答">遇到购物问题? 联系我 ></a>
+            </li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+</div>
+
+<div id="headNav">
+    <div id="header">
+        <a id="logo" class="cnzzCounter" data-cnzz-type="50" data-cnzz="0"
+           href="/taobao?r=index/index&u=36050&pv=2"
+           style="background-image:url('http://ongskmt08.bkt.clouddn.com/logo.PNG')" title="">
+        </a>
+
+        <div id="search">
+            <form action="/taobao?r=index/index&pv=2"><input type="hidden" name="r" value="l">
+                <input type="text" value=""
+                       name="kw" placeholder="好宝贝 等你搜"/>
+                <button type="submit" class="cnzzCounter" data-cnzz-type="54" data-cnzz="1"></button>
+            </form>
+        </div>
+        <div class="showChar">
+            <div class="showChar-div showChar-3 right">
+                <i></i>
+                <span>验货保障</span>
+            </div>
+            <div class="showChar-div showChar-2">
+                <i></i>
+                <span>买手砍价</span>
+            </div>
+            <div class="showChar-div showChar-1">
+                <i></i>
+                <span>9:00开抢</span>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+
+<div id="baner">
+    <div id="nav">
+        <a href="/taobao?r=index/index&u=36050&pv=2"
+           class="cnzzCounter " data-cnzz-type="50"
+           data-cnzz="0">今日上新</a>
+        <a class="cnzzCounter active"
+           href="/taobao?r=l&u=36050&pv=2" data-cnzz-type="51"
+           data-cnzz="0">领券优惠直播</a>
+        <a href="/taobao?r=p&u=36050&pv=2"
+           class="cnzzCounter iconH " data-cnzz-type="52" data-cnzz="0">超级人气榜
+            <i style="position:absolute; top:4px; right:30px; display:block; width:24px; height:32px; background:#FFCC00;background:url(http://a.vpimg3.com/upload/dop/2016/01/04/148/HOTT_qeu.gif)"></i>
+        </a>
+        <a class="cnzzCounter "
+           href="/taobao?r=nine&u=36050&pv=2" data-cnzz-type="53"
+           data-cnzz="0">9块9包邮</a>
+        <a id="navFeedback" style="float: right;width: auto;font-size: 12px;line-height: 46px;">意见反馈
+            <img src="//cms6.qingtaoke.com/images/feedback.png" alt="" style="width:12px;"></a>
+    </div>
+</div>
+
+<div id="feedback" class="feedback">
+    <div style="text-align:center;">
+        <div class="line">
+            <h1 class="feedback-title">意见反馈</h1>
+        </div>
+        <div class="line">
+            <p>感谢您对我们的支持，您的建议我们会认真采纳并不断优化，为您提供更好的服务和体验！</p>
+        </div>
+        <div class="line">
+            <textarea id="feedbackContent" rows="10" maxlength="400" placeholder="请输入您的建议或遇到的问题"></textarea><br/>
+        </div>
+        <div class="line">
+            <input id="feedbackContact" maxlength="40" placeholder="请优先填写QQ号码，方便在线联系"/><br/>
+        </div>
+        <div class="line">
+            <button id="feedbackSubmit">提交</button>
+        </div>
+    </div>
+</div>
+<div id="feedbackSuccess" class="feedback">
+    <div class="feedback-content" style="text-align:center;">
+        <div class="line">
+            <h1 class="feedback-title">提交成功</h1>
+        </div>
+        <div class="line">
+            <p>感谢您对我们的反馈，对您给予的帮助和支持我们深表感谢！</p>
+        </div>
+        <div class="line">
+            <button id="feedbackClose">关闭</button>
+        </div>
+    </div>
+</div>
+<!--浮动顶部-->
+<div class="fixedHead-box">
+    <div class="fixedHead">
+        <div class="fixedHead-nav">
+            <span class="cate">
+                <a href="./" class="cnzzCounter" data-cnzz-type="50" data-cnzz="0" data-cnzz-type="50" data-cnzz="0">今日上新<i></i></a>
+            </span>
+            <span class="split-line"></span>
+            <span class="cate on">
+                <a href="/taobao?r=l&u=36050&pv=2" class="cnzzCounter"
+                   data-cnzz-type="51" data-cnzz="0">领券优惠直播<i></i></a>
+            </span>
+            <span class="split-line"></span>
+            <span class="cate">
+                <a href="/taobao?r=p&u=36050&pv=2" class="cnzzCounter"
+                   data-cnzz-type="52" data-cnzz="0">超级人气榜<i></i></a>
+            </span>
+            <span class="split-line"></span>
+            <span class="cate">
+                <a href="/taobao?r=nine&u=36050&pv=2" class="cnzzCounter"
+                   data-cnzz-type="53" data-cnzz="0">9块9包邮<i></i></a>
+            </span>
+        </div>
+        <div class="fixedHead-search" id="fixedSearch">
+            <form action="/taobao?r=index/index&pv=2">
+                <input type="hidden" name="r" value="l">
+                <input type="text" value=""
+                       name="kw" placeholder="好宝贝 等你搜"/>
+                <button type="submit" class="cnzzCounter" data-cnzz-type="54" data-cnzz="1"></button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<div id="dtk_mian">
+    
+    <style type="text/css">
+        .g_over {
+            border: 1px solid #F3E9EC;
+        }
+
+        .g_over:hover, .g_over:focus {
+            border: 1px solid #de366e;
+        }
+    </style>
+    <div class="search-wrap main-container">
+        <img src="https://img.alicdn.com/imgextra/i2/847774267/TB2dWOvbTcCL1FjSZFPXXXZgpXa_!!847774267.png?v=20171103007" alt="">
+    </div>
+
+    <div class="cat-wrap main-container">
+
+        <div class="cat-list clearfix">
+            <span class="cat-lit-title">商品分类</span>
+            <ul class="clearfix" _hover-ignore="1">
+                <li >
+                    <a href="/taobao?r=l&cid=0&u=36050&pv=2" class="cnzzCounter" data-cnzz-type="51" data-cnzz="100">全部优惠<b>(2660)</b></a>
+                </li>
+                                    <li >
+                        <a href="/taobao?r=l&cid=10&u=36050&pv=2" class="cnzzCounter" data-cnzz-type="51" data-cnzz="10">女装<b>(717)</b></a>
+                    </li>
+                                    <li >
+                        <a href="/taobao?r=l&cid=11&u=36050&pv=2" class="cnzzCounter" data-cnzz-type="51" data-cnzz="11">内衣<b>(156)</b></a>
+                    </li>
+                                    <li >
+                        <a href="/taobao?r=l&cid=12&u=36050&pv=2" class="cnzzCounter" data-cnzz-type="51" data-cnzz="12">男装<b>(357)</b></a>
+                    </li>
+                                    <li >
+                        <a href="/taobao?r=l&cid=2&u=36050&pv=2" class="cnzzCounter" data-cnzz-type="51" data-cnzz="2">母婴<b>(254)</b></a>
+                    </li>
+                                    <li >
+                        <a href="/taobao?r=l&cid=3&u=36050&pv=2" class="cnzzCounter" data-cnzz-type="51" data-cnzz="3">化妆品<b>(80)</b></a>
+                    </li>
+                                    <li >
+                        <a href="/taobao?r=l&cid=4&u=36050&pv=2" class="cnzzCounter" data-cnzz-type="51" data-cnzz="4">居家<b>(497)</b></a>
+                    </li>
+                                    <li >
+                        <a href="/taobao?r=l&cid=5&u=36050&pv=2" class="cnzzCounter" data-cnzz-type="51" data-cnzz="5">鞋包配饰<b>(254)</b></a>
+                    </li>
+                                    <li class="active">
+                        <a href="/taobao?r=l&cid=6&u=36050&pv=2" class="cnzzCounter" data-cnzz-type="51" data-cnzz="6">美食<b>(85)</b></a>
+                    </li>
+                                    <li >
+                        <a href="/taobao?r=l&cid=7&u=36050&pv=2" class="cnzzCounter" data-cnzz-type="51" data-cnzz="7">文体车品<b>(112)</b></a>
+                    </li>
+                                    <li >
+                        <a href="/taobao?r=l&cid=8&u=36050&pv=2" class="cnzzCounter" data-cnzz-type="51" data-cnzz="8">数码家电<b>(148)</b></a>
+                    </li>
+                            </ul>
+        </div>
+
+        <div class="cat-list sale-type clearfix">
+            <span class="cat-lit-title">促销类型</span>
+            <ul class="clearfix">
+                <li class="">
+                                        <a href="/taobao?r=l&cid=6&kw=&s=t&min=0&max=0&seckill=0&jipin=1&tmall=0&u=36050&pv=2"><i></i>优选</a>
+                </li>
+                <li class="">
+                                        <a href="/taobao?r=l&cid=6&kw=&s=t&min=0&max=0&seckill=0&jipin=0&tmall=1&u=36050&pv=2"><i></i>天猫</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="tag-wrap main-container clearfix cat-wrap">
+        <div class="fixed-wrap fl">
+                        <a href="/taobao?r=l&cid=6&kw=&s=t&min=0&max=0&seckill=0&jipin=0&tmall=0&u=36050&pv=2"
+               class="tag-fixed active">最新</a>
+                           <a href="/taobao?r=l&cid=6&kw=&s=n&min=0&max=0&seckill=0&jipin=0&tmall=0&u=36050&pv=2"
+               class="tag-fixed ">销量</a>
+                        <a href="/taobao?r=l&cid=6&kw=&s=r&min=0&max=0&seckill=0&jipin=0&tmall=0&u=36050&pv=2"
+               class="tag-fixed ">价格</a>
+
+            <div class="sort-price-area fl">
+                <form action="/taobao?r=l&cid=6&kw=&s=r&min=0&max=0&seckill=0&jipin=0&tmall=0&u=36050&pv=2"
+                      onsubmit="var param = $(this).serialize();window.location.href = $(this).prop('action')+'&'+param;return false;">
+                    <input class="min-price" onkeyup="this.value=this.value.replace(/[^\-?\d.]/g,'')" id="min" name="min" value="" placeholder="￥">
+                    <span>-</span>
+                    <input class="max-price" onkeyup="this.value=this.value.replace(/[^\-?\d.]/g,'')" id="max" name="max" value="" placeholder="￥">
+                    <button>确定</button>
+                </form>
+            </div>
+        </div>
+        <div class="goods-pages-page clearfix" style="">
+                        <span class="pagebtn disabled pre-page">
+                    </span>
+            <span class="page-num"><b>
+                    1                </b>/
+                   1</span>
+                        <span class="pagebtn disabled next-page">
+                    </span>
+        </div>
+    </div>
+
+    <div class="goods-list main-container" style="overflow:hidden;">
+        
+            <ul class="clearfix">
+                                    <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=881968&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i2/2675406369/TB1HtDnXQfb_uJkSmFPXXcrCFXa_!!0-item_pic.jpg_290x290.jpg"
+                                 alt="友梦早餐食品手撕面包1500g+夹心面包1500g零食6斤装2大箱"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>58                                    </b></span>
+                                <span class="old-price"><i>￥</i>63</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>5                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=881968&u=36050&pv=2"> 友梦早餐食品手撕面包1500g+夹心面包1500g零食6斤装2大箱</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">2236</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                                    <i class="miaosha" title="秒杀"></i>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=846271&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i1/1816861818/TB2qcx3ljuhSKJjSspmXXcQDpXa_!!1816861818.jpg_290x290.jpg"
+                                 alt="【双11】恒星牌郫县特级红油豆瓣酱"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>9.8                                    </b></span>
+                                <span class="old-price"><i>￥</i>19.8</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>10                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=846271&u=36050&pv=2"> 【双11】恒星牌郫县特级红油豆瓣酱</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">3122</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=845664&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/bao/uploaded/i3/2969710238/TB1cOftbv2H8KJjy1zkXXXr7pXa_!!0-item_pic.jpg_290x290.jpg"
+                                 alt="汤臣倍健R牛初乳加钙咀嚼片30片*3瓶"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>39.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>119.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>80                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=845664&u=36050&pv=2"> 汤臣倍健R牛初乳加钙咀嚼片30片*3瓶</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">2299</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=836057&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i4/2623953058/TB2_NK3aai5V1BjSspmXXXlwpXa_!!2623953058.jpg_290x290.jpg"
+                                 alt="【双11】冰糖心红富士丑苹果10斤"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>49                                    </b></span>
+                                <span class="old-price"><i>￥</i>59</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>10                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=836057&u=36050&pv=2"> 【双11】冰糖心红富士丑苹果10斤</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">9829</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                <i class="you" title="优品"></i>
+                                                                                                        </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=812994&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i1/2602003945/TB2aqylkvBNTKJjSszbXXaFrFXa_!!2602003945.jpg_290x290.jpg"
+                                 alt="量少不来调经养颜楠小姐四物汤八珍膏"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>19.8                                    </b></span>
+                                <span class="old-price"><i>￥</i>59.8</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>40                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=812994&u=36050&pv=2"> 量少不来调经养颜楠小姐四物汤八珍膏</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">679</b></span>
+                                <div class="goods-type">
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=811094&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i2/2115363345/TB1i3NKiLNNTKJjSspcXXb4KVXa_!!0-item_pic.jpg_290x290.jpg"
+                                 alt="康美即食阿胶膏手工固元糕150g"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>28                                    </b></span>
+                                <span class="old-price"><i>￥</i>98</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>70                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=811094&u=36050&pv=2"> 康美即食阿胶膏手工固元糕150g</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">582</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=806747&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i2/2282315966/TB2gDf8bb_I8KJjy1XaXXbsxpXa_!!2282315966.jpg_290x290.jpg"
+                                 alt="【双11】广御园松软牛轧沙琪玛208g"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>9.8                                    </b></span>
+                                <span class="old-price"><i>￥</i>14.8</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>5                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=806747&u=36050&pv=2"> 【双11】广御园松软牛轧沙琪玛208g</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">3029</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=804311&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://gd4.alicdn.com/imgextra/i4/32007165/TB2_Kc1XqLN8KJjSZFKXXb7NVXa_!!32007165.jpg_290x290.jpg"
+                                 alt="大颗粒坚干果散装果仁休闲零食"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>21.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>26.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>5                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=804311&u=36050&pv=2"> 大颗粒坚干果散装果仁休闲零食</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">1451</b></span>
+                                <div class="goods-type">
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=799472&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/imgextra/i3/1929125038/TB2cEANaN685uJjSZFHXXc49pXa_!!1929125038.jpg_290x290.jpg"
+                                 alt="【双11】500张食用糯米纸包装纸"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>4.8                                    </b></span>
+                                <span class="old-price"><i>￥</i>7.8</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>3                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=799472&u=36050&pv=2"> 【双11】500张食用糯米纸包装纸</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">4855</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=792338&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/imgextra/i1/2759181415/TB2UMi6gLJNTKJjSspoXXc6mpXa_!!2759181415.jpg_290x290.jpg"
+                                 alt="东远韩国进口糯米奶酪鳕鱼肠儿"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>24.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>34.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>10                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=792338&u=36050&pv=2"> 东远韩国进口糯米奶酪鳕鱼肠儿</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">670</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=785567&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i2/2028361842/TB2zXoHl4XlpuFjSsphXXbJOXXa_!!2028361842.jpg_290x290.jpg"
+                                 alt="中药材下奶通乳通草70g"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>16.8                                    </b></span>
+                                <span class="old-price"><i>￥</i>19.8</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>3                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=785567&u=36050&pv=2"> 中药材下奶通乳通草70g</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">1271</b></span>
+                                <div class="goods-type">
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=781950&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i1/2146731692/TB2__OMa4uaVKJjSZFjXXcjmpXa_!!2146731692.jpg_290x290.jpg"
+                                 alt="【双11】手工酸辣粉260g*5"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>24.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>29.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>5                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=781950&u=36050&pv=2"> 【双11】手工酸辣粉260g*5</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">6581</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=779520&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i1/3436179089/TB25BpydGagSKJjy0FhXXcrbFXa_!!3436179089.jpg_290x290.jpg"
+                                 alt="【双11】十三妈妈独立包装软心曲奇"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>18.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>28.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>10                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=779520&u=36050&pv=2"> 【双11】十三妈妈独立包装软心曲奇</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">3970</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=777438&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://gd4.alicdn.com/imgextra/i4/1916900692/TB28R_pX_PEK1JjSZFAXXbZuXXa_!!1916900692.jpg_290x290.jpg"
+                                 alt="【双11】小青柑陈皮普洱橘子茶500g"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>48                                    </b></span>
+                                <span class="old-price"><i>￥</i>68</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>20                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=777438&u=36050&pv=2"> 【双11】小青柑陈皮普洱橘子茶500g</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">4895</b></span>
+                                <div class="goods-type">
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=776946&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i4/3038099365/TB2oPNKdwMPMeJjy1XbXXcwxVXa_!!3038099365.jpg_290x290.jpg"
+                                 alt="哆啦A梦牛奶蔓越莓曲奇饼干45g*10包"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>14.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>19.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>5                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=776946&u=36050&pv=2"> 哆啦A梦牛奶蔓越莓曲奇饼干45g*10包</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">781</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=772969&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/imgextra/i2/765734248/TB23UUGfchmZKJjSZFPXXc5_XXa_!!765734248.jpg_290x290.jpg"
+                                 alt="春枫尚品花茶冻干柠檬片花草茶叶柠檬干片"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>16                                    </b></span>
+                                <span class="old-price"><i>￥</i>26</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>10                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=772969&u=36050&pv=2"> 春枫尚品花茶冻干柠檬片花草茶叶柠檬干片</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">1817</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=760301&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/imgextra/i3/3307396924/TB2e851ap6.F1JjSZFpXXcZjXXa_!!3307396924.jpg_290x290.jpg"
+                                 alt="【双11】浙香面条挂面手工龙须面"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>5.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>10.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>5                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=760301&u=36050&pv=2"> 【双11】浙香面条挂面手工龙须面</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">5445</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=758614&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://gd3.alicdn.com/imgextra/i3/736765289/TB2wbNNmvxNTKJjy0FjXXX6yVXa_!!736765289.jpg_290x290.jpg"
+                                 alt="【双11】农家自制纯红薯粉条5斤"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>30.6                                    </b></span>
+                                <span class="old-price"><i>￥</i>33.6</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>3                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=758614&u=36050&pv=2"> 【双11】农家自制纯红薯粉条5斤</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">11339</b></span>
+                                <div class="goods-type">
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=736259&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/imgextra/i3/681240939/TB2k3r8agjN8KJjSZFCXXb3GpXa_!!681240939.jpg_290x290.jpg"
+                                 alt="【双11】六只袋鼠红心柚子蜜柚新鲜2个"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>19.8                                    </b></span>
+                                <span class="old-price"><i>￥</i>29.8</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>10                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=736259&u=36050&pv=2"> 【双11】六只袋鼠红心柚子蜜柚新鲜2个</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">35068</b></span>
+                                <div class="goods-type">
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=710597&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/imgextra/i3/2759181415/TB2nwZ2dbsTMeJjSsziXXcdwXXa_!!2759181415.jpg_290x290.jpg"
+                                 alt="东远油浸金枪海鲜即食100g*6罐"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>34.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>44.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>10                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=710597&u=36050&pv=2"> 东远油浸金枪海鲜即食100g*6罐</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">606</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=702012&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/bao/uploaded/i4/2112850064/TB12qRNaef85uJjSZFtXXa4bVXa_!!0-item_pic.jpg_290x290.jpg"
+                                 alt="【修正】大麦若叶青汁饱腹代餐粉"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>39                                    </b></span>
+                                <span class="old-price"><i>￥</i>59</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>20                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=702012&u=36050&pv=2"> 【修正】大麦若叶青汁饱腹代餐粉</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">379</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=697416&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i3/2759181415/TB25dQua3n.PuJjSZFkXXc_lpXa_!!2759181415.jpg_290x290.jpg"
+                                 alt="【东远油浸金枪鱼罐头】即食100g*3罐"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>19.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>29.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>10                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=697416&u=36050&pv=2"> 【东远油浸金枪鱼罐头】即食100g*3罐</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">805</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=689138&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i1/1644278570/TB2OHrNXqm5V1BjSspbXXX6sXXa_!!1644278570.jpg_290x290.jpg"
+                                 alt="老蓝孩黑苦荞茶500克/袋"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>6.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>9.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>3                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=689138&u=36050&pv=2"> 老蓝孩黑苦荞茶500克/袋</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">1474</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=688447&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i3/3425430820/TB24u7.XiqAXuNjy1XdXXaYcVXa_!!3425430820.jpg_290x290.jpg"
+                                 alt="海得辉 霞浦海带干货1斤福建特产昆布厚日晒干海带结丝头500g包邮"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>12.8                                    </b></span>
+                                <span class="old-price"><i>￥</i>27.8</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>15                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=688447&u=36050&pv=2"> 海得辉 霞浦海带干货1斤福建特产昆布厚日晒干海带结丝头500g包邮</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">14183</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=599310&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i4/1897453164/TB2tElza8USMeJjy1zjXXc0dXXa_!!1897453164.jpg_290x290.jpg"
+                                 alt="云南丽江仿野生黑玛卡100g"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>5.2                                    </b></span>
+                                <span class="old-price"><i>￥</i>45.2</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>40                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=599310&u=36050&pv=2"> 云南丽江仿野生黑玛卡100g</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">339</b></span>
+                                <div class="goods-type">
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=598656&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i4/633257767/TB2o1KeeZtnpuFjSZFKXXalFFXa_!!633257767.jpg_290x290.jpg"
+                                 alt="正宗化州橘红陈年八仙果柚子参"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>19                                    </b></span>
+                                <span class="old-price"><i>￥</i>29</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>10                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=598656&u=36050&pv=2"> 正宗化州橘红陈年八仙果柚子参</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">4380</b></span>
+                                <div class="goods-type">
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=582047&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i2/2327969498/TB2QZNUfTwKL1JjSZFgXXb6aVXa_!!2327969498.jpg_290x290.jpg"
+                                 alt="【双11】黄山毛峰一级绿茶罐装茶叶50g"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>19                                    </b></span>
+                                <span class="old-price"><i>￥</i>39</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>20                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=582047&u=36050&pv=2"> 【双11】黄山毛峰一级绿茶罐装茶叶50g</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">3744</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                <i class="you" title="优品"></i>
+                                                                                                        </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=581486&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/bao/uploaded/i6/TB1ay4ARVXXXXcFXXXXeJsF8pXX_024651.jpg_290x290.jpg"
+                                 alt="全康牌B族维生素片3瓶套餐"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>27                                    </b></span>
+                                <span class="old-price"><i>￥</i>47</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>20                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=581486&u=36050&pv=2"> 全康牌B族维生素片3瓶套餐</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">3168</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=580104&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i2/2102198181/TB27sqRcbsTMeJjy1zeXXcOCVXa_!!2102198181.jpg_290x290.jpg"
+                                 alt="【双11】进口超辣火鸡面140g*5包"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>22.8                                    </b></span>
+                                <span class="old-price"><i>￥</i>27.8</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>5                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=580104&u=36050&pv=2"> 【双11】进口超辣火鸡面140g*5包</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">14179</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                <i class="you" title="优品"></i>
+                                                                                                        </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=578606&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i4/1963296632/TB2Ym5he.3IL1JjSZFMXXajrFXa_!!1963296632.jpg_290x290.jpg"
+                                 alt="彩色虾片500g大连虾片自己炸油炸原料"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>8.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>9.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>1                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=578606&u=36050&pv=2"> 彩色虾片500g大连虾片自己炸油炸原料</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">4260</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=559642&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/imgextra/i4/TB1IJGvQFXXXXa0XXXXXXXXXXXX_!!0-item_pic.jpg_290x290.jpg"
+                                 alt="【买二送一】国老 绞股蓝50g"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>9.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>39.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>30                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=559642&u=36050&pv=2"> 【买二送一】国老 绞股蓝50g</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">989</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=559256&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/imgextra/i1/389498443/TB2l30WcgMPMeJjy1XbXXcwxVXa_!!389498443.jpg_290x290.jpg"
+                                 alt="红豆赤小豆新货农家长粒赤豆红小豆五谷杂粮"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>6.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>7.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>1                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=559256&u=36050&pv=2"> 红豆赤小豆新货农家长粒赤豆红小豆五谷杂粮</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">14552</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=554783&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://gd1.alicdn.com/imgextra/i1/2859706910/TB2fwa1mElnpuFjSZFjXXXTaVXa_!!2859706910.jpg_290x290.jpg"
+                                 alt="【双11】台式手工芋圆三种口味500g"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>14.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>17.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>3                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=554783&u=36050&pv=2"> 【双11】台式手工芋圆三种口味500g</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">6004</b></span>
+                                <div class="goods-type">
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=553669&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i1/2857956308/TB2ACYAdosIL1JjSZPiXXXKmpXa_!!2857956308.jpg_290x290.jpg"
+                                 alt="【双11】澳美佳莱正品法国干红葡萄酒2瓶"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>39.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>69.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>30                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=553669&u=36050&pv=2"> 【双11】澳美佳莱正品法国干红葡萄酒2瓶</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">4642</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=537745&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i1/2081100909/TB2669dXeTyQeBjSspaXXcjjFXa-2081100909.jpg_290x290.jpg"
+                                 alt="【双11】薏仁米薏苡仁五谷杂粮粗粮"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>6.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>7.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>1                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=537745&u=36050&pv=2"> 【双11】薏仁米薏苡仁五谷杂粮粗粮</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">12949</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=536122&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/imgextra/i2/2877969514/TB2K8BmoVXXXXagXFXXXXXXXXXX_!!2877969514.jpg_290x290.jpg"
+                                 alt="天喔香辣五香烧烤味豆干500g独立小包装"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>14.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>24.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>10                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=536122&u=36050&pv=2"> 天喔香辣五香烧烤味豆干500g独立小包装</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">1226</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=530604&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/bao/uploaded/i3/2194800572/TB2zznkgRUSMeJjy1zkXXaWmpXa_!!2194800572.jpg_290x290.jpg"
+                                 alt="汤臣倍健天然R维生素E咀嚼片"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>19.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>79.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>60                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=530604&u=36050&pv=2"> 汤臣倍健天然R维生素E咀嚼片</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">1132</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=520160&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img.alicdn.com/imgextra/i1/3363259712/TB2w8mlXnzGK1JjSspmXXaq7pXa_!!3363259712.jpg_290x290.jpg"
+                                 alt="【双11】福站红豆枸杞薏米粉1罐500g"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>19.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>39.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>20                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=520160&u=36050&pv=2"> 【双11】福站红豆枸杞薏米粉1罐500g</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">21800</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                <i class="you" title="优品"></i>
+                                                                                                        </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=509899&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img.alicdn.com/imgextra/i2/2909160850/TB19fNkSFXXXXXSapXXXXXXXXXX_!!0-item_pic.jpg_290x290.jpg"
+                                 alt="【双11】悦来香茉莉花茶散装"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>9.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>39.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>30                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=509899&u=36050&pv=2"> 【双11】悦来香茉莉花茶散装</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">4093</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=508902&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i1/1863943435/TB137dWXxHI8KJjy1zbXXaxdpXa_!!0-item_pic.jpg_290x290.jpg"
+                                 alt="【希森】山东手工馒头老面大馒头小麦面粉"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>19.8                                    </b></span>
+                                <span class="old-price"><i>￥</i>24.8</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>5                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=508902&u=36050&pv=2"> 【希森】山东手工馒头老面大馒头小麦面粉</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">1933</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=497834&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img.alicdn.com/imgextra/i2/TB1xpaxIVXXXXcjaXXXXXXXXXXX_!!0-item_pic.jpg_290x290.jpg"
+                                 alt="金惟他口服葡萄糖粉补充能量低血糖420g"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>10.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>25.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>15                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=497834&u=36050&pv=2"> 金惟他口服葡萄糖粉补充能量低血糖420g</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">442</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=489369&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i4/796030860/TB2L2a2v3xlpuFjSszbXXcSVpXa_!!796030860.jpg_290x290.jpg"
+                                 alt="【双11】山东特产纯手工杂粮煎饼"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>7.8                                    </b></span>
+                                <span class="old-price"><i>￥</i>8.8</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>1                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=489369&u=36050&pv=2"> 【双11】山东特产纯手工杂粮煎饼</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">30986</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=487684&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img.alicdn.com/imgextra/i2/3026294749/TB2pAZalxXkpuFjy0FiXXbUfFXa_!!3026294749.jpg_290x290.jpg"
+                                 alt="999红糖姜茶暖宫驱寒10g*14袋"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>14.8                                    </b></span>
+                                <span class="old-price"><i>￥</i>29.8</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>15                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=487684&u=36050&pv=2"> 999红糖姜茶暖宫驱寒10g*14袋</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">1978</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=485778&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img.alicdn.com/imgextra/i2/3037417547/TB2.tWOwHplpuFjSspiXXcdfFXa_!!3037417547.jpg_290x290.jpg"
+                                 alt="【双11】羚锐红糖姜茶固体饮料2盒20支"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>9.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>39.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>30                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=485778&u=36050&pv=2"> 【双11】羚锐红糖姜茶固体饮料2盒20支</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">2809</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=482360&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img.alicdn.com/imgextra/i2/3322473609/TB2EBsubJ3nyKJjSZFEXXXTTFXa_!!3322473609.jpg_290x290.jpg"
+                                 alt="美一天非袋装原味散装大麦茶罐装浓香型烘焙炒制花草茶搭黑黄苦荞"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>10                                    </b></span>
+                                <span class="old-price"><i>￥</i>15</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>5                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=482360&u=36050&pv=2"> 美一天非袋装原味散装大麦茶罐装浓香型烘焙炒制花草茶搭黑黄苦荞</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">13061</b></span>
+                                <div class="goods-type">
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=463833&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i1/3293614983/TB2_42RaSfD8KJjSszhXXbIJFXa_!!3293614983.jpg_290x290.jpg"
+                                 alt="川秀乳酸菌酸奶发酵菌5大包"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>19.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>29.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>10                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=463833&u=36050&pv=2"> 川秀乳酸菌酸奶发酵菌5大包</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">1889</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=439384&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://gd3.alicdn.com/imgextra/i3/357068843/TB2Y8x6a2DH8KJjy1XcXXcpdXXa_!!357068843.jpg_290x290.jpg"
+                                 alt="浓缩猪肉精粉香精浓香猪粉调味料"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>10                                    </b></span>
+                                <span class="old-price"><i>￥</i>15</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>5                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=439384&u=36050&pv=2"> 浓缩猪肉精粉香精浓香猪粉调味料</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">512</b></span>
+                                <div class="goods-type">
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=436202&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img.alicdn.com/imgextra/i3/2641133237/TB2DWm8vCFmpuFjSZFrXXayOXXa_!!2641133237.jpg_290x290.jpg"
+                                 alt="伊例家【生抽1L＋红烧酱汁1.1kg】"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>14.8                                    </b></span>
+                                <span class="old-price"><i>￥</i>19.8</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>5                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=436202&u=36050&pv=2"> 伊例家【生抽1L＋红烧酱汁1.1kg】</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">6076</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=412050&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img.alicdn.com/imgextra/i2/674475753/TB2Y9oxx5pnpuFjSZFkXXc4ZpXa_!!674475753.jpg_290x290.jpg"
+                                 alt="2017头期玫瑰花茶特级花蕾茶翠河干玫瑰正宗平阴重瓣红玫瑰茶罐装"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>10.4                                    </b></span>
+                                <span class="old-price"><i>￥</i>13.4</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>3                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=412050&u=36050&pv=2"> 2017头期玫瑰花茶特级花蕾茶翠河干玫瑰正宗平阴重瓣红玫瑰茶罐装</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">901</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=401914&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i1/TB1h22XQVXXXXbqXXXXXXXXXXXX_!!0-item_pic.jpg_290x290.jpg"
+                                 alt="修正铁叶酸片孕妇备孕60片"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>78                                    </b></span>
+                                <span class="old-price"><i>￥</i>98</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>20                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=401914&u=36050&pv=2"> 修正铁叶酸片孕妇备孕60片</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">300</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                <i class="you" title="优品"></i>
+                                                                                                        </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=398878&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/imgextra/i4/3214560098/TB28hS5qKJ8puFjy1XbXXagqVXa_!!3214560098.jpg_290x290.jpg"
+                                 alt="【双11】白云山高钙蛋白质粉饮料800g"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>139                                    </b></span>
+                                <span class="old-price"><i>￥</i>159</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>20                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=398878&u=36050&pv=2"> 【双11】白云山高钙蛋白质粉饮料800g</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">3255</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=394600&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i1/3168945129/TB2cDAdqJhvOuFjSZFBXXcZgFXa_!!3168945129.jpg_290x290.jpg"
+                                 alt="【双11】松满果焦糖瓜子456g"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>11.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>16.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>5                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=394600&u=36050&pv=2"> 【双11】松满果焦糖瓜子456g</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">20144</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=373043&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/imgextra/i1/2047982715/TB2paLgbE.iyKJjy1XbXXc4cXXa_!!2047982715.jpg_290x290.jpg"
+                                 alt="怡达山楂零食片条卷组合1280g"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>28.8                                    </b></span>
+                                <span class="old-price"><i>￥</i>58.8</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>30                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=373043&u=36050&pv=2"> 怡达山楂零食片条卷组合1280g</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">2241</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=371122&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img.alicdn.com/imgextra/i4/2145542117/TB2Ak_9qHBmpuFjSZFAXXaQ0pXa_!!2145542117.jpg_290x290.jpg"
+                                 alt="金惟他海南特产速溶椰子粉营养代餐粉"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>17.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>22.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>5                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=371122&u=36050&pv=2"> 金惟他海南特产速溶椰子粉营养代餐粉</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">2157</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=365721&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/bao/uploaded/i3/TB1KquoRpXXXXaVXXXXXXXXXXXX_!!0-item_pic.jpg_290x290.jpg"
+                                 alt="白云山复合氨基酸蛋白质粉800g"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>39                                    </b></span>
+                                <span class="old-price"><i>￥</i>59</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>20                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=365721&u=36050&pv=2"> 白云山复合氨基酸蛋白质粉800g</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">2188</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=364968&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/bao/uploaded/i4/TB1fOw2LpXXXXc0XFXXY34r9VXX_045741.jpg_290x290.jpg"
+                                 alt="禾博士维生素C咀嚼片100片*2盒"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>29                                    </b></span>
+                                <span class="old-price"><i>￥</i>34</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>5                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=364968&u=36050&pv=2"> 禾博士维生素C咀嚼片100片*2盒</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">311</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=358102&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img.alicdn.com/imgextra/i3/679876318/TB2wqLHiCB0XKJjSZFsXXaxfpXa_!!679876318.jpg_290x290.jpg"
+                                 alt="正宗疆若羌灰枣独立包装1000"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>15.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>35.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>20                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=358102&u=36050&pv=2"> 正宗疆若羌灰枣独立包装1000</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">2369</b></span>
+                                <div class="goods-type">
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=348277&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i3/872438727/TB2XBVKo3oQMeJjy0FoXXcShVXa_!!872438727.jpg_290x290.jpg"
+                                 alt="【双11】葛西施葛根粉"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>35.5                                    </b></span>
+                                <span class="old-price"><i>￥</i>65.5</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>30                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=348277&u=36050&pv=2"> 【双11】葛西施葛根粉</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">3391</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=345811&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i1/2949670871/TB2cDTvXjgy_uJjSZJnXXbuOXXa_!!2949670871.jpg_290x290.jpg"
+                                 alt="【双11】牛货铺子山药脆片薯片"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>9.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>19.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>10                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=345811&u=36050&pv=2"> 【双11】牛货铺子山药脆片薯片</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">9154</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                <i class="you" title="优品"></i>
+                                                                                                        </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=335310&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/imgextra/i2/1955407133/TB2qDlxuw0kpuFjSspdXXX4YXXa_!!1955407133.jpg_290x290.jpg"
+                                 alt="【双11】安记速食咖喱批发日式咖喱块"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>16                                    </b></span>
+                                <span class="old-price"><i>￥</i>19</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>3                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=335310&u=36050&pv=2"> 【双11】安记速食咖喱批发日式咖喱块</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">5968</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                <i class="you" title="优品"></i>
+                                                                                                        </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=327826&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/imgextra/i4/3102654259/TB2.rdehwoQMeJjy0FnXXb8gFXa_!!3102654259.jpg_290x290.jpg"
+                                 alt="奕善堂混合水果燕麦片600g"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>19.2                                    </b></span>
+                                <span class="old-price"><i>￥</i>22.2</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>3                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=327826&u=36050&pv=2"> 奕善堂混合水果燕麦片600g</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">6728</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=318891&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img.alicdn.com/imgextra/i4/2047982715/TB25RQzpR4lpuFjy1zjXXcAKpXa_!!2047982715.jpg_290x290.jpg"
+                                 alt="【双11】怡达酸甜山楂零食果丹皮500g"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>12.5                                    </b></span>
+                                <span class="old-price"><i>￥</i>17.5</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>5                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=318891&u=36050&pv=2"> 【双11】怡达酸甜山楂零食果丹皮500g</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">9121</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=297201&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/imgextra/i3/3191731471/TB2rbaxm4XlpuFjSsphXXbJOXXa_!!3191731471.jpg_290x290.jpg"
+                                 alt="【买二送一】国老玫瑰花80g"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>9.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>29.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>20                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=297201&u=36050&pv=2"> 【买二送一】国老玫瑰花80g</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">1607</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=281398&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i2/2146731692/TB2eDjHbCz9F1JjSZFMXXXmNXXa_!!2146731692.jpg_290x290.jpg"
+                                 alt="老川东【双11】买二减20元懒人微火锅"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>19.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>24.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>5                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=281398&u=36050&pv=2"> 老川东【双11】买二减20元懒人微火锅</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">13350</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                <i class="you" title="优品"></i>
+                                                                                                        </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=268862&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img.alicdn.com/imgextra/i4/1792769282/TB2GmeCn04opuFjSZFLXXX8mXXa_!!1792769282.jpg_290x290.jpg"
+                                 alt="高尿酸双降茶"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>14.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>39.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>25                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=268862&u=36050&pv=2"> 高尿酸双降茶</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">1216</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=93393&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i1/2979262660/TB2eK9Vv00opuFjSZFxXXaDNVXa_!!2979262660.jpg_290x290.jpg"
+                                 alt="【双11】丽天承大麦若汁30袋150克"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>19.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>59.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>40                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=93393&u=36050&pv=2"> 【双11】丽天承大麦若汁30袋150克</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">7171</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=125630&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i2/TB1i3V9PpXXXXclapXXXXXXXXXX_!!0-item_pic.jpg_290x290.jpg"
+                                 alt="【双11】妍豆豆左旋肉碱速溶黑咖啡粉"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>19.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>49.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>30                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=125630&u=36050&pv=2"> 【双11】妍豆豆左旋肉碱速溶黑咖啡粉</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">4980</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=234807&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img.alicdn.com/imgextra/i2/TB1FonrKpXXXXXsaXXXXXXXXXXX_!!0-item_pic.jpg_290x290.jpg"
+                                 alt="【双11】四川特产香辣牛肉干"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>31.8                                    </b></span>
+                                <span class="old-price"><i>￥</i>41.8</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>10                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=234807&u=36050&pv=2"> 【双11】四川特产香辣牛肉干</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">3541</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=268549&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/imgextra/i4/3097312929/TB2mKuFqwxlpuFjSszgXXcJdpXa_!!3097312929.jpg_290x290.jpg"
+                                 alt="【双11】怡冠园麻辣辣条零食大礼包"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>16.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>19.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>3                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=268549&u=36050&pv=2"> 【双11】怡冠园麻辣辣条零食大礼包</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">6110</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=118044&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img.alicdn.com/imgextra/i2/3047735136/TB2FRotXloHL1JjSZFAXXc1rXXa_!!3047735136.jpg_290x290.jpg"
+                                 alt="早餐休闲美食品蛋糕点心大礼包1500g"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>19.99                                    </b></span>
+                                <span class="old-price"><i>￥</i>29.99</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>10                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=118044&u=36050&pv=2"> 早餐休闲美食品蛋糕点心大礼包1500g</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">7227</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                <i class="you" title="优品"></i>
+                                                                                                        </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=145175&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/imgextra/i2/TB1hmE.QpXXXXcHaXXXXXXXXXXX_!!0-item_pic.jpg_290x290.jpg"
+                                 alt="宁夏袋装枸杞买一发400g"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>16.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>31.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>15                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=145175&u=36050&pv=2"> 宁夏袋装枸杞买一发400g</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">3153</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=253099&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img.alicdn.com/imgextra/i4/2937652016/TB1LBbXa3vD8KJjy0FlXXagBFXa_!!0-item_pic.jpg_290x290.jpg"
+                                 alt="planters美国绅士全家福套组礼盒大礼包 混合坚果零食干果进口"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>309                                    </b></span>
+                                <span class="old-price"><i>￥</i>339</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>30                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=253099&u=36050&pv=2"> planters美国绅士全家福套组礼盒大礼包 混合坚果零食干果进口</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">6342</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=237867&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/bao/uploaded/i1/3044201145/TB1fxgladrJ8KJjSspaXXXuKpXa_!!0-item_pic.jpg_290x290.jpg"
+                                 alt="内蒙特产多味葵花籽128g*6大香瓜子"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>15.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>35.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>20                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=237867&u=36050&pv=2"> 内蒙特产多味葵花籽128g*6大香瓜子</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">311</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=235847&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img1.tbcdn.cn/tfscom/i4/3044201145/TB2yT0aavL85uJjSZFyXXa93XXa_!!3044201145.jpg_290x290.jpg"
+                                 alt="内蒙特产熟葵花籽零食大瓜子炒年货"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>15.9                                    </b></span>
+                                <span class="old-price"><i>￥</i>35.9</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>20                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=235847&u=36050&pv=2"> 内蒙特产熟葵花籽零食大瓜子炒年货</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">864</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=235343&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/imgextra/i3/579778147/TB2r2Y6X2DH8KJjy1XcXXcpdXXa_!!579778147.jpg_290x290.jpg"
+                                 alt="【双11】颐欣堂红枣枸杞型阿胶膏片"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>49                                    </b></span>
+                                <span class="old-price"><i>￥</i>109</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>60                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=235343&u=36050&pv=2"> 【双11】颐欣堂红枣枸杞型阿胶膏片</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">6282</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=173287&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/imgextra/i2/2447396418/TB2lPIZiHJkpuFjy1zcXXa5FFXa_!!2447396418.jpg_290x290.jpg"
+                                 alt="云南特产普洱茶熟茶散500克"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>28                                    </b></span>
+                                <span class="old-price"><i>￥</i>178</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>150                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=173287&u=36050&pv=2"> 云南特产普洱茶熟茶散500克</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">1574</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=161191&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="//img.alicdn.com/imgextra/i3/2057566465/TB2nWCpd03nyKJjSZFEXXXTTFXa_!!2057566465.jpg_290x290.jpg"
+                                 alt="【双11】黑乌龙茶油切黑乌龙茶叶"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>19.8                                    </b></span>
+                                <span class="old-price"><i>￥</i>29.8</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>10                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=161191&u=36050&pv=2"> 【双11】黑乌龙茶油切黑乌龙茶叶</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">3870</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=153573&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://gd4.alicdn.com/imgextra/i4/1945017323/TB2LtXWap5N.eBjSZFvXXbvMFXa_!!1945017323.jpg_290x290.jpg"
+                                 alt="【双11】农户自产长白山灵芝孢子粉"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>19                                    </b></span>
+                                <span class="old-price"><i>￥</i>59</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>40                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=153573&u=36050&pv=2"> 【双11】农户自产长白山灵芝孢子粉</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">6386</b></span>
+                                <div class="goods-type">
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=122814&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/bao/uploaded/i8/TB1omVVRVXXXXbFXFXXyJB1.pXX_102641.jpg_290x290.jpg"
+                                 alt="【双11】哈贝高R魔芋绿茶肉碱奶茶（买二送一）"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>39                                    </b></span>
+                                <span class="old-price"><i>￥</i>69</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>30                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=122814&u=36050&pv=2"> 【双11】哈贝高R魔芋绿茶肉碱奶茶（买二送一）</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">13505</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=121832&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img.alicdn.com/imgextra/i1/TB120nlPVXXXXbuaFXXXXXXXXXX_!!0-item_pic.jpg_290x290.jpg"
+                                 alt="【双11】修正牛乳钙片买一送一"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>39                                    </b></span>
+                                <span class="old-price"><i>￥</i>59</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>20                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=121832&u=36050&pv=2"> 【双11】修正牛乳钙片买一送一</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">14797</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=116029&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img.alicdn.com/imgextra/i2/440181031/TB29AbRaxvxQeBjy0FdXXaybXXa_!!440181031.jpg_290x290.jpg"
+                                 alt="嘉梦家黄焖鸡酱料杨明宇口味"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>11.4                                    </b></span>
+                                <span class="old-price"><i>￥</i>16.4</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>5                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=116029&u=36050&pv=2"> 嘉梦家黄焖鸡酱料杨明宇口味</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">3673</b></span>
+                                <div class="goods-type">
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=98464&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://gd2.alicdn.com/imgextra/i2/2574160647/TB2uHZDf4xmpuFjSZFNXXXrRXXa_!!2574160647.jpg_290x290.jpg"
+                                 alt="【双11】5斤红薯粉正宗纯手工地瓜细粉条农家"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>25.8                                    </b></span>
+                                <span class="old-price"><i>￥</i>28.8</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>3                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=98464&u=36050&pv=2"> 【双11】5斤红薯粉正宗纯手工地瓜细粉条农家</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">11815</b></span>
+                                <div class="goods-type">
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=81452&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/imgextra/i4/3026292110/TB2e6R0cxf9F1JjSZFDXXXyUpXa_!!3026292110.jpg_290x290.jpg"
+                                 alt="旺小丫鸭锁骨350g香麻辣卤味甜辣鸭"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>32                                    </b></span>
+                                <span class="old-price"><i>￥</i>42</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>10                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=81452&u=36050&pv=2"> 旺小丫鸭锁骨350g香麻辣卤味甜辣鸭</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">551</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=69255&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="http://img.alicdn.com/imgextra/i2/2093866236/TB2_D6zd.OO.eBjSZFLXXcxmXXa_!!2093866236.jpg_290x290.jpg"
+                                 alt="云南陈年七子饼茶 古树春茶357g"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>28                                    </b></span>
+                                <span class="old-price"><i>￥</i>108</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>80                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=69255&u=36050&pv=2"> 云南陈年七子饼茶 古树春茶357g</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">2160</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                                        <li class=" g_over">
+                        <a href="/taobao?r=l/d&id=15353&u=36050&pv=2" class="img" rel="nofollow" target="_blank">
+                                                        <img src="https://img.alicdn.com/imgextra/i2/2836984899/TB2P1Opd_AlyKJjSZFhXXc8XFXa_!!2836984899.jpg_290x290.jpg"
+                                 alt="【双11】露莎士泰国进口手抓饼酱甜辣酱"
+                                 _hover-ignore="1">
+                        </a>
+
+                        <div class="goods-padding">
+                            <div class="coupon-wrap clearfix">
+                                <span class="price"><em>券后</em><b><i>￥</i>11.5                                    </b></span>
+                                <span class="old-price"><i>￥</i>14.5</span>
+                                <span class="coupon">
+                                    <i class="coupon-txt">券</i><b><i>￥</i>3                                    </b></span>
+                            </div>
+                            <div class="title">
+                                <a target="_blank" rel="nofollow"
+                                   href="/taobao?r=l/d&id=15353&u=36050&pv=2"> 【双11】露莎士泰国进口手抓饼酱甜辣酱</a>
+                            </div>
+                            <div class="goods-num-type">
+                                <span class="goods-num">销量<b _hover-ignore="1">8427</b></span>
+                                <div class="goods-type">
+                                                                            <i class="tmall" title="天猫"></i>
+                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+            </ul>
+            </div>
+
+</div>
+
+<div id="footer" style="background-color: #373737;height: 190px;width: 100%;border-top: 3px solid #FF6C00;">
+    <div class="footer-wrapper " style="width: 1200px;margin: 0 auto;position: relative;text-align: center">
+        <img src="//cms6.qingtaoke.com/images/bottom_text.png" alt="" style="border: 0;margin-top: 50px;">
+
+        <div class="author" style="    position: absolute;
+    top: 67px;
+    left: 990px;
+    color: #FFFFFF;
+    font-size: 18px;">by
+            &nbsp;&nbsp;淘优惠</div>
+        <div class="text" style="color: #a2a2a2;
+    font-size: 16px;
+    margin-top: 33px;">&copy; CopyRight&nbsp;2017            &nbsp;<a href="http://newbug.xyz" target="_blank" rel="nofollow"
+                     style="color:#a2a2a2;">淘优惠</a>
+            &nbsp;http://newbug.xyz&nbsp;&nbsp;<a href="http://www.miitbeian.gov.cn/" target="_blank"
+                                                                     rel="nofollow"
+                                                                     style="color:#a2a2a2;">豫ICP备17010592号</a>
+            &nbsp;&nbsp;                <a target="_blank"
+                   href="http://wpa.qq.com/msgrd?v=3&uin=529778790&site=qq&menu=yes"
+                   style="color: #8da7cb" title="联系我帮你解答">^_^亲遇到问题，联系我帮你处理哈</a>
+                </div>
+    </div>
+</div>
+<div class="toTop" style="display: none" onclick=" $('body,html').animate({scrollTop:0},1000);"><span>回到顶部</span></div>
+<script type="text/javascript">
+    // 设置为主页
+    function SetHome(obj, vrl) {
+        try {
+            obj.style.behavior = 'url(#default#homepage)';
+            obj.setHomePage(vrl);
+        }
+        catch (e) {
+            if (window.netscape) {
+                try {
+                    netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                }
+                catch (e) {
+                    alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。");
+                }
+                var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+                prefs.setCharPref('browser.startup.homepage', vrl);
+            } else {
+                alert("您的浏览器不支持，请按照下面步骤操作：1.打开浏览器设置。2.点击设置网页。3.输入：" + vrl + "点击确定。");
+            }
+        }
+    }
+    // 加入收藏 兼容360和IE6
+    function shoucang(sTitle, sURL) {
+        try {
+            window.external.addFavorite(sURL, sTitle);
+        }
+        catch (e) {
+            try {
+                window.sidebar.addPanel(sTitle, sURL, "");
+            }
+            catch (e) {
+                alert("加入收藏失败，请使用Ctrl+D进行添加");
+            }
+        }
+    }
+    // toTop&fixedHead
+    function showElem() {
+        if ($(window).scrollTop() > 168) {
+            $(".toTop").stop().fadeIn(200);
+            $(".fixedHead-box").stop().slideDown(200);
+        } else {
+            $(".toTop").stop().fadeOut(200);
+            $(".fixedHead-box").stop().slideUp(200);
+        }
+    }
+    $(function () {
+        showElem();
+        $(window).scroll(function () {
+            showElem()
+        });
+
+        $('#navFeedback').on('click', function () {
+            layer.open({
+                type: 1,
+                //skin:'layui-layer-rim',
+                area: [600, 400],
+                title: false,
+                closeBtn: 1,
+                shadeClose: true,
+                //btn:['提交'],
+                content: $('#feedback')
+            });
+        });
+        $('#feedbackSubmit').on('click', function () {
+            var fContent = $('#feedbackContent').val();
+            var fContact = $('#feedbackContact').val();
+            if (fContent.trim() == '') {
+                layer.msg('请留下您的建议', {time: 1500});
+                return;
+            }
+            if (fContact.trim() == '') {
+                layer.msg('请留下您的联系方式', {time: 1500});
+                return;
+            }
+            var feedbackSuccess = function (ret) {
+                layer.closeAll();
+                $('#feedbackContent').val('');
+                $('#feedbackContact').val('');
+                layer.open({
+                    type: 1,
+                    area: [600, 400],
+                    title: false,
+                    closeBtn: 0,
+                    shadeClose: true,
+                    content: $('#feedbackSuccess')
+                });
+            }
+            $.ajax('index.php?r=Feedback/add', {
+                type: 'post',
+                dataType: 'json',
+                data: {
+                    "content": fContent.trim(),
+                    "contact": fContact.trim(),
+                    // 处理当uid为空时，js不报错。
+                    "uid":36050                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    return layer.msg(errorThrown);
+                },
+                success: feedbackSuccess
+            });
+        });
+        $('#feedbackClose').on('click', function () {
+            layer.closeAll();
+        });
+    });
+
+</script>
+<script type="text/javascript" src="http://counter.qingtaoke.com/js/count.js?t=5&amp;u=36050&amp;pv=2" id="counterJs"></script>
+<script type="text/javascript" src="//cms6.qingtaoke.com/js/scrollTop2.js?v=0331001"></script>
+</body>
+</html>
+";}

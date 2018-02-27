@@ -1,0 +1,6 @@
+/*!
+ * 麦亚信君康项目,
+ *  author: wu529778790
+ */
+webpackJsonp([3],{185:function(n,e,t){function o(n){t(950)}var s=t(1)(null,t(954),o,"data-v-7c2952d7",null);n.exports=s.exports},946:function(n,e,t){e=n.exports=t(905)(!0),e.push([n.i,".page-container[data-v-7c2952d7]{width:100%;font-size:20px;text-align:center;color:#c0ccda;top:35%;position:absolute}","",{version:3,sources:["/Users/wuwei/Desktop/coding/weshop/src/pages/common/404.vue"],names:[],mappings:"AACA,iCACE,WAAY,AACZ,eAAgB,AAChB,kBAAmB,AACnB,cAAe,AACf,QAAS,AACT,iBAAmB,CACpB",file:"404.vue",sourcesContent:["\n.page-container[data-v-7c2952d7] {\n  width: 100%;\n  font-size: 20px;\n  text-align: center;\n  color: #c0ccda;\n  top: 35%;\n  position: absolute;\n}\n"],sourceRoot:""}])},950:function(n,e,t){var o=t(946);"string"==typeof o&&(o=[[n.i,o,""]]),o.locals&&(n.exports=o.locals);t(906)("21d535bf",o,!0)},954:function(n,e){n.exports={render:function(){var n=this,e=n.$createElement;return(n._self._c||e)("p",{staticClass:"page-container"},[n._v("404 page not found")])},staticRenderFns:[]}}});
+//# sourceMappingURL=3.4d8257b19401d44fd850.js.map

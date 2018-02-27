@@ -1,0 +1,870 @@
+a:3:{s:4:"time";i:1510567641;s:6:"expire";i:60;s:5:"value";s:42010:"<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="zh-CN">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+    <meta name="renderer" content="webkit">
+    <!-- blueprint CSS framework //cdn.bootcss.com/jquery/1.12.1/jquery.js -->
+    <link rel="stylesheet" type="text/css" href="//cms6.qingtaoke.com/css/reset.css?v=20171103007">
+    <link rel="stylesheet" type="text/css" href="//cms6.qingtaoke.com/css/footer.css?v=1510567642">
+    <link rel="stylesheet" type="text/css" href="//cms6.qingtaoke.com/css/pager.css?v=1510567642">
+    <link rel="stylesheet" type="text/css" href="//cms6.qingtaoke.com/css/dtk.css?v=20171103007">
+    <link rel="stylesheet" href="//cms6.qingtaoke.com/css/iconfont.css?t=06160032">
+    <!--    <link rel="stylesheet" type="text/css" href="--><!--/css/dtk.css?v=-->
+    <!--">-->
+    <link rel="stylesheet" type="text/css" href="//cms6.qingtaoke.com/css/PaoLiang.css?v=20171103007" />
+<title>超级人气榜--淘优惠</title>
+    <meta name="Keywords" content="淘宝，优惠券，天猫，bug,淘优惠"/>
+    <meta name="Description" content=""/>
+
+    <script src="//cdn.bootcss.com/jquery/1.12.1/jquery.js"></script>
+    <script src="//cms6.qingtaoke.com/js/layer/layer.js"></script>
+    <script src="//cms6.qingtaoke.com/js/dtk.js?v=06160032"></script>
+    <script src="//cms6.qingtaoke.com/js/unslider.min.js??v=06160032"></script>
+    <!--<script src="http://tj.quan007.com/satc.js?t=<?/*=Util::getVersion()*/?>" charset="utf-8" type="application/javascript"></script>-->
+    <script src="//cms6.qingtaoke.com/js/myTj.js?t=20171103007"></script>
+
+    <script>
+        $(function () {
+            $("body").on('click', '.cnzzCounter', function () {
+                var fkId = $(this).attr('data-cnzz');
+                var fkType = $(this).attr('data-cnzz-type');
+                var tPaht = "/taobao/index.php";
+                var reqUrl = "/taobao/?r=p&cid=8&u=36050&pv=2";
+                $.ajax(tPaht, {
+                    data: {r: 'site/cnzz', fkId: fkId, req: reqUrl, cnzzType: fkType},
+                    dataType: 'json',
+                    type: 'post',
+                    error: function (xhr, type, errorThrown) {
+
+                    },
+                    success: function (result, status, xhr) {
+
+                    }
+                });
+            });
+        });
+    </script>
+
+</head>
+<body>
+<style>
+    #navTop {
+        width: 100%;
+
+        /*border-bottom: 1px solid #ccc;*/
+    }
+
+    body #headNav #header #showList dl {
+        margin: 5px 16px;
+    }
+
+    body #headNav #header #showList #search button {
+        height: 37px;
+        overflow: hidden;
+        padding: 7px 30px;
+    }
+
+    #feedbackSuccess {
+        text-align: center;
+    }
+
+    .feedback-content {
+        display: inline-block;
+        background-color: #fff;
+        padding-bottom: 30px;
+    }
+
+    .feedback {
+        display: none;
+        padding-bottom: 30px;
+    }
+
+    .feedback .feedback-title {
+        color: #ff6600;
+        font-size: 20px;
+        padding-top: 15px;
+    }
+
+    .feedback .line {
+        margin: 20px 50px 0px 50px;
+    }
+
+    .feedback input {
+        width: 538px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .feedback textarea {
+        width: 538px;
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .feedback button {
+        /*display: inline-block;*/
+        /*font-family: inherit;*/
+        background: #ff6600;
+        line-height: 40px;
+        font-weight: 700;
+        font-size: 14px;
+        height: 40px;
+        color: #fff;
+        border: 0;
+        width: 120px;
+        padding: 0 15px;
+        border: 0;
+        border-radius: 2px;
+    }
+
+    .layui-layer-setwin .layui-layer-close2 {
+        background-position: -149px -31px !important;
+    }
+
+    #feedback {
+        background-color: white;
+    }
+
+    .cms-slogan {
+        width: 100%;
+        height: 80px;
+        overflow: hidden;
+    }
+
+    .cms-slogan .cms-slogan-box {
+        width: 1920px;
+        position: relative;
+        left: 50%;
+        margin-left: -960px;
+    }
+</style>
+
+<!--cms头部通告banner-->
+
+<div id="navTop">
+    <div id="top">
+        <div id="topleft" style="margin: 0;line-height: 25px;">                            <a target="_blank" style="height: 22px;float: right;"
+                   href="https://jq.qq.com/?_wv=1027&k=46dzoim"><img
+                        border="0"
+                        src="https://img.alicdn.com/imgextra/i1/2508158775/TB2SfmWqFXXXXb4XpXXXXXXXXXX_!!2508158775.png"></a>
+                        </div>
+        <ul id="topright" style="line-height: 25px;">
+            <li style=" margin-right: 8px;"><a
+                    href="javascript:void(0)" onclick="SetHome(this,window.location)" style="color: #757575"
+                    title="将本站设为首页">设为首页</a>
+            </li>
+            <li style="margin-right: 8px;"><a
+                    href="javascript:void(0)" onclick="shoucang(document.title,window.location)" style="color: #757575"
+                    title="加入收藏，方便下次打开">加入收藏</a>
+            </li>
+            <li><a target="_blank"
+                   href="http://wpa.qq.com/msgrd?v=3&uin=529778790&site=qq&menu=yes"
+                   style="color: #8da7cb" title="联系我帮你解答">遇到购物问题? 联系我 ></a>
+            </li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+</div>
+
+<div id="headNav">
+    <div id="header">
+        <a id="logo" class="cnzzCounter" data-cnzz-type="50" data-cnzz="0"
+           href="/taobao?r=index/index&u=36050&pv=3"
+           style="background-image:url('http://ongskmt08.bkt.clouddn.com/logo.PNG')" title="">
+        </a>
+
+        <div id="search">
+            <form action="/taobao?r=index/index&pv=3"><input type="hidden" name="r" value="l">
+                <input type="text" value=""
+                       name="kw" placeholder="好宝贝 等你搜"/>
+                <button type="submit" class="cnzzCounter" data-cnzz-type="54" data-cnzz="1"></button>
+            </form>
+        </div>
+        <div class="showChar">
+            <div class="showChar-div showChar-3 right">
+                <i></i>
+                <span>验货保障</span>
+            </div>
+            <div class="showChar-div showChar-2">
+                <i></i>
+                <span>买手砍价</span>
+            </div>
+            <div class="showChar-div showChar-1">
+                <i></i>
+                <span>9:00开抢</span>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+
+<div id="baner">
+    <div id="nav">
+        <a href="/taobao?r=index/index&u=36050&pv=3"
+           class="cnzzCounter " data-cnzz-type="50"
+           data-cnzz="0">今日上新</a>
+        <a class="cnzzCounter "
+           href="/taobao?r=l&u=36050&pv=3" data-cnzz-type="51"
+           data-cnzz="0">领券优惠直播</a>
+        <a href="/taobao?r=p&u=36050&pv=3"
+           class="cnzzCounter iconH active" data-cnzz-type="52" data-cnzz="0">超级人气榜
+            <i style="position:absolute; top:4px; right:30px; display:block; width:24px; height:32px; background:#FFCC00;background:url(http://a.vpimg3.com/upload/dop/2016/01/04/148/HOTT_qeu.gif)"></i>
+        </a>
+        <a class="cnzzCounter "
+           href="/taobao?r=nine&u=36050&pv=3" data-cnzz-type="53"
+           data-cnzz="0">9块9包邮</a>
+        <a id="navFeedback" style="float: right;width: auto;font-size: 12px;line-height: 46px;">意见反馈
+            <img src="//cms6.qingtaoke.com/images/feedback.png" alt="" style="width:12px;"></a>
+    </div>
+</div>
+
+<div id="feedback" class="feedback">
+    <div style="text-align:center;">
+        <div class="line">
+            <h1 class="feedback-title">意见反馈</h1>
+        </div>
+        <div class="line">
+            <p>感谢您对我们的支持，您的建议我们会认真采纳并不断优化，为您提供更好的服务和体验！</p>
+        </div>
+        <div class="line">
+            <textarea id="feedbackContent" rows="10" maxlength="400" placeholder="请输入您的建议或遇到的问题"></textarea><br/>
+        </div>
+        <div class="line">
+            <input id="feedbackContact" maxlength="40" placeholder="请优先填写QQ号码，方便在线联系"/><br/>
+        </div>
+        <div class="line">
+            <button id="feedbackSubmit">提交</button>
+        </div>
+    </div>
+</div>
+<div id="feedbackSuccess" class="feedback">
+    <div class="feedback-content" style="text-align:center;">
+        <div class="line">
+            <h1 class="feedback-title">提交成功</h1>
+        </div>
+        <div class="line">
+            <p>感谢您对我们的反馈，对您给予的帮助和支持我们深表感谢！</p>
+        </div>
+        <div class="line">
+            <button id="feedbackClose">关闭</button>
+        </div>
+    </div>
+</div>
+<!--浮动顶部-->
+<div class="fixedHead-box">
+    <div class="fixedHead">
+        <div class="fixedHead-nav">
+            <span class="cate">
+                <a href="./" class="cnzzCounter" data-cnzz-type="50" data-cnzz="0" data-cnzz-type="50" data-cnzz="0">今日上新<i></i></a>
+            </span>
+            <span class="split-line"></span>
+            <span class="cate">
+                <a href="/taobao?r=l&u=36050&pv=3" class="cnzzCounter"
+                   data-cnzz-type="51" data-cnzz="0">领券优惠直播<i></i></a>
+            </span>
+            <span class="split-line"></span>
+            <span class="cate on">
+                <a href="/taobao?r=p&u=36050&pv=3" class="cnzzCounter"
+                   data-cnzz-type="52" data-cnzz="0">超级人气榜<i></i></a>
+            </span>
+            <span class="split-line"></span>
+            <span class="cate">
+                <a href="/taobao?r=nine&u=36050&pv=3" class="cnzzCounter"
+                   data-cnzz-type="53" data-cnzz="0">9块9包邮<i></i></a>
+            </span>
+        </div>
+        <div class="fixedHead-search" id="fixedSearch">
+            <form action="/taobao?r=index/index&pv=3">
+                <input type="hidden" name="r" value="l">
+                <input type="text" value=""
+                       name="kw" placeholder="好宝贝 等你搜"/>
+                <button type="submit" class="cnzzCounter" data-cnzz-type="54" data-cnzz="1"></button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<div id="dtk_mian">
+    <style>
+    .goods-list ul li:hover {
+        border: 1px solid #48BF7D;
+    }
+</style>
+
+<div class="search-wrap main-container">
+</div>
+<div class="cat-wrap main-container">
+    <div class="cat-list clearfix">
+        <span class="cat-lit-title">商品分类</span>
+        <ul class="clearfix" _hover-ignore="1">
+            <li >
+                <a href="/taobao?r=p&cid=0&u=36050&pv=3" class="cnzzCounter"
+                   data-cnzz-type="52" data-cnzz="100">全部优惠 <b>(100)</b></a></li>
+                            <li >
+                    <a href="/taobao?r=p&cid=1&u=36050&pv=3" class="cnzzCounter" data-cnzz-type="52" data-cnzz="1">女装 <b>(10)</b></a></li>
+                                <li >
+                    <a href="/taobao?r=p&cid=9&u=36050&pv=3" class="cnzzCounter" data-cnzz-type="52" data-cnzz="9">男装 <b>(3)</b></a></li>
+                                <li >
+                    <a href="/taobao?r=p&cid=10&u=36050&pv=3" class="cnzzCounter" data-cnzz-type="52" data-cnzz="10">内衣 <b>(3)</b></a></li>
+                                <li >
+                    <a href="/taobao?r=p&cid=2&u=36050&pv=3" class="cnzzCounter" data-cnzz-type="52" data-cnzz="2">母婴 <b>(3)</b></a></li>
+                                <li >
+                    <a href="/taobao?r=p&cid=3&u=36050&pv=3" class="cnzzCounter" data-cnzz-type="52" data-cnzz="3">化妆品 <b>(10)</b></a></li>
+                                <li >
+                    <a href="/taobao?r=p&cid=4&u=36050&pv=3" class="cnzzCounter" data-cnzz-type="52" data-cnzz="4">居家 <b>(26)</b></a></li>
+                                <li >
+                    <a href="/taobao?r=p&cid=5&u=36050&pv=3" class="cnzzCounter" data-cnzz-type="52" data-cnzz="5">鞋包配饰 <b>(5)</b></a></li>
+                                <li >
+                    <a href="/taobao?r=p&cid=6&u=36050&pv=3" class="cnzzCounter" data-cnzz-type="52" data-cnzz="6">美食 <b>(22)</b></a></li>
+                                <li >
+                    <a href="/taobao?r=p&cid=7&u=36050&pv=3" class="cnzzCounter" data-cnzz-type="52" data-cnzz="7">文体车品 <b>(7)</b></a></li>
+                                <li class="active">
+                    <a href="/taobao?r=p&cid=8&u=36050&pv=3" class="cnzzCounter" data-cnzz-type="52" data-cnzz="8">数码家电 <b>(11)</b></a></li>
+                        </ul>
+    </div>
+</div>
+
+<div class="goods-list main-container" style="margin-top: 20px;">
+    <ul class="clearfix">
+                    <li class="">
+                <a href="/taobao?r=l/d2&id=4424779&u=36050&pv=3" class="img cnzzCounter"
+                   rel="nofollow" target="_blank" data-cnzz-type="3" data-cnzz="4424779">
+                    <div class="label"><span>TOP 1</span><em></em></div>
+                    <img src="https://img.alicdn.com/bao/uploaded/i2/2306153926/TB1lI0KnzuhSKJjSspjXXci8VXa_!!0-item_pic.jpg_290x290.jpg" alt="">
+                </a>
+
+                <div class="padding">
+                    <a target="_blank"
+                       rel="nofollow"
+                       href="/taobao?r=l/d2&id=4424779&u=36050&pv=3"
+                       class="title clearfix cnzzCounter" data-cnzz-type="3" data-cnzz="4424779">
+                        <i class="tmall"></i>
+                        <span title="苹果6s手机壳iPhone6硅胶6splus个性创意防摔6plus全包浮雕软胶">苹果6s手机壳iPhone6硅胶6splus个性创意防摔6plus全包浮雕软胶</span>
+                    </a>
+
+                    <div class="coupon-wrap clearfix" style="margin: 9px 2px 7px 3px; color:#909090">
+                        优惠券<span
+                            class="price">20</span>元，已有<span
+                            class="num" style=" color:#27BCB5;">12415</span>人购买
+                    </div>
+                </div>
+                <div class="price-wrap clearfix" style="background-color: #48BF7D;">
+                    <div class="price">
+                        <span class="text" style="margin-left: 5px;">券后价&nbsp;￥<span
+                                class="price">5.1</span></span>
+                        <span class="text" style="margin-left: 18px; font-size: 12px;color: #DBF7E8;">正常售价&nbsp;￥25.1 </span>
+                    </div>
+
+                </div>
+                <div class="padding">
+                    <div class="recent-sold-num clearfix" style="color:#D85C85; margin-left:3px;">
+                        最近2小时销量：<span class="sold-count">1716</span>笔
+                    </div>
+                </div>
+            </li>
+                        <li class="">
+                <a href="/taobao?r=l/d2&id=4423762&u=36050&pv=3" class="img cnzzCounter"
+                   rel="nofollow" target="_blank" data-cnzz-type="3" data-cnzz="4423762">
+                    <div class="label"><span>TOP 2</span><em></em></div>
+                    <img src="https://img.alicdn.com/imgextra/i2/1747738609/TB2KCjmbd685uJjSZFsXXX8qVXa_!!1747738609.jpg_290x290.jpg" alt="">
+                </a>
+
+                <div class="padding">
+                    <a target="_blank"
+                       rel="nofollow"
+                       href="/taobao?r=l/d2&id=4423762&u=36050&pv=3"
+                       class="title clearfix cnzzCounter" data-cnzz-type="3" data-cnzz="4423762">
+                        <i class="tmall"></i>
+                        <span title="冲猫 1重低音苹果安卓小米手机通用男女生入耳式运动耳塞耳机">冲猫 1重低音苹果安卓小米手机通用男女生入耳式运动耳塞耳机</span>
+                    </a>
+
+                    <div class="coupon-wrap clearfix" style="margin: 9px 2px 7px 3px; color:#909090">
+                        优惠券<span
+                            class="price">10</span>元，已有<span
+                            class="num" style=" color:#27BCB5;">173242</span>人购买
+                    </div>
+                </div>
+                <div class="price-wrap clearfix" style="background-color: #48BF7D;">
+                    <div class="price">
+                        <span class="text" style="margin-left: 5px;">券后价&nbsp;￥<span
+                                class="price">5</span></span>
+                        <span class="text" style="margin-left: 18px; font-size: 12px;color: #DBF7E8;">正常售价&nbsp;￥15 </span>
+                    </div>
+
+                </div>
+                <div class="padding">
+                    <div class="recent-sold-num clearfix" style="color:#D85C85; margin-left:3px;">
+                        最近2小时销量：<span class="sold-count">1002</span>笔
+                    </div>
+                </div>
+            </li>
+                        <li class="">
+                <a href="/taobao?r=l/d2&id=4424734&u=36050&pv=3" class="img cnzzCounter"
+                   rel="nofollow" target="_blank" data-cnzz-type="3" data-cnzz="4424734">
+                    <div class="label"><span>TOP 3</span><em></em></div>
+                    <img src="https://img.alicdn.com/imgextra/i3/1605181282/TB2JtgccDnI8KJjSszbXXb4KFXa_!!1605181282.jpg_290x290.jpg" alt="">
+                </a>
+
+                <div class="padding">
+                    <a target="_blank"
+                       rel="nofollow"
+                       href="/taobao?r=l/d2&id=4424734&u=36050&pv=3"
+                       class="title clearfix cnzzCounter" data-cnzz-type="3" data-cnzz="4424734">
+                        <i class="tmall"></i>
+                        <span title="oppor9s钢化膜R9全屏s覆盖R11防摔Plus原装a59抗蓝光a57手机m半sk">oppor9s钢化膜R9全屏s覆盖R11防摔Plus原装a59抗蓝光a57手机m半sk</span>
+                    </a>
+
+                    <div class="coupon-wrap clearfix" style="margin: 9px 2px 7px 3px; color:#909090">
+                        优惠券<span
+                            class="price">5</span>元，已有<span
+                            class="num" style=" color:#27BCB5;">201878</span>人购买
+                    </div>
+                </div>
+                <div class="price-wrap clearfix" style="background-color: #48BF7D;">
+                    <div class="price">
+                        <span class="text" style="margin-left: 5px;">券后价&nbsp;￥<span
+                                class="price">6.9</span></span>
+                        <span class="text" style="margin-left: 18px; font-size: 12px;color: #DBF7E8;">正常售价&nbsp;￥11.9 </span>
+                    </div>
+
+                </div>
+                <div class="padding">
+                    <div class="recent-sold-num clearfix" style="color:#D85C85; margin-left:3px;">
+                        最近2小时销量：<span class="sold-count">946</span>笔
+                    </div>
+                </div>
+            </li>
+                        <li class="no-right">
+                <a href="/taobao?r=l/d2&id=4426234&u=36050&pv=3" class="img cnzzCounter"
+                   rel="nofollow" target="_blank" data-cnzz-type="3" data-cnzz="4426234">
+                    <div class="label"><span>TOP 4</span><em></em></div>
+                    <img src="https://img.alicdn.com/imgextra/i3/1812054091/TB2nqoFblDH8KJjy1zeXXXjepXa_!!1812054091.jpg_290x290.jpg" alt="">
+                </a>
+
+                <div class="padding">
+                    <a target="_blank"
+                       rel="nofollow"
+                       href="/taobao?r=l/d2&id=4426234&u=36050&pv=3"
+                       class="title clearfix cnzzCounter" data-cnzz-type="3" data-cnzz="4426234">
+                        <i class="tmall"></i>
+                        <span title="MALELEO苹果6S六数据线iPhone7Plus手机5S五6P加长充电线器ipad4">MALELEO苹果6S六数据线iPhone7Plus手机5S五6P加长充电线器ipad4</span>
+                    </a>
+
+                    <div class="coupon-wrap clearfix" style="margin: 9px 2px 7px 3px; color:#909090">
+                        优惠券<span
+                            class="price">15</span>元，已有<span
+                            class="num" style=" color:#27BCB5;">93195</span>人购买
+                    </div>
+                </div>
+                <div class="price-wrap clearfix" style="background-color: #48BF7D;">
+                    <div class="price">
+                        <span class="text" style="margin-left: 5px;">券后价&nbsp;￥<span
+                                class="price">5.1</span></span>
+                        <span class="text" style="margin-left: 18px; font-size: 12px;color: #DBF7E8;">正常售价&nbsp;￥20.1 </span>
+                    </div>
+
+                </div>
+                <div class="padding">
+                    <div class="recent-sold-num clearfix" style="color:#D85C85; margin-left:3px;">
+                        最近2小时销量：<span class="sold-count">862</span>笔
+                    </div>
+                </div>
+            </li>
+                        <li class="">
+                <a href="/taobao?r=l/d2&id=4422822&u=36050&pv=3" class="img cnzzCounter"
+                   rel="nofollow" target="_blank" data-cnzz-type="3" data-cnzz="4422822">
+                    <div class="label"><span>TOP 5</span><em></em></div>
+                    <img src="https://img.alicdn.com/imgextra/i3/815762690/TB2VLj9gU3IL1JjSZFMXXajrFXa_!!815762690.jpg_290x290.jpg" alt="">
+                </a>
+
+                <div class="padding">
+                    <a target="_blank"
+                       rel="nofollow"
+                       href="/taobao?r=l/d2&id=4422822&u=36050&pv=3"
+                       class="title clearfix cnzzCounter" data-cnzz-type="3" data-cnzz="4422822">
+                        <i class="tmall"></i>
+                        <span title="志高干衣机家用节能省电烘干机衣服速干衣小型风干机迷你烘衣机架">志高干衣机家用节能省电烘干机衣服速干衣小型风干机迷你烘衣机架</span>
+                    </a>
+
+                    <div class="coupon-wrap clearfix" style="margin: 9px 2px 7px 3px; color:#909090">
+                        优惠券<span
+                            class="price">50</span>元，已有<span
+                            class="num" style=" color:#27BCB5;">72679</span>人购买
+                    </div>
+                </div>
+                <div class="price-wrap clearfix" style="background-color: #48BF7D;">
+                    <div class="price">
+                        <span class="text" style="margin-left: 5px;">券后价&nbsp;￥<span
+                                class="price">79</span></span>
+                        <span class="text" style="margin-left: 18px; font-size: 12px;color: #DBF7E8;">正常售价&nbsp;￥129 </span>
+                    </div>
+
+                </div>
+                <div class="padding">
+                    <div class="recent-sold-num clearfix" style="color:#D85C85; margin-left:3px;">
+                        最近2小时销量：<span class="sold-count">723</span>笔
+                    </div>
+                </div>
+            </li>
+                        <li class="">
+                <a href="/taobao?r=l/d2&id=4426175&u=36050&pv=3" class="img cnzzCounter"
+                   rel="nofollow" target="_blank" data-cnzz-type="3" data-cnzz="4426175">
+                    <div class="label"><span>TOP 6</span><em></em></div>
+                    <img src="https://img.alicdn.com/imgextra/i1/112594324/TB2q2E8cBTH8KJjy0FiXXcRsXXa_!!112594324.jpg_290x290.jpg" alt="">
+                </a>
+
+                <div class="padding">
+                    <a target="_blank"
+                       rel="nofollow"
+                       href="/taobao?r=l/d2&id=4426175&u=36050&pv=3"
+                       class="title clearfix cnzzCounter" data-cnzz-type="3" data-cnzz="4426175">
+                        <i class="tmall"></i>
+                        <span title="手机自拍补光灯直播神器嫩肤拍照主播抖音补光灯瘦脸高清美颜灯">手机自拍补光灯直播神器嫩肤拍照主播抖音补光灯瘦脸高清美颜灯</span>
+                    </a>
+
+                    <div class="coupon-wrap clearfix" style="margin: 9px 2px 7px 3px; color:#909090">
+                        优惠券<span
+                            class="price">20</span>元，已有<span
+                            class="num" style=" color:#27BCB5;">42034</span>人购买
+                    </div>
+                </div>
+                <div class="price-wrap clearfix" style="background-color: #48BF7D;">
+                    <div class="price">
+                        <span class="text" style="margin-left: 5px;">券后价&nbsp;￥<span
+                                class="price">9.9</span></span>
+                        <span class="text" style="margin-left: 18px; font-size: 12px;color: #DBF7E8;">正常售价&nbsp;￥29.9 </span>
+                    </div>
+
+                </div>
+                <div class="padding">
+                    <div class="recent-sold-num clearfix" style="color:#D85C85; margin-left:3px;">
+                        最近2小时销量：<span class="sold-count">697</span>笔
+                    </div>
+                </div>
+            </li>
+                        <li class="">
+                <a href="/taobao?r=l/d2&id=4431561&u=36050&pv=3" class="img cnzzCounter"
+                   rel="nofollow" target="_blank" data-cnzz-type="3" data-cnzz="4431561">
+                    <div class="label"><span>TOP 7</span><em></em></div>
+                    <img src="https://img.alicdn.com/imgextra/i4/2697717584/TB257uxdS7PL1JjSZFHXXcciXXa_!!2697717584.jpg_290x290.jpg" alt="">
+                </a>
+
+                <div class="padding">
+                    <a target="_blank"
+                       rel="nofollow"
+                       href="/taobao?r=l/d2&id=4431561&u=36050&pv=3"
+                       class="title clearfix cnzzCounter" data-cnzz-type="3" data-cnzz="4431561">
+                        <i class="tmall"></i>
+                        <span title="FANBIYA Q1重低音苹果安卓电脑手机通用男女生入耳式运动耳塞耳机">FANBIYA Q1重低音苹果安卓电脑手机通用男女生入耳式运动耳塞耳机</span>
+                    </a>
+
+                    <div class="coupon-wrap clearfix" style="margin: 9px 2px 7px 3px; color:#909090">
+                        优惠券<span
+                            class="price">10</span>元，已有<span
+                            class="num" style=" color:#27BCB5;">246898</span>人购买
+                    </div>
+                </div>
+                <div class="price-wrap clearfix" style="background-color: #48BF7D;">
+                    <div class="price">
+                        <span class="text" style="margin-left: 5px;">券后价&nbsp;￥<span
+                                class="price">7.8</span></span>
+                        <span class="text" style="margin-left: 18px; font-size: 12px;color: #DBF7E8;">正常售价&nbsp;￥17.8 </span>
+                    </div>
+
+                </div>
+                <div class="padding">
+                    <div class="recent-sold-num clearfix" style="color:#D85C85; margin-left:3px;">
+                        最近2小时销量：<span class="sold-count">680</span>笔
+                    </div>
+                </div>
+            </li>
+                        <li class="no-right">
+                <a href="/taobao?r=l/d2&id=4426818&u=36050&pv=3" class="img cnzzCounter"
+                   rel="nofollow" target="_blank" data-cnzz-type="3" data-cnzz="4426818">
+                    <div class="label"><span>TOP 8</span><em></em></div>
+                    <img src="https://img.alicdn.com/imgextra/i4/739576765/TB2DWg6lbxmpuFjSZJiXXXauVXa_!!739576765.jpg_290x290.jpg" alt="">
+                </a>
+
+                <div class="padding">
+                    <a target="_blank"
+                       rel="nofollow"
+                       href="/taobao?r=l/d2&id=4426818&u=36050&pv=3"
+                       class="title clearfix cnzzCounter" data-cnzz-type="3" data-cnzz="4426818">
+                        <i class="tmall"></i>
+                        <span title="天骏干衣机家用小型烘干器静音衣服烘干机速干衣烘衣机衣物暖风干">天骏干衣机家用小型烘干器静音衣服烘干机速干衣烘衣机衣物暖风干</span>
+                    </a>
+
+                    <div class="coupon-wrap clearfix" style="margin: 9px 2px 7px 3px; color:#909090">
+                        优惠券<span
+                            class="price">50</span>元，已有<span
+                            class="num" style=" color:#27BCB5;">47892</span>人购买
+                    </div>
+                </div>
+                <div class="price-wrap clearfix" style="background-color: #48BF7D;">
+                    <div class="price">
+                        <span class="text" style="margin-left: 5px;">券后价&nbsp;￥<span
+                                class="price">109</span></span>
+                        <span class="text" style="margin-left: 18px; font-size: 12px;color: #DBF7E8;">正常售价&nbsp;￥159 </span>
+                    </div>
+
+                </div>
+                <div class="padding">
+                    <div class="recent-sold-num clearfix" style="color:#D85C85; margin-left:3px;">
+                        最近2小时销量：<span class="sold-count">643</span>笔
+                    </div>
+                </div>
+            </li>
+                        <li class="">
+                <a href="/taobao?r=l/d2&id=4432263&u=36050&pv=3" class="img cnzzCounter"
+                   rel="nofollow" target="_blank" data-cnzz-type="3" data-cnzz="4432263">
+                    <div class="label"><span>TOP 9</span><em></em></div>
+                    <img src="https://img.alicdn.com/imgextra/i4/2784925895/TB2Xoz_eB0kpuFjy1zdXXXuUVXa_!!2784925895.jpg_290x290.jpg" alt="">
+                </a>
+
+                <div class="padding">
+                    <a target="_blank"
+                       rel="nofollow"
+                       href="/taobao?r=l/d2&id=4432263&u=36050&pv=3"
+                       class="title clearfix cnzzCounter" data-cnzz-type="3" data-cnzz="4432263">
+                        <i class="tmall"></i>
+                        <span title="索卡吹风机大功率家用冷热风负离子不伤发电吹风筒学生宿舍">索卡吹风机大功率家用冷热风负离子不伤发电吹风筒学生宿舍</span>
+                    </a>
+
+                    <div class="coupon-wrap clearfix" style="margin: 9px 2px 7px 3px; color:#909090">
+                        优惠券<span
+                            class="price">110</span>元，已有<span
+                            class="num" style=" color:#27BCB5;">9819</span>人购买
+                    </div>
+                </div>
+                <div class="price-wrap clearfix" style="background-color: #48BF7D;">
+                    <div class="price">
+                        <span class="text" style="margin-left: 5px;">券后价&nbsp;￥<span
+                                class="price">29.9</span></span>
+                        <span class="text" style="margin-left: 18px; font-size: 12px;color: #DBF7E8;">正常售价&nbsp;￥139.9 </span>
+                    </div>
+
+                </div>
+                <div class="padding">
+                    <div class="recent-sold-num clearfix" style="color:#D85C85; margin-left:3px;">
+                        最近2小时销量：<span class="sold-count">615</span>笔
+                    </div>
+                </div>
+            </li>
+                        <li class="">
+                <a href="/taobao?r=l/d2&id=4426245&u=36050&pv=3" class="img cnzzCounter"
+                   rel="nofollow" target="_blank" data-cnzz-type="3" data-cnzz="4426245">
+                    <div class="label"><span>TOP 10</span><em></em></div>
+                    <img src="https://img.alicdn.com/imgextra/i3/1812054091/TB2u2x_sSFjpuFjSszhXXaBuVXa_!!1812054091.jpg_290x290.jpg" alt="">
+                </a>
+
+                <div class="padding">
+                    <a target="_blank"
+                       rel="nofollow"
+                       href="/taobao?r=l/d2&id=4426245&u=36050&pv=3"
+                       class="title clearfix cnzzCounter" data-cnzz-type="3" data-cnzz="4426245">
+                        <i class="tmall"></i>
+                        <span title="MALELEO苹果6背夹充电宝超薄iPhone6s专用8电池plus便携7P手机壳">MALELEO苹果6背夹充电宝超薄iPhone6s专用8电池plus便携7P手机壳</span>
+                    </a>
+
+                    <div class="coupon-wrap clearfix" style="margin: 9px 2px 7px 3px; color:#909090">
+                        优惠券<span
+                            class="price">60</span>元，已有<span
+                            class="num" style=" color:#27BCB5;">53369</span>人购买
+                    </div>
+                </div>
+                <div class="price-wrap clearfix" style="background-color: #48BF7D;">
+                    <div class="price">
+                        <span class="text" style="margin-left: 5px;">券后价&nbsp;￥<span
+                                class="price">29.9</span></span>
+                        <span class="text" style="margin-left: 18px; font-size: 12px;color: #DBF7E8;">正常售价&nbsp;￥89.9 </span>
+                    </div>
+
+                </div>
+                <div class="padding">
+                    <div class="recent-sold-num clearfix" style="color:#D85C85; margin-left:3px;">
+                        最近2小时销量：<span class="sold-count">397</span>笔
+                    </div>
+                </div>
+            </li>
+                        <li class="">
+                <a href="/taobao?r=l/d2&id=4430724&u=36050&pv=3" class="img cnzzCounter"
+                   rel="nofollow" target="_blank" data-cnzz-type="3" data-cnzz="4430724">
+                    <div class="label"><span>TOP 11</span><em></em></div>
+                    <img src="https://img.alicdn.com/imgextra/i2/3012913363/TB2VCnnXeLM8KJjSZFqXXa7.FXa_!!3012913363.jpg_290x290.jpg" alt="">
+                </a>
+
+                <div class="padding">
+                    <a target="_blank"
+                       rel="nofollow"
+                       href="/taobao?r=l/d2&id=4430724&u=36050&pv=3"
+                       class="title clearfix cnzzCounter" data-cnzz-type="3" data-cnzz="4430724">
+                        <i class="tmall"></i>
+                        <span title="森讯 iPhone6数据线苹果6S充电线器5手机8plus加长5s六2米ipad7P">森讯 iPhone6数据线苹果6S充电线器5手机8plus加长5s六2米ipad7P</span>
+                    </a>
+
+                    <div class="coupon-wrap clearfix" style="margin: 9px 2px 7px 3px; color:#909090">
+                        优惠券<span
+                            class="price">15</span>元，已有<span
+                            class="num" style=" color:#27BCB5;">102760</span>人购买
+                    </div>
+                </div>
+                <div class="price-wrap clearfix" style="background-color: #48BF7D;">
+                    <div class="price">
+                        <span class="text" style="margin-left: 5px;">券后价&nbsp;￥<span
+                                class="price">8</span></span>
+                        <span class="text" style="margin-left: 18px; font-size: 12px;color: #DBF7E8;">正常售价&nbsp;￥23 </span>
+                    </div>
+
+                </div>
+                <div class="padding">
+                    <div class="recent-sold-num clearfix" style="color:#D85C85; margin-left:3px;">
+                        最近2小时销量：<span class="sold-count">345</span>笔
+                    </div>
+                </div>
+            </li>
+                </ul>
+</div>
+
+</div>
+
+<div id="footer" style="background-color: #373737;height: 190px;width: 100%;border-top: 3px solid #FF6C00;">
+    <div class="footer-wrapper " style="width: 1200px;margin: 0 auto;position: relative;text-align: center">
+        <img src="//cms6.qingtaoke.com/images/bottom_text.png" alt="" style="border: 0;margin-top: 50px;">
+
+        <div class="author" style="    position: absolute;
+    top: 67px;
+    left: 990px;
+    color: #FFFFFF;
+    font-size: 18px;">by
+            &nbsp;&nbsp;淘优惠</div>
+        <div class="text" style="color: #a2a2a2;
+    font-size: 16px;
+    margin-top: 33px;">&copy; CopyRight&nbsp;2017            &nbsp;<a href="http://newbug.xyz" target="_blank" rel="nofollow"
+                     style="color:#a2a2a2;">淘优惠</a>
+            &nbsp;http://newbug.xyz&nbsp;&nbsp;<a href="http://www.miitbeian.gov.cn/" target="_blank"
+                                                                     rel="nofollow"
+                                                                     style="color:#a2a2a2;">豫ICP备17010592号</a>
+            &nbsp;&nbsp;                <a target="_blank"
+                   href="http://wpa.qq.com/msgrd?v=3&uin=529778790&site=qq&menu=yes"
+                   style="color: #8da7cb" title="联系我帮你解答">^_^亲遇到问题，联系我帮你处理哈</a>
+                </div>
+    </div>
+</div>
+<div class="toTop" style="display: none" onclick=" $('body,html').animate({scrollTop:0},1000);"><span>回到顶部</span></div>
+<script type="text/javascript">
+    // 设置为主页
+    function SetHome(obj, vrl) {
+        try {
+            obj.style.behavior = 'url(#default#homepage)';
+            obj.setHomePage(vrl);
+        }
+        catch (e) {
+            if (window.netscape) {
+                try {
+                    netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                }
+                catch (e) {
+                    alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。");
+                }
+                var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+                prefs.setCharPref('browser.startup.homepage', vrl);
+            } else {
+                alert("您的浏览器不支持，请按照下面步骤操作：1.打开浏览器设置。2.点击设置网页。3.输入：" + vrl + "点击确定。");
+            }
+        }
+    }
+    // 加入收藏 兼容360和IE6
+    function shoucang(sTitle, sURL) {
+        try {
+            window.external.addFavorite(sURL, sTitle);
+        }
+        catch (e) {
+            try {
+                window.sidebar.addPanel(sTitle, sURL, "");
+            }
+            catch (e) {
+                alert("加入收藏失败，请使用Ctrl+D进行添加");
+            }
+        }
+    }
+    // toTop&fixedHead
+    function showElem() {
+        if ($(window).scrollTop() > 168) {
+            $(".toTop").stop().fadeIn(200);
+            $(".fixedHead-box").stop().slideDown(200);
+        } else {
+            $(".toTop").stop().fadeOut(200);
+            $(".fixedHead-box").stop().slideUp(200);
+        }
+    }
+    $(function () {
+        showElem();
+        $(window).scroll(function () {
+            showElem()
+        });
+
+        $('#navFeedback').on('click', function () {
+            layer.open({
+                type: 1,
+                //skin:'layui-layer-rim',
+                area: [600, 400],
+                title: false,
+                closeBtn: 1,
+                shadeClose: true,
+                //btn:['提交'],
+                content: $('#feedback')
+            });
+        });
+        $('#feedbackSubmit').on('click', function () {
+            var fContent = $('#feedbackContent').val();
+            var fContact = $('#feedbackContact').val();
+            if (fContent.trim() == '') {
+                layer.msg('请留下您的建议', {time: 1500});
+                return;
+            }
+            if (fContact.trim() == '') {
+                layer.msg('请留下您的联系方式', {time: 1500});
+                return;
+            }
+            var feedbackSuccess = function (ret) {
+                layer.closeAll();
+                $('#feedbackContent').val('');
+                $('#feedbackContact').val('');
+                layer.open({
+                    type: 1,
+                    area: [600, 400],
+                    title: false,
+                    closeBtn: 0,
+                    shadeClose: true,
+                    content: $('#feedbackSuccess')
+                });
+            }
+            $.ajax('index.php?r=Feedback/add', {
+                type: 'post',
+                dataType: 'json',
+                data: {
+                    "content": fContent.trim(),
+                    "contact": fContact.trim(),
+                    // 处理当uid为空时，js不报错。
+                    "uid":36050                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    return layer.msg(errorThrown);
+                },
+                success: feedbackSuccess
+            });
+        });
+        $('#feedbackClose').on('click', function () {
+            layer.closeAll();
+        });
+    });
+
+</script>
+<script type="text/javascript" src="http://counter.qingtaoke.com/js/count.js?t=5&amp;u=36050&amp;pv=3" id="counterJs"></script>
+<script type="text/javascript" src="//cms6.qingtaoke.com/js/scrollTop2.js?v=0331001"></script>
+</body>
+</html>
+";}

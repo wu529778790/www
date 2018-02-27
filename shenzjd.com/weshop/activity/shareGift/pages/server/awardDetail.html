@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Language" content="zh-cn" />
+		<meta name="Keywords" content="" />
+		<meta name="Description" content="" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>奖励明细</title>
+		<link rel="stylesheet" href="../../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/base.css"/>
+		<script src="//wximg.qq.com/wxp/libs/wxmoment/0.0.4/wxmoment.min.js"></script>
+		<script src="../../js/url.js"></script>
+		<script src="../../js/base.js"></script>
+		<script type="text/javascript">
+		    window.zhuge = window.zhuge || [];window.zhuge.methods = "_init debug identify track trackLink trackForm page".split(" ");
+		    window.zhuge.factory = function(b) {return function() {var a = Array.prototype.slice.call(arguments);a.unshift(b);
+		    window.zhuge.push(a);return window.zhuge;}};for (var i = 0; i < window.zhuge.methods.length; i++) {
+		    var key = window.zhuge.methods[i];window.zhuge[key] = window.zhuge.factory(key);}window.zhuge.load = function(b, x) {
+		    if (!document.getElementById("zhuge-js")) {var a = document.createElement("script");var verDate = new Date();
+		    var verStr = verDate.getFullYear().toString()+ verDate.getMonth().toString() + verDate.getDate().toString();
+		    a.type = "text/javascript";a.id = "zhuge-js";a.async = !0;a.src = (location.protocol == 'http:' ? "http://sdk.zhugeio.com/zhuge.min.js?v=" : 'https://zgsdk.zhugeio.com/zhuge.min.js?v=') + verStr;
+		    a.onerror = function(){window.zhuge.identify = window.zhuge.track = function(ename, props, callback){if(callback && Object.prototype.toString.call(callback) === '[object Function]')callback();};};
+		    var c = document.getElementsByTagName("script")[0];c.parentNode.insertBefore(a, c);window.zhuge._init(b, x)}};
+		    window.zhuge.load('d2cec89795db49318b566c3fb3ecbd5d'
+		    ,{autoTrack: true,visualizer: true});//配置应用的AppKey
+		</script>
+		<style>		
+			table,td,th{
+				border: 0;
+				font-size: 14px;
+				line-height: 30px;
+			}
+			table{
+				width: 100%;
+			}
+			td{
+				font-size: 12px;
+			}
+			tr td:nth-of-type(1),tr th:nth-of-type(1){
+				width: 14%;
+			}
+			tr td:nth-of-type(2),tr th:nth-of-type(2){
+				width: 34%;
+				text-align: center;
+			}
+			tr td:nth-of-type(3),tr th:nth-of-type(3){
+				width: 32%;
+				text-align: center;
+			}
+			tr td:nth-of-type(4),tr th:nth-of-type(4){
+				width: 20%;
+				text-align: center;
+			}
+			.noAward{
+				display: none;
+				text-align: center;
+			}
+			.noAward img{
+				width: 30%;
+				margin: 100px 0 20px 0;
+			}
+			.noAward span{
+				display: block;
+				color: #999;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="blueBg PLR5P whiteTex PTB20 font20">
+			<span>累计奖励</span>
+			<div class="fr">
+				<span class="sumAward">0</span><span class="font14">元</span>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="grayBg PL5P" style="line-height: 40px;">奖励明细</div>
+		<div class="PLR5P">
+			<table>
+				<tr><th>姓名</th><th>订单时间</th><th>产品名称</th><th>获得奖励</th></tr>
+				<!--<tr><td>张**</td><td>2017年12月12日</td><td>珍爱宝贝</td><td>100元</td></tr>-->
+			</table>
+			<div class="noAward">
+				<img src="" alt="" />
+				<span>暂无奖励</span>
+			</div>
+		</div>
+	</body>
+	<script src="../../js/forbidShare.js"></script>
+	<script>
+		$('.noAward img').attr('src',_staticImgUrl+'img/null.jpeg');		
+		var openId = getCookie('openId') || '',
+			myCenterMsg = JSON.parse(getCookie('myCenterMsg'));
+			$('.sumAward').text(myCenterMsg.sumCommission+'.00');
+		ajaxPost(
+			Url.GET_REVARD,
+			{openId:openId},
+			function(data){
+				if(data.code == 100){
+					var html = '';						
+					if(data.data.length>0){
+						for(var i=0;i<data.data.length;i++){
+							html += '<tr><td>'+spliceString(data.data[i].name)+'</td><td>'+dateFormat(data.data[i].orderTime)+'</td><td>'+data.data[i].productName.slice(0,7)+'</td><td>'+withdrawStatus(data.data[i].withdrawalStatus)+data.data[i].commission+'元</td></tr>';
+						}
+						$('table').append(html);
+					}else{
+						$('.noAward').show();
+						$('table').hide();	
+					}
+				}
+			},
+			function(data){
+				console.log(JSON.stringify(data))
+			}
+		)
+		function spliceString(str){
+			return str.slice(0,1)+"**";
+		}
+		function withdrawStatus(ele){
+			if(ele == 0){
+				return '+';
+			}else{
+				return '-';
+			}
+		}
+	</script>
+</html>

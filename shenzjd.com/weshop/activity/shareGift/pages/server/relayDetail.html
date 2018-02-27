@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Language" content="zh-cn" />
+		<meta name="Keywords" content="" />
+		<meta name="Description" content="" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>转发明细</title>
+		<link rel="stylesheet" href="../../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/base.css"/>
+		<script src="//wximg.qq.com/wxp/libs/wxmoment/0.0.4/wxmoment.min.js"></script>
+		<script src="../../js/url.js?v=1"></script>
+		<script src="../../js/base.js?v=1"></script>
+		<script type="text/javascript">
+		    window.zhuge = window.zhuge || [];window.zhuge.methods = "_init debug identify track trackLink trackForm page".split(" ");
+		    window.zhuge.factory = function(b) {return function() {var a = Array.prototype.slice.call(arguments);a.unshift(b);
+		    window.zhuge.push(a);return window.zhuge;}};for (var i = 0; i < window.zhuge.methods.length; i++) {
+		    var key = window.zhuge.methods[i];window.zhuge[key] = window.zhuge.factory(key);}window.zhuge.load = function(b, x) {
+		    if (!document.getElementById("zhuge-js")) {var a = document.createElement("script");var verDate = new Date();
+		    var verStr = verDate.getFullYear().toString()+ verDate.getMonth().toString() + verDate.getDate().toString();
+		    a.type = "text/javascript";a.id = "zhuge-js";a.async = !0;a.src = (location.protocol == 'http:' ? "http://sdk.zhugeio.com/zhuge.min.js?v=" : 'https://zgsdk.zhugeio.com/zhuge.min.js?v=') + verStr;
+		    a.onerror = function(){window.zhuge.identify = window.zhuge.track = function(ename, props, callback){if(callback && Object.prototype.toString.call(callback) === '[object Function]')callback();};};
+		    var c = document.getElementsByTagName("script")[0];c.parentNode.insertBefore(a, c);window.zhuge._init(b, x)}};
+		    window.zhuge.load('d2cec89795db49318b566c3fb3ecbd5d'
+		    ,{autoTrack: true,visualizer: true});//配置应用的AppKey
+		</script>
+		<style>		
+			table,td,th{
+				border: 0;
+				font-size: 14px;
+				/*line-height: 39px;*/
+			}
+			th{
+				line-height: 35px;
+			}
+			table{
+				width: 100%;
+			}
+			td{
+				font-size: 12px;
+			}
+			tr td:nth-of-type(1),tr th:nth-of-type(1){
+				width: 22%;				
+				text-align: center;
+			}
+			tr td:nth-of-type(2),tr th:nth-of-type(2){
+				width: 26%;
+				text-align: center;
+			}
+			tr td:nth-of-type(3),tr th:nth-of-type(3){
+				width: 23%;
+				text-align: center;
+			}
+			tr td:nth-of-type(4),tr th:nth-of-type(4){
+				width: 29%;
+				text-align: center;
+			}
+			td img{
+				width: 35px;
+				height: 35px;
+			}
+			.noTurn{
+				 display: none;
+				 text-align: center;
+			}
+			.noTurn img{
+				width: 30%;
+				margin: 100px 0 20px 0;
+			}
+			.noTurn span{
+				display: block;
+				color: #999;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="blueBg PLR5P whiteTex PTB20 font20">
+			<span>累计转发</span>
+			<div class="fr">
+				<span class="count">0</span><span class="font14">人</span>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="grayBg PL5P" style="line-height: 40px;">转发明细</div>
+		<div class="">
+			<table>
+				<tr><th>购买人头像</th><th>购买人昵称</th><th>代理人工号</th><th>生效时间</th></tr>
+				<!--<tr><td><img src="../../img/touxiang.jpg" alt="" /></td><td>2017***1012</td><td>2017***1012</td><td>2017年12月12日</td></tr>-->
+			</table>
+			<div class="noTurn">
+				<img src="" alt="" />
+				<span>暂无购买</span>
+			</div>
+		</div>
+	</body>
+	<script src="../../js/forbidShare.js"></script>
+	<script>
+		$('.noTurn img').attr('src',_staticImgUrl+'img/null.jpeg');	
+		var openId = getCookie('openId') || '',
+			myCenterMsg = JSON.parse(getCookie('myCenterMsg'));
+			$('.count').text(myCenterMsg.count);
+		ajaxPost(
+			Url.GET_REWARD_F,
+			{"openId":openId},
+			function(data){
+				if(data.code == 100){
+					console.log(JSON.stringify(data))
+					var html = '';
+					if(data.data.length>0){
+						$.each(data.data, function(i,ele) {
+							html += '<tr><td><img src="'+ele.headUrl.slice(0,-1)+'64" alt="" /></td><td>'+spliceString(ele.openId)+'</td><td>'+codeSpliceString(ele.parentId)+'</td><td>'+dateFormat(ele.effectiveTime)+'</td></tr>';
+						});
+						$('table').append(html);
+					}else{
+						$('.noTurn').show();
+						$('table').hide();	
+					}
+				}else{
+					
+				}
+			},
+			function(data){
+				console.log(data);
+			}
+		)
+		function spliceString(str){
+			if(str==null || str=='' || str==undefined){
+				return '';
+			}else if(str.length<=6){
+				return str;
+			}else{
+				return str.slice(0,5)+'**'
+			}
+		}
+		function codeSpliceString(str){
+			if(str==null || str=='' || str==undefined){
+				return '';
+			}else if(str.length<=10){
+				return str;
+			}else{
+				return str.slice(0,10)+'**';
+			}
+		}
+	</script>
+</html>
