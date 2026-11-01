@@ -73,4 +73,3 @@
 
 [作者](https://github.com/qkqpttgf/OneManager-php/blob/master/readme_cn.md)
 
-[https://pan.shenzjd.com/](https://pan.shenzjd.com/)
